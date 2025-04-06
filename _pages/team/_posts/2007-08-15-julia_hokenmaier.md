@@ -8,7 +8,7 @@ permalink: 'team/julia_hockenmaier'
 social:
     # twitter: https://twitter.com/
     # linkedin: https://www.linkedin.com/
-    # google-scholar: https://scholar.google.com/citations?user=iIiVrrQAAAAJ&hl=en&oi=ao
+    google-scholar: https://scholar.google.com/citations?user=iIiVrrQAAAAJ&hl=en&oi=ao
     # github: https://github.com/
     website: https://juliahmr.cs.illinois.edu/
     # orcid: https://orcid.org/
