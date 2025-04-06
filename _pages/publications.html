@@ -13,40 +13,40 @@ permalink: /publications/
 
     {% for publi in site.data.publications %}
         <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion"
+            <!-- <a data-toggle="collapse" data-parent="#accordion"
                href="#collapse{{forloop.index}}"
-               style="color: inherit;">
+               style="color: inherit;"> -->
             <!-- authors -->
             {% assign authors = "" | split:"/" %}
             {% for author in publi.author %}
-                {% assign authors = authors | push: author.family %}
+                {% assign authors = authors | append: author.given | append: " " | append: author.family | append: ", " %}
             {% endfor %}
             {{ authors | array_to_sentence_string }},
 
             <!-- title with link -->
-            "{{ publi.title }}",
+            <a href="{{publi.link}}"><b>"{{ publi.title }}"</b></a>,
+            
+            <!-- issued date -->
+            ({{ publi.issued.date-parts | jsonify | slice: 2,4 }}),
 
             <!-- container -->
-            <b>{{ publi.container-title }}</b>
-
-            <!-- issued date -->
-            ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
+            <i>{{ publi.container-title }}</i>
 
             <!-- DOI -->
-            {% if publi.DOI %}
+            <!-- {% if publi.DOI %}
                 <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-            {% endif %}
+            {% endif %} -->
             </a>
         </div>
 
-        <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
+        <!-- <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
             <div class="panel-body">
                 <p>{{ publi.abstract }}</p>
 
                 <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
                    role="button" target="blank">Link</a>
             </div>
-        </div>
+        </div> -->
     {% endfor %}
     </div>
 </div>
