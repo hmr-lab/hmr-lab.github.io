@@ -31,11 +31,10 @@ layout: default
 		</a>
 	</div> -->
 
-	<div id="contentid" class="col-sm-4 nopadding-right" width="100%">
-		{{ content }}
-	</div>
+	{{ content }}
 	
-	<div id="newsid" class="col-sm-4 nopadding-right" width="100%">
-		{% include news.html %}
-	</div>
+</div>
+
+<div id="news-panel" class="col-sm-4 nopadding-right" width="100%">
+	{% include news.html %}
 </div>
