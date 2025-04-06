@@ -1,8 +1,8 @@
 ---
-title: "Home"
+title: "hmr-lab"
 layout: homelay
-excerpt: "RT2 Lab at Institut Curie"
-sitemap: false
+excerpt: "hmr-lab at UIUC, led by Dr. Julia Hockenmaier"
+sitemap: true
 permalink: /
 ---
 
