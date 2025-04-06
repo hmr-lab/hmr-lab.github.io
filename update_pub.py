@@ -22,7 +22,7 @@ def fetch_publications(user_id):
             "id": filled_pub.get("id_citations", "")[:9],  # Short unique ID
             "type": "article-journal",
             "title": title,
-            "container-title": bib.get("venue", ""),
+            "container-title": bib.get("journal", "") or bib.get("venue", ""),
             "page": bib.get("pages", ""),
             "volume": bib.get("volume", ""),
             "issue": bib.get("issue", ""),
