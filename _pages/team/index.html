@@ -16,11 +16,11 @@ permalink: /team/
 <div class="card team-member-card">
     <div class="row mt-3">
         <div class="col-md-2">
-            <a href={{member.url}}>
+            <!-- <a href={{member.url}}> -->
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                     class="card-img img-responsive img-thumbnail"
                     style="max-width: 100px;"/>
-            </a>
+            <!-- </a> -->
         </div>
 
         <div class="col-md-10">
@@ -41,17 +41,37 @@ permalink: /team/
 <div class="card team-member-card">
     <div class="row mt-3">
         <div class="col-md-2">
-            <a href={{member.url}}>
+            <!-- <a href={{member.url}}> -->
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                     class="card-img img-responsive img-thumbnail"
                     style="max-width: 100px;"/>
-            </a>
+            <!-- </a> -->
         </div>
 
         <div class="col-md-10">
             <div class="card-body">
             <h4 class="card-title">{{ member.title }}</h4>
             <p class="card-text">{{ member.role }}</p>
+            <!-- Twitter -->
+            {% if page.social.twitter %}
+                <a target="blank" href="{{page.social.twitter}}"><i class="fab fa-twitter"></i></a>
+            {% endif %}
+            <!-- Linkedin -->
+            {% if page.social.linkedin %}
+                <a target="blank" href="{{page.social.linkedin}}"><i class="fab fa-linkedin"></i></a>
+            {% endif %}
+            <!-- Github -->
+            {% if page.social.github %}
+                <a target="blank" href="{{page.social.github}}"><i class="fab fa-github"></i></a>
+            {% endif %}
+            <!-- Personal Website -->
+            {% if page.social.website %}
+                <a target="blank" href="{{page.social.website}}"><i class="fas fa-globe"></i></a>
+            {% endif %}
+            <!-- Google Scholar -->
+            {% if page.social.google-scholar %}
+                <a target="blank" href="{{page.social.google-scholar}}"><i class="fab fa-google"></i></a>
+            {% endif %}
             </div>
         </div>
     </div>

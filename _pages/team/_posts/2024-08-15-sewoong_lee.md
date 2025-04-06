@@ -11,6 +11,4 @@ social:
     # google-scholar: https://scholar.google.com/citations?user=LtaXhxEAAAAJ&hl=en
     github: https://github.com/SewoongLee
     # website: https://jinulee-v.github.io/
-    # orcid: https://orcid.org/
-    # research-gate: https://www.researchgate.net/
 ---
