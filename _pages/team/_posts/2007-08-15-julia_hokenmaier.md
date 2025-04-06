@@ -13,6 +13,4 @@ social:
     website: https://juliahmr.cs.illinois.edu/
     # orcid: https://orcid.org/
     # research-gate: https://www.researchgate.net/
-# education:
-#  - Education
 ---
