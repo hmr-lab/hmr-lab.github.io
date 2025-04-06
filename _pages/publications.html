@@ -17,11 +17,11 @@ permalink: /publications/
                href="#collapse{{forloop.index}}"
                style="color: inherit;"> -->
             <!-- authors -->
-            {% assign authors = "" | split:"/" %}
+            {% assign authors = "" %}
             {% for author in publi.author %}
                 {% assign authors = authors | append: author.given | append: " " | append: author.family | append: ", " %}
             {% endfor %}
-            {{ authors | array_to_sentence_string }},
+            {{ authors | strip | replace_last: ",", "" }},
 
             <!-- title with link -->
             <a href="{{publi.link}}"><b>"{{ publi.title }}"</b></a>,
