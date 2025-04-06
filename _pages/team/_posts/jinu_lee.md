@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Jinu Lee
-image: jinu_lee.png
+image: jinu_lee.jpg
 role: Ph.D. Student
 permalink: 'team/jinu_lee'
 social:

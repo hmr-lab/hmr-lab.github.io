@@ -2,7 +2,7 @@
 layout: member
 category: staff
 title: Julia Hockenmaier
-image: julia_hockenmaier.png
+image: julia_hockenmaier.jpg
 role: Lab Director
 permalink: 'team/julia_hockenmaier'
 social:
