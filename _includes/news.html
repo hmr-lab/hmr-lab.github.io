@@ -1,15 +1,14 @@
 ---
 title: "News"
 layout: default
-excerpt: "RT2 Lab at Institut Curie"
+excerpt: "hmr-lab @ UIUC"
 sitemap: false
 permalink: /news.html
 ---
 <h1>{{page.title}}</h1>
 
 <ul class="list-unstyled">
-    {% assign recent_articles = site.data.news | sort: 'date' | reverse | slice: 0, 5 %}
-    {% for article in recent_articles %}
+    {% for article in site.data.news %}
         <li class="media">
             <div class="media-body">
             <h4 class="mt-0 mb-1">{{ article.title }}</h4>
