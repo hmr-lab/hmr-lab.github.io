@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Kulbir Singh Ahluwalia
-image: kulbir_singh_ahluwalia.png
+image: kulbir_singh_ahluwalia.jpg
 role: Ph.D. Student
 permalink: 'team/kulbir_singh_ahluwalia'
 social:

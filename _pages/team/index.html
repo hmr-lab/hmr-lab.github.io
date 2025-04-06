@@ -6,7 +6,7 @@ sitemap: false
 permalink: /team/
 ---
 
-<h1>{{page.title}}</h1>
+<h1>{{member.title}}</h1>
 
 <!-- Staff -->
 
@@ -53,24 +53,24 @@ permalink: /team/
             <h4 class="card-title">{{ member.title }}</h4>
             <p class="card-text">{{ member.role }}</p>
             <!-- Twitter -->
-            {% if page.social.twitter %}
-                <a target="blank" href="{{page.social.twitter}}"><i class="fab fa-twitter"></i></a>
+            {% if member.social.twitter %}
+                <a target="blank" href="{{member.social.twitter}}"><i class="fab fa-twitter"></i></a>
             {% endif %}
             <!-- Linkedin -->
-            {% if page.social.linkedin %}
-                <a target="blank" href="{{page.social.linkedin}}"><i class="fab fa-linkedin"></i></a>
+            {% if member.social.linkedin %}
+                <a target="blank" href="{{member.social.linkedin}}"><i class="fab fa-linkedin"></i></a>
             {% endif %}
             <!-- Github -->
-            {% if page.social.github %}
-                <a target="blank" href="{{page.social.github}}"><i class="fab fa-github"></i></a>
+            {% if member.social.github %}
+                <a target="blank" href="{{member.social.github}}"><i class="fab fa-github"></i></a>
             {% endif %}
             <!-- Personal Website -->
-            {% if page.social.website %}
-                <a target="blank" href="{{page.social.website}}"><i class="fas fa-globe"></i></a>
+            {% if member.social.website %}
+                <a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a>
             {% endif %}
             <!-- Google Scholar -->
-            {% if page.social.google-scholar %}
-                <a target="blank" href="{{page.social.google-scholar}}"><i class="fab fa-google"></i></a>
+            {% if member.social.google-scholar %}
+                <a target="blank" href="{{member.social.google-scholar}}"><i class="fab fa-google"></i></a>
             {% endif %}
             </div>
         </div>
