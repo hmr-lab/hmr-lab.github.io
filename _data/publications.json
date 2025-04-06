@@ -1,40 +1,3816 @@
 [
-	{
-		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
-		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
-		"author": [
-			{
-				"family": "Naylor",
-				"given": "P."
-			},
-			{
-				"family": "Laé",
-				"given": "M."
-			},
-			{
-				"family": "Reyal",
-				"given": "F."
-			},
-			{
-				"family": "Walter",
-				"given": "T."
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019",
-					2
-				]
-			]
-		}
-	}
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "From image descriptions to visual denotations: New similarity metrics for semantic inference over event descriptions",
+        "container-title": "Transactions of the Association for Computational Linguistics (TACL)",
+        "page": "67-78",
+        "volume": "2",
+        "issue": "Feb",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Young",
+                "given": "Peter"
+            },
+            {
+                "family": "Lai",
+                "given": "Alice"
+            },
+            {
+                "family": "Hodosh",
+                "given": "Micah"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models",
+        "container-title": "",
+        "page": "2641-2649",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Plummer",
+                "given": "Bryan A"
+            },
+            {
+                "family": "Wang",
+                "given": "Liwei"
+            },
+            {
+                "family": "Cervantes",
+                "given": "Chris M"
+            },
+            {
+                "family": "Caicedo",
+                "given": "Juan C"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Lazebnik",
+                "given": "Svetlana"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Every picture tells a story: Generating sentences from images",
+        "container-title": "",
+        "page": "15-29",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Farhadi",
+                "given": "Ali"
+            },
+            {
+                "family": "Hejrati",
+                "given": "Mohsen"
+            },
+            {
+                "family": "Sadeghi",
+                "given": "Mohammad Amin"
+            },
+            {
+                "family": "Young",
+                "given": "Peter"
+            },
+            {
+                "family": "Rashtchian",
+                "given": "Cyrus"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Forsyth",
+                "given": "David"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Framing image description as a ranking task: Data, models and evaluation metrics",
+        "container-title": "Journal of Artificial Intelligence Research",
+        "page": "853-899",
+        "volume": "47",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hodosh",
+                "given": "Micah"
+            },
+            {
+                "family": "Young",
+                "given": "Peter"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Collecting image annotations using amazon’s mechanical turk",
+        "container-title": "",
+        "page": "139-147",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Rashtchian",
+                "given": "Cyrus"
+            },
+            {
+                "family": "Young",
+                "given": "Peter"
+            },
+            {
+                "family": "Hodosh",
+                "given": "Micah"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "CCGbank: a corpus of CCG derivations and dependency structures extracted from the Penn Treebank",
+        "container-title": "Computational Linguistics",
+        "page": "355-396",
+        "volume": "33",
+        "issue": "3",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2007
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Improving image-sentence embeddings using large weakly annotated photo collections",
+        "container-title": "",
+        "page": "529-545",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Gong",
+                "given": "Yunchao"
+            },
+            {
+                "family": "Wang",
+                "given": "Liwei"
+            },
+            {
+                "family": "Hodosh",
+                "given": "Micah"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Lazebnik",
+                "given": "Svetlana"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Wide-coverage semantic representations from a CCG parser",
+        "container-title": "",
+        "page": "1240-1246",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Bos",
+                "given": "Johan"
+            },
+            {
+                "family": "Clark",
+                "given": "Stephen"
+            },
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            },
+            {
+                "family": "Curran",
+                "given": "James R"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2004
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Data and models for statistical parsing with Combinatory Categorial Grammar",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Phrase localization and visual relationship detection with comprehensive image-language cues",
+        "container-title": "",
+        "page": "1928-1937",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Plummer",
+                "given": "Bryan A"
+            },
+            {
+                "family": "Mallya",
+                "given": "Arun"
+            },
+            {
+                "family": "Cervantes",
+                "given": "Christopher M"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Lazebnik",
+                "given": "Svetlana"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Generative models for statistical parsing with Combinatory Categorial Grammar",
+        "container-title": "",
+        "page": "335-342",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2002
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Bootstrapping statistical parsers from small datasets",
+        "container-title": "",
+        "page": "331-338",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            },
+            {
+                "family": "Osborne",
+                "given": "Miles"
+            },
+            {
+                "family": "Sarkar",
+                "given": "Anoop"
+            },
+            {
+                "family": "Clark",
+                "given": "Stephen"
+            },
+            {
+                "family": "Hwa",
+                "given": "Rebecca"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Ruhlen",
+                "given": "Paul"
+            },
+            {
+                "family": "Baker",
+                "given": "Steven"
+            },
+            {
+                "family": "Crim",
+                "given": "Jeremiah"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Illinois-lh: A denotational and distributional approach to semantics",
+        "container-title": "",
+        "page": "329-334",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Lai",
+                "given": "Alice"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Building deep dependency structures using a wide-coverage CCG parser",
+        "container-title": "",
+        "page": "327-334",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Clark",
+                "given": "Stephen"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2002
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Identifying semantic roles using combinatory categorial grammar",
+        "container-title": "",
+        "page": "57-64",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Gildea",
+                "given": "Daniel"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Acquiring Compact Lexicalized Grammars from a Cleaner Treebank.",
+        "container-title": "LREC",
+        "page": "58",
+        "volume": "42",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2002
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Collaborative dialogue in Minecraft",
+        "container-title": "",
+        "page": "5405-5415",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Narayan-Chen",
+                "given": "Anjali"
+            },
+            {
+                "family": "Jayannavar",
+                "given": "Prashant"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Creating a CCGbank and a wide-coverage CCG lexicon for German",
+        "container-title": "",
+        "page": "505-512",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2006
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Parsing with generative models of predicate-argument structure",
+        "container-title": "",
+        "page": "359-366",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Natural language inference from multiple premises",
+        "container-title": "",
+        "page": "721--730",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Lai",
+                "given": "Alice"
+            },
+            {
+                "family": "Bisk",
+                "given": "Yonatan"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Example selection for bootstrapping statistical parsers",
+        "container-title": "",
+        "page": "236-243",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            },
+            {
+                "family": "Hwa",
+                "given": "Rebecca"
+            },
+            {
+                "family": "Clark",
+                "given": "Stephen"
+            },
+            {
+                "family": "Osborne",
+                "given": "Miles"
+            },
+            {
+                "family": "Sarkar",
+                "given": "Anoop"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Ruhlen",
+                "given": "Paul"
+            },
+            {
+                "family": "Baker",
+                "given": "Steven"
+            },
+            {
+                "family": "Crim",
+                "given": "Jeremiah"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Etm: Entity topic models for mining documents associated with entities",
+        "container-title": "",
+        "page": "349-358",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Kim",
+                "given": "Hyungsul"
+            },
+            {
+                "family": "Sun",
+                "given": "Yizhou"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Han",
+                "given": "Jiawei"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "A multi-perspective architecture for semantic code search",
+        "container-title": "arXiv preprint arXiv:2005.06980",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Haldar",
+                "given": "Rajarshi"
+            },
+            {
+                "family": "Wu",
+                "given": "Lingfei"
+            },
+            {
+                "family": "Xiong",
+                "given": "Jinjun"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Citation author topic model in expert search",
+        "container-title": "",
+        "page": "1265-1273",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Tu",
+                "given": "Yuancheng"
+            },
+            {
+                "family": "Johri",
+                "given": "Nikhil"
+            },
+            {
+                "family": "Roth",
+                "given": "Dan"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Learning to execute instructions in a Minecraft dialogue",
+        "container-title": "",
+        "page": "2589-2602",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Jayannavar",
+                "given": "Prashant"
+            },
+            {
+                "family": "Narayan-Chen",
+                "given": "Anjali"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "An HDP Model for Inducing Combinatory Categorial Grammars",
+        "container-title": "Transactions of the Association for Computational Linguistics (TACL)",
+        "page": "75-88",
+        "volume": "1",
+        "issue": "Mar",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Bisk",
+                "given": "Yonatan"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Ccgbank: User’s manual",
+        "container-title": "University of Pennsylvania, Philadelphia",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Learning to predict denotational probabilities for modeling entailment",
+        "container-title": "",
+        "page": "721-730",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Lai",
+                "given": "Alice"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Riloff",
+                "given": "Ellen"
+            },
+            {
+                "family": "Chiang",
+                "given": "David"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Tsujii",
+                "given": "Jun’ichi"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Shallow information extraction from medical forum data",
+        "container-title": "",
+        "page": "1158-1166",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Sondhi",
+                "given": "Parikshit"
+            },
+            {
+                "family": "Gupta",
+                "given": "Manish"
+            },
+            {
+                "family": "Zhai",
+                "given": "ChengXiang"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Beefmoves: dissemination, diversity, and dynamics of English borrowings in a German hip hop forum",
+        "container-title": "",
+        "page": "135-139",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Garley",
+                "given": "Matt"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Routes are trees: the parsing perspective on protein folding",
+        "container-title": "Proteins: Structure, Function, and Bioinformatics",
+        "page": "1-15",
+        "volume": "66",
+        "issue": "1",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Joshi",
+                "given": "Aravind K"
+            },
+            {
+                "family": "Dill",
+                "given": "Ken A"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2007
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Evaluating a wide-coverage CCG parser",
+        "container-title": "Proceedings of the LREC 2002 beyond PARSEVAL workshop",
+        "page": "60-66",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Clark",
+                "given": "Stephen"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2002
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Simple robust grammar induction with combinatory categorial grammars",
+        "container-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "page": "1643-1649",
+        "volume": "26",
+        "issue": "1",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Bisk",
+                "given": "Yonatan"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Focused evaluation for image description with binary forced-choice tasks",
+        "container-title": "",
+        "page": "19-28",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hodosh",
+                "given": "Micah"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Extending the coverage of a CCG system",
+        "container-title": "Research on Language and Computation",
+        "page": "165-208",
+        "volume": "2",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Bierner",
+                "given": "Gann"
+            },
+            {
+                "family": "Baldridger",
+                "given": "Jason"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2004
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Error-driven learning of Chinese word segmentation",
+        "container-title": "",
+        "page": "218-229",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Brew",
+                "given": "Chris"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    1998
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Normal-form parsing for Combinatory Categorial Grammars with generalized composition and type-raising",
+        "container-title": "",
+        "page": "465-473",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Bisk",
+                "given": "Yonatan"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Structural parse tree features for text representation",
+        "container-title": "",
+        "page": "9-16",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Massung",
+                "given": "Sean"
+            },
+            {
+                "family": "Zhai",
+                "given": "ChengXiang"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Reasoning about robocup soccer narratives",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hajishirzi",
+                "given": "Hannaneh"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Mueller",
+                "given": "Erik T"
+            },
+            {
+                "family": "Amir",
+                "given": "Eyal"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2011
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Evaluating induced CCG parsers on grounded semantic parsing",
+        "container-title": "arXiv preprint arXiv:1609.09405",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Bisk",
+                "given": "Yonatan"
+            },
+            {
+                "family": "Reddy",
+                "given": "Siva"
+            },
+            {
+                "family": "Blitzer",
+                "given": "John"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Computational linguistics: a new tool for exploring biopolymer structures and statistical mechanics",
+        "container-title": "",
+        "page": "4289-4300",
+        "volume": "48",
+        "issue": "15",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Dill",
+                "given": "Ken A"
+            },
+            {
+                "family": "Lucas",
+                "given": "Adam"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Huang",
+                "given": "Liang"
+            },
+            {
+                "family": "Chiang",
+                "given": "David"
+            },
+            {
+                "family": "Joshi",
+                "given": "Aravind K"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2007
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Learning and critiquing pairwise activity relationships for schedule quality control via deep learning-based natural language processing",
+        "container-title": "Automation in Construction",
+        "page": "104036",
+        "volume": "134",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Amer",
+                "given": "Fouad"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Golparvar-Fard",
+                "given": "Mani"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Analyzing the performance of large language models on code summarization",
+        "container-title": "arXiv preprint arXiv:2404.08018",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Haldar",
+                "given": "Rajarshi"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2024
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Statistical parsing for CCG with simple generative models",
+        "container-title": "",
+        "page": "7-12",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2001
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Transformer language model for mapping construction schedule activities to uniformat categories",
+        "container-title": "Automation in Construction",
+        "page": "105183",
+        "volume": "157",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Jung",
+                "given": "Yoonhwa"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Golparvar-Fard",
+                "given": "Mani"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2024
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Cross-caption coreference resolution for automatic image understanding",
+        "container-title": "",
+        "page": "162-171",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hodosh",
+                "given": "Micah"
+            },
+            {
+                "family": "Young",
+                "given": "Peter"
+            },
+            {
+                "family": "Rashtchian",
+                "given": "Cyrus"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Priming effects in combinatory categorial grammar",
+        "container-title": "",
+        "page": "308-316",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Reitter",
+                "given": "David"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Keller",
+                "given": "Frank"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2006
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "HySPA: Hybrid span generation for scalable text-to-graph extraction",
+        "container-title": "arXiv preprint arXiv:2106.15838",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Ren",
+                "given": "Liliang"
+            },
+            {
+                "family": "Sun",
+                "given": "Chenkai"
+            },
+            {
+                "family": "Ji",
+                "given": "Heng"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Providing robustness for a CCG system",
+        "container-title": "Proceedings of ESSLLI’2000 Workshop on Linguistic Theory and Grammar Implementation",
+        "page": "97-112",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Bierner",
+                "given": "Gann"
+            },
+            {
+                "family": "Baldridge",
+                "given": "Jason"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2000
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Probing the linguistic strengths and limitations of unsupervised grammar induction",
+        "container-title": "",
+        "page": "1395-1404",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Bisk",
+                "given": "Yonatan"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Sentence-based image description with scalable, explicit models",
+        "container-title": "",
+        "page": "294-300",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hodosh",
+                "given": "Micah"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Non-local scrambling: The equivalence of TAG and CCG revisited",
+        "container-title": "",
+        "page": "41-48",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Young",
+                "given": "Peter"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2008
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Towards problem solving agents that communicate and learn",
+        "container-title": "",
+        "page": "95-103",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Narayan-Chen",
+                "given": "Anjali"
+            },
+            {
+                "family": "Graber",
+                "given": "Colin"
+            },
+            {
+                "family": "Das",
+                "given": "Mayukh"
+            },
+            {
+                "family": "Islam",
+                "given": "Md Rakibul"
+            },
+            {
+                "family": "Dan",
+                "given": "Soham"
+            },
+            {
+                "family": "Natarajan",
+                "given": "Sriraam"
+            },
+            {
+                "family": "Doppa",
+                "given": "Janardhan Rao"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Palmer",
+                "given": "Martha"
+            },
+            {
+                "family": "Roth",
+                "given": "Dan"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Words and pictures: Categories, modifiers, depiction, and iconography",
+        "container-title": "Object categorization: Computer and human vision perspectives",
+        "page": "167-181",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Forsyth",
+                "given": "David A"
+            },
+            {
+                "family": "Berg",
+                "given": "Tamana"
+            },
+            {
+                "family": "Alm",
+                "given": "Cecilia Ovesdotter"
+            },
+            {
+                "family": "Farhadi",
+                "given": "Ali"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Loeff",
+                "given": "Nicolas"
+            },
+            {
+                "family": "Wang",
+                "given": "Gang"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2009
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Labeled grammar induction with minimal supervision",
+        "container-title": "",
+        "page": "870-876",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Bisk",
+                "given": "Yonatan"
+            },
+            {
+                "family": "Christodoulopoulos",
+                "given": "Christos"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "The impact of deep linguistic processing on parsing technology",
+        "container-title": "",
+        "page": "36-38",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Baldwin",
+                "given": "Timothy"
+            },
+            {
+                "family": "Dras",
+                "given": "Mark"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "King",
+                "given": "Tracy Holloway"
+            },
+            {
+                "family": "Noord",
+                "given": "Gertjan van"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2007
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Phrase Grounding by Soft-Label Chain Conditional Random Field",
+        "container-title": "",
+        "page": "5112--5122",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Liu",
+                "given": "Jiacheng"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Induction of linguistic structure with combinatory categorial grammars",
+        "container-title": "",
+        "page": "90-95",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Bisk",
+                "given": "Yonatan"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "CLSP WS-02 final report: Semi-supervised training for statistical parsing",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            },
+            {
+                "family": "Baker",
+                "given": "Steven"
+            },
+            {
+                "family": "Crim",
+                "given": "Jeremiah"
+            },
+            {
+                "family": "Clark",
+                "given": "Stephen"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Hwa",
+                "given": "Rebecca"
+            },
+            {
+                "family": "Osborne",
+                "given": "Miles"
+            },
+            {
+                "family": "Ruhlen",
+                "given": "Paul"
+            },
+            {
+                "family": "Sarkar",
+                "given": "Anoop"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Multimedia generative script learning for task planning",
+        "container-title": "arXiv preprint arXiv:2208.12306",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Wang",
+                "given": "Qingyun"
+            },
+            {
+                "family": "Li",
+                "given": "Manling"
+            },
+            {
+                "family": "Chan",
+                "given": "Hou Pong"
+            },
+            {
+                "family": "Huang",
+                "given": "Lifu"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Chowdhary",
+                "given": "Girish"
+            },
+            {
+                "family": "Ji",
+                "given": "Heng"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "University of Illinois submission to the SIGMORPHON 2020 shared task 0: Typologically diverse morphological inflection",
+        "container-title": "",
+        "page": "137-145",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Canby",
+                "given": "Marc"
+            },
+            {
+                "family": "Karipbayeva",
+                "given": "Aidana"
+            },
+            {
+                "family": "Lunt",
+                "given": "Bryan"
+            },
+            {
+                "family": "Mozaffari",
+                "given": "Sahand"
+            },
+            {
+                "family": "Yoder",
+                "given": "Charlotte"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Human-guided collaborative problem solving: A natural language based framework",
+        "container-title": "arXiv preprint arXiv:2207.09566",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Kokel",
+                "given": "Harsha"
+            },
+            {
+                "family": "Das",
+                "given": "Mayukh"
+            },
+            {
+                "family": "Islam",
+                "given": "Rakibul"
+            },
+            {
+                "family": "Bonn",
+                "given": "Julia"
+            },
+            {
+                "family": "Cai",
+                "given": "Jon"
+            },
+            {
+                "family": "Dan",
+                "given": "Soham"
+            },
+            {
+                "family": "Narayan-Chen",
+                "given": "Anjali"
+            },
+            {
+                "family": "Jayannavar",
+                "given": "Prashant"
+            },
+            {
+                "family": "Doppa",
+                "given": "Janardhan Rao"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Natarajan",
+                "given": "Sriraam"
+            },
+            {
+                "family": "Palmer",
+                "given": "Martha"
+            },
+            {
+                "family": "Roth",
+                "given": "Dan"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "CCGbank",
+        "container-title": "Linguistic Data Consortium, Philadelphia. LDC2005T13",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Combinatory Categorial Grammars for Robust Natural Language Processing",
+        "container-title": "University of Edinburgh",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            },
+            {
+                "family": "Curran",
+                "given": "James"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Kwiatkowski",
+                "given": "Tom"
+            },
+            {
+                "family": "Lewis",
+                "given": "Mike"
+            },
+            {
+                "family": "Park",
+                "given": "Jong"
+            },
+            {
+                "family": "Thomforde",
+                "given": "Emily"
+            },
+            {
+                "family": "Boonkwan",
+                "given": "Prachya"
+            },
+            {
+                "family": "Copolla",
+                "given": "Greg"
+            },
+            {
+                "family": "Goldwater",
+                "given": "Sharon"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Semi-supervised training for statistical parsing",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            },
+            {
+                "family": "Baker",
+                "given": "Steven"
+            },
+            {
+                "family": "Crim",
+                "given": "Jeremiah"
+            },
+            {
+                "family": "Clark",
+                "given": "Stephen"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Hwa",
+                "given": "Rebecca"
+            },
+            {
+                "family": "Osborne",
+                "given": "Miles"
+            },
+            {
+                "family": "Ruhlen",
+                "given": "Paul"
+            },
+            {
+                "family": "Sarkar",
+                "given": "Anoop"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Attack and reset for unlearning: Exploiting adversarial noise toward machine unlearning through parameter re-initialization",
+        "container-title": "arXiv preprint arXiv:2401.08998",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Jung",
+                "given": "Yoonhwa"
+            },
+            {
+                "family": "Cho",
+                "given": "Ikhyun"
+            },
+            {
+                "family": "Hsu",
+                "given": "Shun-Hsiang"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2024
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Virtual world context encoding for grounded dialogue in minecraft",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Lambert",
+                "given": "Charlotte"
+            },
+            {
+                "family": "Cordes",
+                "given": "Ariel"
+            },
+            {
+                "family": "Kaplan",
+                "given": "Elli"
+            },
+            {
+                "family": "Jayannavar",
+                "given": "Prashant"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Coling 2008: Proceedings of the workshop on cross-framework and cross-domain parser evaluation",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Bos",
+                "given": "Johan"
+            },
+            {
+                "family": "Briscoe",
+                "given": "Ted"
+            },
+            {
+                "family": "Cahill",
+                "given": "Aoife"
+            },
+            {
+                "family": "Carroll",
+                "given": "John A"
+            },
+            {
+                "family": "Clark",
+                "given": "Stephen"
+            },
+            {
+                "family": "Copestake",
+                "given": "Ann"
+            },
+            {
+                "family": "Flickinger",
+                "given": "Dan"
+            },
+            {
+                "family": "Genabith",
+                "given": "Josef van"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Joshi",
+                "given": "Aravind"
+            },
+            {
+                "family": "Kaplan",
+                "given": "Ronald M"
+            },
+            {
+                "family": "King",
+                "given": "Tracy Holloway"
+            },
+            {
+                "family": "Kuebler",
+                "given": "Sandra"
+            },
+            {
+                "family": "Lin",
+                "given": "Dekang"
+            },
+            {
+                "family": "Loenning",
+                "given": "Jan Tore"
+            },
+            {
+                "family": "Manning",
+                "given": "Christopher D"
+            },
+            {
+                "family": "Miyao",
+                "given": "Yusuke"
+            },
+            {
+                "family": "Nivre",
+                "given": "Joakim"
+            },
+            {
+                "family": "Oepen",
+                "given": "Stephan"
+            },
+            {
+                "family": "Sagae",
+                "given": "Kenji"
+            },
+            {
+                "family": "Xue",
+                "given": "Nianwen"
+            },
+            {
+                "family": "Zhang",
+                "given": "Yi"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2008
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Measuring the reliability of causal probing methods: Tradeoffs, limitations, and the plight of nullifying interventions",
+        "container-title": "arXiv preprint arXiv:2408.15510",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Canby",
+                "given": "Marc"
+            },
+            {
+                "family": "Davies",
+                "given": "Adam"
+            },
+            {
+                "family": "Rastogi",
+                "given": "Chirag"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2024
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "SIR-ABSC: Incorporating Syntax into RoBERTa-based Sentiment Analysis Models with a Special Aggregator Token",
+        "container-title": "",
+        "page": "8535-8550",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Cho",
+                "given": "Ikhyun"
+            },
+            {
+                "family": "Jung",
+                "given": "Yoonhwa"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2023
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Protein folding and chart parsing",
+        "container-title": "",
+        "page": "293-300",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Joshi",
+                "given": "Aravind"
+            },
+            {
+                "family": "Dill",
+                "given": "Ken A"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2006
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Grammar acquisition by child and machine",
+        "container-title": "Invited Talk at the 17th European Summer School of Language, Logic and Information, Edinburgh",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            },
+            {
+                "family": "Baldridge",
+                "given": "Jason"
+            },
+            {
+                "family": "Bozsahin",
+                "given": "Cem"
+            },
+            {
+                "family": "Clark",
+                "given": "Stephen"
+            },
+            {
+                "family": "Curran",
+                "given": "James"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Evaluating step-by-step reasoning traces: A survey",
+        "container-title": "arXiv preprint arXiv:2502.12289",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Lee",
+                "given": "Jinu"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2025
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "A Framework for Bidirectional Decoding: Case Study in Morphological Inflection",
+        "container-title": "arXiv preprint arXiv:2305.12580",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Canby",
+                "given": "Marc E"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2023
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Feasibility analysis on the use of nlp-based schedule analytics for 4d project planning and controls",
+        "container-title": "",
+        "page": "42-50",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Jung",
+                "given": "Yoonhwa"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Golparvar-Fard",
+                "given": "Mani"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2023
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Beast: Building an embodied action-prediction system with trajectory data",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Chakraborty",
+                "given": "Neeloy"
+            },
+            {
+                "family": "Sidhu",
+                "given": "Risham"
+            },
+            {
+                "family": "Abdullai",
+                "given": "Blerim"
+            },
+            {
+                "family": "Chen",
+                "given": "Haomiao"
+            },
+            {
+                "family": "Ravi",
+                "given": "Nikil"
+            },
+            {
+                "family": "Ankur",
+                "given": "Abhinav"
+            },
+            {
+                "family": "Prasad",
+                "given": "Devika"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Kingfisher",
+                "given": "Team"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2023
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Lecture 6: Topic Models (Latent Dirichlet Allocation)",
+        "container-title": "Published online at cs. illinois. edu/class/sp10/cs598jhm/.../Lecture06HO. pdf. Last visited November",
+        "page": "",
+        "volume": "1",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2011
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "ACL 2007 Workshop on Deep Linguistic Processing",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Baldwin",
+                "given": "Timothy"
+            },
+            {
+                "family": "Dras",
+                "given": "Mark"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "King",
+                "given": "Tracy Holloway"
+            },
+            {
+                "family": "Noord",
+                "given": "Gertjan van"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2007
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Corpus-based evidence against sequence priming",
+        "container-title": "Poster at 20th Annual CUNY Conference on Human Sentence Processing",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Reitter",
+                "given": "David"
+            },
+            {
+                "family": "Keller",
+                "given": "Frank"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2007
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Routes are trees: The parsing view on protein folding",
+        "container-title": "13th Annual Conference on Intelligent Systems for Molecular Biology (ISMB 2005) Poster A-36",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Joshi",
+                "given": "Aravind"
+            },
+            {
+                "family": "Dill",
+                "given": "Ken"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Parsing with CCG",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Steedman",
+                "given": "Mark"
+            },
+            {
+                "family": "Clark",
+                "given": "Stephen"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2002
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Evaluating and Designing Sparse Autoencoders by Approximating Quasi-Orthogonality",
+        "container-title": "arXiv preprint arXiv:2503.24277",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Lee",
+                "given": "Sewoong"
+            },
+            {
+                "family": "Davies",
+                "given": "Adam"
+            },
+            {
+                "family": "Canby",
+                "given": "Marc E"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2025
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Scaling Evaluation-time Compute with Reasoning Models as Process Evaluators",
+        "container-title": "arXiv preprint arXiv:2503.19877",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Kim",
+                "given": "Seungone"
+            },
+            {
+                "family": "Wu",
+                "given": "Ian"
+            },
+            {
+                "family": "Lee",
+                "given": "Jinu"
+            },
+            {
+                "family": "Yue",
+                "given": "Xiang"
+            },
+            {
+                "family": "Lee",
+                "given": "Seongyun"
+            },
+            {
+                "family": "Moon",
+                "given": "Mingyeong"
+            },
+            {
+                "family": "Gashteovski",
+                "given": "Kiril"
+            },
+            {
+                "family": "Lawrence",
+                "given": "Carolin"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Neubig",
+                "given": "Graham"
+            },
+            {
+                "family": "Welleck",
+                "given": "Sean"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2025
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "RAG-RL: Advancing Retrieval-Augmented Generation via RL and Curriculum Learning",
+        "container-title": "arXiv preprint arXiv:2503.12759",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Huang",
+                "given": "Jerry"
+            },
+            {
+                "family": "Madala",
+                "given": "Siddarth"
+            },
+            {
+                "family": "Sidhu",
+                "given": "Risham"
+            },
+            {
+                "family": "Niu",
+                "given": "Cheng"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Zhang",
+                "given": "Tong"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2025
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Entailment-Preserving First-order Logic Representations in Natural Language Entailment",
+        "container-title": "arXiv preprint arXiv:2502.16757",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Lee",
+                "given": "Jinu"
+            },
+            {
+                "family": "Liu",
+                "given": "Qi"
+            },
+            {
+                "family": "Ma",
+                "given": "Runzhi"
+            },
+            {
+                "family": "Han",
+                "given": "Vincent"
+            },
+            {
+                "family": "Wang",
+                "given": "Ziqi"
+            },
+            {
+                "family": "Ji",
+                "given": "Heng"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2025
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "BAP v2: An Enhanced Task Framework for Instruction Following in Minecraft Dialogues",
+        "container-title": "arXiv preprint arXiv:2501.10836",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Jayannavar",
+                "given": "Prashant"
+            },
+            {
+                "family": "Ren",
+                "given": "Liliang"
+            },
+            {
+                "family": "Hudspeth",
+                "given": "Marisa"
+            },
+            {
+                "family": "Lambert",
+                "given": "Charlotte"
+            },
+            {
+                "family": "Cordes",
+                "given": "Ariel"
+            },
+            {
+                "family": "Kaplan",
+                "given": "Elizabeth"
+            },
+            {
+                "family": "Narayan-Chen",
+                "given": "Anjali"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2025
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Tutor-ICL: Guiding Large Language Models for Improved In-Context Learning Performance",
+        "container-title": "",
+        "page": "9496-9506",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Cho",
+                "given": "Ikhyun"
+            },
+            {
+                "family": "Kwon",
+                "given": "Gaeul"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2024
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "ViT-MUL: A Baseline Study on Recent Machine Unlearning Methods Applied to Vision Transformers",
+        "container-title": "arXiv preprint arXiv:2403.09681",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Cho",
+                "given": "Ikhyun"
+            },
+            {
+                "family": "Park",
+                "given": "Changyeon"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2024
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Graph-based event schema induction for information retrieval",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia Constanze"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2023
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Graph-based event schema induction for information retrieval",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Haldar",
+                "given": "Rajarshi"
+            },
+            {
+                "family": "Deng",
+                "given": "Yu"
+            },
+            {
+                "family": "Wu",
+                "given": "Lingfei"
+            },
+            {
+                "family": "Mahindru",
+                "given": "Ruchi"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia Constanze"
+            },
+            {
+                "family": "Kaya",
+                "given": "Sinem Guven"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2023
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Multi-perspective, multi-task neural network model for matching text to program code",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Xiong",
+                "given": "Jinjun"
+            },
+            {
+                "family": "Haldar",
+                "given": "Rajarshi"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia Constanze"
+            },
+            {
+                "family": "Wu",
+                "given": "Lingfei"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Multi-perspective, multi-task neural network model for matching text to program code",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Wu",
+                "given": "Lingfei"
+            },
+            {
+                "family": "Xiong",
+                "given": "JinJun"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia Constanze"
+            },
+            {
+                "family": "Haldar",
+                "given": "Rajarshi"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Preface by the program committee co-chairs",
+        "container-title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, EMNLP 2018",
+        "page": "viii-ix",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Chiang",
+                "given": "David"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Tsujii",
+                "given": "Jun'ichi"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Proceedings of the Seventeenth Conference on Computational Natural Language Learning",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Riedel",
+                "given": "Sebastian"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Proceedings of the Workshop on Vision and Natural Language Processing",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Berg",
+                "given": "Tamara"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Proceedings of the 2013 NAACL HLT Student Research Workshop",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Louis",
+                "given": "Annie"
+            },
+            {
+                "family": "Socher",
+                "given": "Richard"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Ringger",
+                "given": "Eric"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Cross-caption coreference resolution for automatic image understanding",
+        "container-title": "CoNLL-2010",
+        "page": "162",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Rashtchian",
+                "given": "Micah Hodosh Peter Young Cyrus"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Wide-coverage NLP with Linguistically Expressive Grammars",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Miyao",
+                "given": "Yusuke"
+            },
+            {
+                "family": "Genabith",
+                "given": "Josef van"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Proceedings of the NAACL HLT 2010 Student Research Workshop",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            },
+            {
+                "family": "Litman",
+                "given": "Diane"
+            },
+            {
+                "family": "Boyd",
+                "given": "Adriane"
+            },
+            {
+                "family": "Joshi",
+                "given": "Mahesh"
+            },
+            {
+                "family": "Rudzicz",
+                "given": "Frank"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "The future role of language resources for natural language parsing (We won't be able to rely on Pierre Vinken forever... or will we have to?)",
+        "container-title": "",
+        "page": "13",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        }
+    },
+    {
+        "id": "IIIVRRQAA",
+        "type": "article-journal",
+        "title": "Natural Language Processing and Collaborative AI in Minecraft",
+        "container-title": "",
+        "page": "",
+        "volume": "",
+        "issue": "",
+        "source": "Google Scholar",
+        "abstract": "",
+        "DOI": "",
+        "author": [
+            {
+                "family": "Kaplan",
+                "given": "Elizabeth"
+            },
+            {
+                "family": "Jayannavar",
+                "given": "Prashant"
+            },
+            {
+                "family": "Hockenmaier",
+                "given": "Julia"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    0
+                ]
+            ]
+        }
+    }
 ]
