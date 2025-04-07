@@ -11,45 +11,48 @@ permalink: /publications/
 <div class="panel-group" id="accordion">
     <div class="panel panel-default">
 
-    {% for publi in site.data.publications %}
-        <div class="panel-heading">
-            <!-- <a data-toggle="collapse" data-parent="#accordion"
-               href="#collapse{{forloop.index}}"
-               style="color: inherit;"> -->
-            <!-- authors -->
-            {% assign authors = "" %}
-            {% for author in publi.author %}
-                {% assign authors = authors | append: author.given | append: " " | append: author.family %}
-                {% unless forloop.last %}
-                    {% assign authors = authors | append: ", " %}
-                {% endunless %}
-            {% endfor %}
-            {{ authors | strip }}.
+    {% for pub_set in site.data.publications %}
+        <h3> {{ pub_set.year }} </h3>
+        {% for publi in pub_set.pub_list %}
+            <div class="panel-heading">
+                <!-- <a data-toggle="collapse" data-parent="#accordion"
+                href="#collapse{{forloop.index}}"
+                style="color: inherit;"> -->
+                <!-- authors -->
+                {% assign authors = "" %}
+                {% for author in publi.author %}
+                    {% assign authors = authors | append: author.given | append: " " | append: author.family %}
+                    {% unless forloop.last %}
+                        {% assign authors = authors | append: ", " %}
+                    {% endunless %}
+                {% endfor %}
+                {{ authors | strip }}.
 
-            <!-- issued date -->
-            ({{ publi.issued.date-parts | jsonify | slice: 2,4 }})
+                <!-- issued date -->
+                ({{ publi.issued.date-parts | jsonify | slice: 2,4 }})
 
-            <!-- title with link -->
-            <a href="{{publi.link}}">{{ publi.title }}</a>.
-            
-            <!-- container -->
-            <i>{{ publi.container-title }}</i>
+                <!-- title with link -->
+                <a href="{{publi.link}}">{{ publi.title }}</a>.
+                
+                <!-- container -->
+                <i>{{ publi.container-title }}</i>
 
-            <!-- DOI -->
-            <!-- {% if publi.DOI %}
-                <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-            {% endif %} -->
-            <!-- </a> -->
-        </div>
-
-        <!-- <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
-            <div class="panel-body">
-                <p>{{ publi.abstract }}</p>
-
-                <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
-                   role="button" target="blank">Link</a>
+                <!-- DOI -->
+                <!-- {% if publi.DOI %}
+                    <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+                {% endif %} -->
+                <!-- </a> -->
             </div>
-        </div> -->
+
+            <!-- <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>{{ publi.abstract }}</p>
+
+                    <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
+                    role="button" target="blank">Link</a>
+                </div>
+            </div> -->
+        {% endfor %}
     {% endfor %}
     </div>
 </div>

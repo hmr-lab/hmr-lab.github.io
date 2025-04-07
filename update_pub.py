@@ -14,10 +14,9 @@ def fetch_publications(user_id):
         filled_pub = scholarly.fill(pub)
         bib = filled_pub.get("bib", {})
         year = int(bib.get("pub_year", 0))
-        month = None  # Not available from Google Scholar
         authors = bib.get("author", "").split(" and ")
         title = bib.get("title", "")
-        
+
         publication = {
             "id": filled_pub.get("id_citations", "")[:9],  # Short unique ID
             "type": "article-journal",
@@ -37,15 +36,30 @@ def fetch_publications(user_id):
             ],
             "link": filled_pub.get("pub_url", ""),  # Add publication link
             "issued": {
-                "date-parts": [[year] if not month else [year, month]]
+                "date-parts": [[year]]
             }
         }
 
         publications.append(publication)
 
-    # Sort publications by recency (newest first)
-    publications.sort(key=lambda p: p["issued"]["date-parts"][0], reverse=True)
-    return publications
+    # Reformat publication to:
+    # {'year': 2023, 'pub_list': []}
+    publications_by_year = {}
+    for pub in publications:
+        year = pub["issued"]["date-parts"][0][0]
+        if year not in publications_by_year:
+            publications_by_year[year] = []
+        publications_by_year[year].append(pub)
+    new_publications = []
+    for year, pub_list in publications_by_year.items():
+        new_publications.append({
+            "year": year,
+            "pub_list": pub_list
+        })
+    # Sort by year descending
+    new_publications.sort(key=lambda x: x["year"], reverse=True)
+
+    return new_publications
 
 def save_publications(publications, output_path=OUTPUT_PATH):
     output_path.parent.mkdir(parents=True, exist_ok=True)
