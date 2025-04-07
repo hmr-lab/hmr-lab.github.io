@@ -4,7 +4,7 @@ category: staff
 title: Julia Hockenmaier
 image: julia_hockenmaier.jpg
 role: Lab Director
-permalink: 'team/julia_hockenmaier'
+netid: juliahmr
 social:
     # twitter: https://twitter.com/
     # linkedin: https://www.linkedin.com/

@@ -3,8 +3,9 @@ layout: member
 category: student
 title: Kulbir Singh Ahluwalia
 image: kulbir_singh_ahluwalia.jpg
-role: Ph.D. Student
-permalink: 'team/kulbir_singh_ahluwalia'
+role: Ph.D. Candidate
+interest: ""
+netid: ksa5
 social:
     twitter: https://x.com/Kulbir_Singh_
     linkedin: https://www.linkedin.com/in/kulbir-ahluwalia/

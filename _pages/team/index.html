@@ -27,6 +27,8 @@ permalink: /team/
             <div class="card-body">
             <h4 class="card-title">{{ member.title }}</h4>
             <p class="card-text">{{ member.role }}</p>
+            <p class="card-text"><b>Research Interest:</b> {{ member.interest }}</p>
+            <p class="card-text"><b>E-mail:</b> {{ member.netid }} at illinois dot edu </p>
             <!-- Twitter -->
             {% if member.social.twitter %}
             <a target="blank" href="{{member.social.twitter}}"><i class="fab fa-twitter"></i></a>
@@ -72,6 +74,10 @@ permalink: /team/
             <div class="card-body">
             <h4 class="card-title">{{ member.title }}</h4>
             <p class="card-text">{{ member.role }}</p>
+            {% if member.interest %}
+            <p class="card-text"><b>Research Interest:</b> {{ member.interest }}</p>
+            {% endif %}
+            <p class="card-text"><b>E-mail:</b> <tt>{{ member.netid }} at illinois dot edu</tt> </p>
             <!-- Twitter -->
             {% if member.social.twitter %}
                 <a target="blank" href="{{member.social.twitter}}"><i class="fab fa-twitter"></i></a>
