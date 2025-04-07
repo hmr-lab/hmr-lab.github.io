@@ -7,7 +7,7 @@ OUTPUT_PATH = Path("_data/publications.json")
 
 def fetch_publications(user_id):
     author = scholarly.search_author_id(user_id)
-    author = scholarly.fill(author, sections=["publications"])
+    author = scholarly.fill(author, sections=["publications"], sortby = "year")
     
     publications = []
     for pub in tqdm(author.get("publications", []), desc="Fetching publications"):

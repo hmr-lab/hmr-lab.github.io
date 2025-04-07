@@ -5,36 +5,6 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Evaluating step-by-step reasoning traces: A survey",
-                "container-title": "arXiv preprint arXiv:2502.12289",
-                "page": "",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "Step-by-step reasoning is widely used to enhance the reasoning ability of large language models (LLMs) in complex problems. Evaluating the quality of reasoning traces is crucial for understanding and improving LLM reasoning. However, the evaluation criteria remain highly unstandardized, leading to fragmented efforts in developing metrics and meta-evaluation benchmarks. To address this gap, this survey provides a comprehensive overview of step-by-step reasoning evaluation, proposing a taxonomy of evaluation criteria with four top-level categories (groundedness, validity, coherence, and utility). We then categorize metrics based on their implementations, survey which metrics are used for assessing each criterion, and explore whether evaluator models can transfer across different criteria. Finally, we identify key directions for future research.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Lee",
-                        "given": "Jinu"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://arxiv.org/abs/2502.12289",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2025
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
                 "title": "Evaluating and Designing Sparse Autoencoders by Approximating Quasi-Orthogonality",
                 "container-title": "arXiv preprint arXiv:2503.24277",
                 "page": "",
@@ -235,6 +205,36 @@
             {
                 "id": "",
                 "type": "article-journal",
+                "title": "Evaluating step-by-step reasoning traces: A survey",
+                "container-title": "arXiv preprint arXiv:2502.12289",
+                "page": "",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Step-by-step reasoning is widely used to enhance the reasoning ability of large language models (LLMs) in complex problems. Evaluating the quality of reasoning traces is crucial for understanding and improving LLM reasoning. However, the evaluation criteria remain highly unstandardized, leading to fragmented efforts in developing metrics and meta-evaluation benchmarks. To address this gap, this survey provides a comprehensive overview of step-by-step reasoning evaluation, proposing a taxonomy of evaluation criteria with four top-level categories (groundedness, validity, coherence, and utility). We then categorize metrics based on their implementations, survey which metrics are used for assessing each criterion, and explore whether evaluator models can transfer across different criteria. Finally, we identify key directions for future research.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Lee",
+                        "given": "Jinu"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://arxiv.org/abs/2502.12289",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2025
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
                 "title": "BAP v2: An Enhanced Task Framework for Instruction Following in Minecraft Dialogues",
                 "container-title": "arXiv preprint arXiv:2501.10836",
                 "page": "",
@@ -294,97 +294,29 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Analyzing the performance of large language models on code summarization",
-                "container-title": "arXiv preprint arXiv:2404.08018",
-                "page": "",
+                "title": "Tutor-ICL: Guiding Large Language Models for Improved In-Context Learning Performance",
+                "container-title": "",
+                "page": "9496-9506",
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "Large language models (LLMs) such as Llama 2 perform very well on tasks that involve both natural language and source code, particularly code summarization and code generation. We show that for the task of code summarization, the performance of these models on individual examples often depends on the amount of (subword) token overlap between the code and the corresponding reference natural language descriptions in the dataset. This token overlap arises because the reference descriptions in standard datasets (corresponding to docstrings in large code bases) are often highly similar to the names of the functions they describe. We also show that this token overlap occurs largely in the function names of the code and compare the relative performance of these models after removing function names versus removing code structure. We also show that using multiple evaluation metrics like BLEU and BERTScore gives us very little additional insight since these metrics are highly correlated with each other.",
+                "abstract": "There has been a growing body of work focusing on the in-context learning (ICL) abilities of large language models (LLMs). However, it is an open question how effective ICL can be. This paper presents Tutor-ICL, a simple prompting method for classification tasks inspired by how effective instructors might engage their students in learning a task. Specifically, we propose presenting exemplar answers in a* comparative format* rather than the traditional single-answer format. We also show that including the test instance before the exemplars can improve performance, making it easier for LLMs to focus on relevant exemplars. Lastly, we include a summarization step before attempting the test, following a common human practice. Experiments on various classification tasks, conducted across both decoder-only LLMs (Llama 2, 3) and encoder-decoder LLMs (Flan-T5-XL, XXL), show that Tutor-ICL consistently boosts performance, achieving up to a 13.76% increase in accuracy.",
                 "DOI": "",
                 "author": [
-                    {
-                        "family": "Haldar",
-                        "given": "Rajarshi"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://arxiv.org/abs/2404.08018",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2024
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Transformer language model for mapping construction schedule activities to uniformat categories",
-                "container-title": "Automation in Construction",
-                "page": "105183",
-                "volume": "157",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "Creating consistency among project schedule data, BIM, and payment applications requires activities in a construction schedule to be mapped with the most relevant ASTM Uniformat classifications. To do so, we introduce UniformatBridge, a new transformer-based natural language processing model, that automatically labels activities in a project schedule with Uniformat classification. Our model introduces construction sequencing tokens that capture logistically-constrained predecessor and successor activities into BERT architecture. We also introduce a dataset of real-world construction project schedules with their ground-truth Uniformat classifications for validation. Experimental results using this dataset achieve F1-scores of 0.93 and 0.87 when matching unstructured schedule data to Uniformat Level 2 and 3 classifications, respectively. We share how our method unlocks development of new techniques to (1 …",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Jung",
-                        "given": "Yoonhwa"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Golparvar-Fard",
-                        "given": "Mani"
-                    }
-                ],
-                "link": "https://www.sciencedirect.com/science/article/pii/S0926580523004430",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2024
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Attack and reset for unlearning: Exploiting adversarial noise toward machine unlearning through parameter re-initialization",
-                "container-title": "arXiv preprint arXiv:2401.08998",
-                "page": "",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "With growing concerns surrounding privacy and regulatory compliance, the concept of machine unlearning has gained prominence, aiming to selectively forget or erase specific learned information from a trained model. In response to this critical need, we introduce a novel approach called Attack-and-Reset for Unlearning (ARU). This algorithm leverages meticulously crafted adversarial noise to generate a parameter mask, effectively resetting certain parameters and rendering them unlearnable. ARU outperforms current state-of-the-art results on two facial machine-unlearning benchmark datasets, MUFAC and MUCAC. In particular, we present the steps involved in attacking and masking that strategically filter and re-initialize network parameters biased towards the forget set. Our work represents a significant advancement in rendering data unexploitable to deep learning models through parameter re-initialization, achieved by harnessing adversarial noise to craft a mask.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Jung",
-                        "given": "Yoonhwa"
-                    },
                     {
                         "family": "Cho",
                         "given": "Ikhyun"
                     },
                     {
-                        "family": "Hsu",
-                        "given": "Shun-Hsiang"
+                        "family": "Kwon",
+                        "given": "Gaeul"
                     },
                     {
                         "family": "Hockenmaier",
                         "given": "Julia"
                     }
                 ],
-                "link": "https://arxiv.org/abs/2401.08998",
+                "link": "https://aclanthology.org/2024.findings-emnlp.554/",
                 "issued": {
                     "date-parts": [
                         [
@@ -434,29 +366,25 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Tutor-ICL: Guiding Large Language Models for Improved In-Context Learning Performance",
-                "container-title": "",
-                "page": "9496-9506",
+                "title": "Analyzing the performance of large language models on code summarization",
+                "container-title": "arXiv preprint arXiv:2404.08018",
+                "page": "",
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "There has been a growing body of work focusing on the in-context learning (ICL) abilities of large language models (LLMs). However, it is an open question how effective ICL can be. This paper presents Tutor-ICL, a simple prompting method for classification tasks inspired by how effective instructors might engage their students in learning a task. Specifically, we propose presenting exemplar answers in a* comparative format* rather than the traditional single-answer format. We also show that including the test instance before the exemplars can improve performance, making it easier for LLMs to focus on relevant exemplars. Lastly, we include a summarization step before attempting the test, following a common human practice. Experiments on various classification tasks, conducted across both decoder-only LLMs (Llama 2, 3) and encoder-decoder LLMs (Flan-T5-XL, XXL), show that Tutor-ICL consistently boosts performance, achieving up to a 13.76% increase in accuracy.",
+                "abstract": "Large language models (LLMs) such as Llama 2 perform very well on tasks that involve both natural language and source code, particularly code summarization and code generation. We show that for the task of code summarization, the performance of these models on individual examples often depends on the amount of (subword) token overlap between the code and the corresponding reference natural language descriptions in the dataset. This token overlap arises because the reference descriptions in standard datasets (corresponding to docstrings in large code bases) are often highly similar to the names of the functions they describe. We also show that this token overlap occurs largely in the function names of the code and compare the relative performance of these models after removing function names versus removing code structure. We also show that using multiple evaluation metrics like BLEU and BERTScore gives us very little additional insight since these metrics are highly correlated with each other.",
                 "DOI": "",
                 "author": [
                     {
-                        "family": "Cho",
-                        "given": "Ikhyun"
-                    },
-                    {
-                        "family": "Kwon",
-                        "given": "Gaeul"
+                        "family": "Haldar",
+                        "given": "Rajarshi"
                     },
                     {
                         "family": "Hockenmaier",
                         "given": "Julia"
                     }
                 ],
-                "link": "https://aclanthology.org/2024.findings-emnlp.554/",
+                "link": "https://arxiv.org/abs/2404.08018",
                 "issued": {
                     "date-parts": [
                         [
@@ -491,6 +419,78 @@
                     }
                 ],
                 "link": "https://arxiv.org/abs/2403.09681",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2024
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Attack and reset for unlearning: Exploiting adversarial noise toward machine unlearning through parameter re-initialization",
+                "container-title": "arXiv preprint arXiv:2401.08998",
+                "page": "",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "With growing concerns surrounding privacy and regulatory compliance, the concept of machine unlearning has gained prominence, aiming to selectively forget or erase specific learned information from a trained model. In response to this critical need, we introduce a novel approach called Attack-and-Reset for Unlearning (ARU). This algorithm leverages meticulously crafted adversarial noise to generate a parameter mask, effectively resetting certain parameters and rendering them unlearnable. ARU outperforms current state-of-the-art results on two facial machine-unlearning benchmark datasets, MUFAC and MUCAC. In particular, we present the steps involved in attacking and masking that strategically filter and re-initialize network parameters biased towards the forget set. Our work represents a significant advancement in rendering data unexploitable to deep learning models through parameter re-initialization, achieved by harnessing adversarial noise to craft a mask.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Jung",
+                        "given": "Yoonhwa"
+                    },
+                    {
+                        "family": "Cho",
+                        "given": "Ikhyun"
+                    },
+                    {
+                        "family": "Hsu",
+                        "given": "Shun-Hsiang"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://arxiv.org/abs/2401.08998",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2024
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Transformer language model for mapping construction schedule activities to uniformat categories",
+                "container-title": "Automation in Construction",
+                "page": "105183",
+                "volume": "157",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Creating consistency among project schedule data, BIM, and payment applications requires activities in a construction schedule to be mapped with the most relevant ASTM Uniformat classifications. To do so, we introduce UniformatBridge, a new transformer-based natural language processing model, that automatically labels activities in a project schedule with Uniformat classification. Our model introduces construction sequencing tokens that capture logistically-constrained predecessor and successor activities into BERT architecture. We also introduce a dataset of real-world construction project schedules with their ground-truth Uniformat classifications for validation. Experimental results using this dataset achieve F1-scores of 0.93 and 0.87 when matching unstructured schedule data to Uniformat Level 2 and 3 classifications, respectively. We share how our method unlocks development of new techniques to (1 …",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Jung",
+                        "given": "Yoonhwa"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Golparvar-Fard",
+                        "given": "Mani"
+                    }
+                ],
+                "link": "https://www.sciencedirect.com/science/article/pii/S0926580523004430",
                 "issued": {
                     "date-parts": [
                         [
@@ -560,6 +560,78 @@
                     }
                 ],
                 "link": "https://arxiv.org/abs/2305.12580",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2023
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Graph-based event schema induction for information retrieval",
+                "container-title": "",
+                "page": "",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Systems, devices, computer-implemented methods, and/or computer program products that facilitate event schema induction from unstructured or semi-structured data. In one example, a system can comprise a processor that executes computer executable components stored in memory. The computer executable components can comprise a schema component and a retrieval component. The schema component can derive an event schema for a document corpus using parsing results obtained from the document corpus. The retrieval component can populate a response to a query with a document of the document corpus using events extracted from the query and the document using the event schema.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia Constanze"
+                    }
+                ],
+                "link": "https://experts.illinois.edu/en/publications/graph-based-event-schema-induction-for-information-retrieval",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2023
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Graph-based event schema induction for information retrieval",
+                "container-title": "",
+                "page": "",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "2021-04-06 Assigned to INTERNATIONAL BUSINESS MACHINES CORPORATION reassignment INTERNATIONAL BUSINESS MACHINES CORPORATION ASSIGNMENT OF ASSIGNORS INTEREST (SEE DOCUMENT FOR DETAILS). Assignors: MAHINDRU, RUCHI, DENG, YU, WU, LINGFEI, HALDAR, RAJARSHI, KAYA, SINEM GUVEN2021-06-16 Assigned to THE BOARD OF TRUSTEES OF THE UNIVERSITY OF ILLINOIS reassignment THE BOARD OF TRUSTEES OF THE UNIVERSITY OF ILLINOIS ASSIGNMENT OF ASSIGNORS INTEREST (SEE DOCUMENT FOR DETAILS). Assignors: HOCKENMAIER, JULIA CONSTANZE",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Haldar",
+                        "given": "Rajarshi"
+                    },
+                    {
+                        "family": "Deng",
+                        "given": "Yu"
+                    },
+                    {
+                        "family": "Wu",
+                        "given": "Lingfei"
+                    },
+                    {
+                        "family": "Mahindru",
+                        "given": "Ruchi"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia Constanze"
+                    },
+                    {
+                        "family": "Kaya",
+                        "given": "Sinem Guven"
+                    }
+                ],
+                "link": "https://patents.google.com/patent/US11615152/en",
                 "issued": {
                     "date-parts": [
                         [
@@ -659,118 +731,12 @@
                         ]
                     ]
                 }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Graph-based event schema induction for information retrieval",
-                "container-title": "",
-                "page": "",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "Systems, devices, computer-implemented methods, and/or computer program products that facilitate event schema induction from unstructured or semi-structured data. In one example, a system can comprise a processor that executes computer executable components stored in memory. The computer executable components can comprise a schema component and a retrieval component. The schema component can derive an event schema for a document corpus using parsing results obtained from the document corpus. The retrieval component can populate a response to a query with a document of the document corpus using events extracted from the query and the document using the event schema.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia Constanze"
-                    }
-                ],
-                "link": "https://experts.illinois.edu/en/publications/graph-based-event-schema-induction-for-information-retrieval",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2023
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Graph-based event schema induction for information retrieval",
-                "container-title": "",
-                "page": "",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "2021-04-06 Assigned to INTERNATIONAL BUSINESS MACHINES CORPORATION reassignment INTERNATIONAL BUSINESS MACHINES CORPORATION ASSIGNMENT OF ASSIGNORS INTEREST (SEE DOCUMENT FOR DETAILS). Assignors: MAHINDRU, RUCHI, DENG, YU, WU, LINGFEI, HALDAR, RAJARSHI, KAYA, SINEM GUVEN2021-06-16 Assigned to THE BOARD OF TRUSTEES OF THE UNIVERSITY OF ILLINOIS reassignment THE BOARD OF TRUSTEES OF THE UNIVERSITY OF ILLINOIS ASSIGNMENT OF ASSIGNORS INTEREST (SEE DOCUMENT FOR DETAILS). Assignors: HOCKENMAIER, JULIA CONSTANZE",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Haldar",
-                        "given": "Rajarshi"
-                    },
-                    {
-                        "family": "Deng",
-                        "given": "Yu"
-                    },
-                    {
-                        "family": "Wu",
-                        "given": "Lingfei"
-                    },
-                    {
-                        "family": "Mahindru",
-                        "given": "Ruchi"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia Constanze"
-                    },
-                    {
-                        "family": "Kaya",
-                        "given": "Sinem Guven"
-                    }
-                ],
-                "link": "https://patents.google.com/patent/US11615152/en",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2023
-                        ]
-                    ]
-                }
             }
         ]
     },
     {
         "year": 2022,
         "pub_list": [
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Learning and critiquing pairwise activity relationships for schedule quality control via deep learning-based natural language processing",
-                "container-title": "Automation in Construction",
-                "page": "104036",
-                "volume": "134",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "In construction, schedule mistakes causing delays beyond substantial completion dates cost contractors expensive liquidated damages. Hence, several industry guidelines, such as the DCMA's 14 point assessment, define schedule quality and offer systematic methods for ensuring it. These guidelines list “logic” as an essential control metric, and they require planners to ensure their schedules are free of missing or wrong logical dependencies. Checking the logic requires extensive construction domain knowledge, and planners perform it entirely manually as there are no available software solutions that support it. This paper offers a novel machine learning-based solution that learns construction scheduling domain knowledge from existing records completely automatically and applies it to validate the logic in input schedules achieving an F1 score of 88.3%. Furthermore, we tailor our method to use the learned …",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Amer",
-                        "given": "Fouad"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Golparvar-Fard",
-                        "given": "Mani"
-                    }
-                ],
-                "link": "https://www.sciencedirect.com/science/article/pii/S0926580521004878",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2022
-                        ]
-                    ]
-                }
-            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -894,50 +860,46 @@
                         ]
                     ]
                 }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Learning and critiquing pairwise activity relationships for schedule quality control via deep learning-based natural language processing",
+                "container-title": "Automation in Construction",
+                "page": "104036",
+                "volume": "134",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "In construction, schedule mistakes causing delays beyond substantial completion dates cost contractors expensive liquidated damages. Hence, several industry guidelines, such as the DCMA's 14 point assessment, define schedule quality and offer systematic methods for ensuring it. These guidelines list “logic” as an essential control metric, and they require planners to ensure their schedules are free of missing or wrong logical dependencies. Checking the logic requires extensive construction domain knowledge, and planners perform it entirely manually as there are no available software solutions that support it. This paper offers a novel machine learning-based solution that learns construction scheduling domain knowledge from existing records completely automatically and applies it to validate the logic in input schedules achieving an F1 score of 88.3%. Furthermore, we tailor our method to use the learned …",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Amer",
+                        "given": "Fouad"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Golparvar-Fard",
+                        "given": "Mani"
+                    }
+                ],
+                "link": "https://www.sciencedirect.com/science/article/pii/S0926580521004878",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2022
+                        ]
+                    ]
+                }
             }
         ]
     },
     {
         "year": 2021,
         "pub_list": [
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "HySPA: Hybrid span generation for scalable text-to-graph extraction",
-                "container-title": "arXiv preprint arXiv:2106.15838",
-                "page": "",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "Text-to-Graph extraction aims to automatically extract information graphs consisting of mentions and types from natural language texts. Existing approaches, such as table filling and pairwise scoring, have shown impressive performance on various information extraction tasks, but they are difficult to scale to datasets with longer input texts because of their second-order space/time complexities with respect to the input length. In this work, we propose a Hybrid Span Generator (HySPA) that invertibly maps the information graph to an alternating sequence of nodes and edge types, and directly generates such sequences via a hybrid span decoder which can decode both the spans and the types recurrently in linear time and space complexities. Extensive experiments on the ACE05 dataset show that our approach also significantly outperforms state-of-the-art on the joint entity and relation extraction task.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Ren",
-                        "given": "Liliang"
-                    },
-                    {
-                        "family": "Sun",
-                        "given": "Chenkai"
-                    },
-                    {
-                        "family": "Ji",
-                        "given": "Heng"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://arxiv.org/abs/2106.15838",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2021
-                        ]
-                    ]
-                }
-            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -1013,84 +975,50 @@
                         ]
                     ]
                 }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "HySPA: Hybrid span generation for scalable text-to-graph extraction",
+                "container-title": "arXiv preprint arXiv:2106.15838",
+                "page": "",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Text-to-Graph extraction aims to automatically extract information graphs consisting of mentions and types from natural language texts. Existing approaches, such as table filling and pairwise scoring, have shown impressive performance on various information extraction tasks, but they are difficult to scale to datasets with longer input texts because of their second-order space/time complexities with respect to the input length. In this work, we propose a Hybrid Span Generator (HySPA) that invertibly maps the information graph to an alternating sequence of nodes and edge types, and directly generates such sequences via a hybrid span decoder which can decode both the spans and the types recurrently in linear time and space complexities. Extensive experiments on the ACE05 dataset show that our approach also significantly outperforms state-of-the-art on the joint entity and relation extraction task.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Ren",
+                        "given": "Liliang"
+                    },
+                    {
+                        "family": "Sun",
+                        "given": "Chenkai"
+                    },
+                    {
+                        "family": "Ji",
+                        "given": "Heng"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://arxiv.org/abs/2106.15838",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2021
+                        ]
+                    ]
+                }
             }
         ]
     },
     {
         "year": 2020,
         "pub_list": [
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "A multi-perspective architecture for semantic code search",
-                "container-title": "arXiv preprint arXiv:2005.06980",
-                "page": "",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "The ability to match pieces of code to their corresponding natural language descriptions and vice versa is fundamental for natural language search interfaces to software repositories. In this paper, we propose a novel multi-perspective cross-lingual neural framework for code--text matching, inspired in part by a previous model for monolingual text-to-text matching, to capture both global and local similarities. Our experiments on the CoNaLa dataset show that our proposed model yields better performance on this cross-lingual text-to-code matching task than previous approaches that map code and text to a single joint embedding space.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Haldar",
-                        "given": "Rajarshi"
-                    },
-                    {
-                        "family": "Wu",
-                        "given": "Lingfei"
-                    },
-                    {
-                        "family": "Xiong",
-                        "given": "Jinjun"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://arxiv.org/abs/2005.06980",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2020
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Learning to execute instructions in a Minecraft dialogue",
-                "container-title": "",
-                "page": "2589-2602",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "The Minecraft Collaborative Building Task is a two-player game in which an Architect (A) instructs a Builder (B) to construct a target structure in a simulated Blocks World Environment. We define the subtask of predicting correct action sequences (block placements and removals) in a given game context, and show that capturing B’s past actions as well as B’s perspective leads to a significant improvement in performance on this challenging language understanding problem.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Jayannavar",
-                        "given": "Prashant"
-                    },
-                    {
-                        "family": "Narayan-Chen",
-                        "given": "Anjali"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://aclanthology.org/2020.acl-main.232/",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2020
-                        ]
-                    ]
-                }
-            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -1136,12 +1064,114 @@
                         ]
                     ]
                 }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Learning to execute instructions in a Minecraft dialogue",
+                "container-title": "",
+                "page": "2589-2602",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "The Minecraft Collaborative Building Task is a two-player game in which an Architect (A) instructs a Builder (B) to construct a target structure in a simulated Blocks World Environment. We define the subtask of predicting correct action sequences (block placements and removals) in a given game context, and show that capturing B’s past actions as well as B’s perspective leads to a significant improvement in performance on this challenging language understanding problem.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Jayannavar",
+                        "given": "Prashant"
+                    },
+                    {
+                        "family": "Narayan-Chen",
+                        "given": "Anjali"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://aclanthology.org/2020.acl-main.232/",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2020
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "A multi-perspective architecture for semantic code search",
+                "container-title": "arXiv preprint arXiv:2005.06980",
+                "page": "",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "The ability to match pieces of code to their corresponding natural language descriptions and vice versa is fundamental for natural language search interfaces to software repositories. In this paper, we propose a novel multi-perspective cross-lingual neural framework for code--text matching, inspired in part by a previous model for monolingual text-to-text matching, to capture both global and local similarities. Our experiments on the CoNaLa dataset show that our proposed model yields better performance on this cross-lingual text-to-code matching task than previous approaches that map code and text to a single joint embedding space.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Haldar",
+                        "given": "Rajarshi"
+                    },
+                    {
+                        "family": "Wu",
+                        "given": "Lingfei"
+                    },
+                    {
+                        "family": "Xiong",
+                        "given": "Jinjun"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://arxiv.org/abs/2005.06980",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2020
+                        ]
+                    ]
+                }
             }
         ]
     },
     {
         "year": 2019,
         "pub_list": [
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Phrase Grounding by Soft-Label Chain Conditional Random Field",
+                "container-title": "",
+                "page": "5112--5122",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "The phrase grounding task aims to ground each entity mention in a given caption of an image to a corresponding region in that image. Although there are clear dependencies between how different mentions of the same caption should be grounded, previous structured prediction methods that aim to capture such dependencies need to resort to approximate inference or non-differentiable losses. In this paper, we formulate phrase grounding as a sequence labeling task where we treat candidate regions as potential labels, and use neural chain Conditional Random Fields (CRFs) to model dependencies among regions for adjacent mentions. In contrast to standard sequence labeling tasks, the phrase grounding task is defined such that there may be multiple correct candidate regions. To address this multiplicity of gold labels, we define so-called Soft-Label Chain CRFs, and present an algorithm that enables convenient end-to-end training. Our method establishes a new state-of-the-art on phrase grounding on the Flickr30k Entities dataset. Analysis shows that our model benefits both from the entity dependencies captured by the CRF and from the soft-label training regime. Our code is available at \\url{github.com/liujch1998/SoftLabelCCRF}",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Liu",
+                        "given": "Jiacheng"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://arxiv.org/abs/1909.00301",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2019
+                        ]
+                    ]
+                }
+            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -1168,36 +1198,6 @@
                     }
                 ],
                 "link": "https://aclanthology.org/P19-1537/",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2019
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Phrase Grounding by Soft-Label Chain Conditional Random Field",
-                "container-title": "",
-                "page": "5112--5122",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "The phrase grounding task aims to ground each entity mention in a given caption of an image to a corresponding region in that image. Although there are clear dependencies between how different mentions of the same caption should be grounded, previous structured prediction methods that aim to capture such dependencies need to resort to approximate inference or non-differentiable losses. In this paper, we formulate phrase grounding as a sequence labeling task where we treat candidate regions as potential labels, and use neural chain Conditional Random Fields (CRFs) to model dependencies among regions for adjacent mentions. In contrast to standard sequence labeling tasks, the phrase grounding task is defined such that there may be multiple correct candidate regions. To address this multiplicity of gold labels, we define so-called Soft-Label Chain CRFs, and present an algorithm that enables convenient end-to-end training. Our method establishes a new state-of-the-art on phrase grounding on the Flickr30k Entities dataset. Analysis shows that our model benefits both from the entity dependencies captured by the CRF and from the soft-label training regime. Our code is available at \\url{github.com/liujch1998/SoftLabelCCRF}",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Liu",
-                        "given": "Jiacheng"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://arxiv.org/abs/1909.00301",
                 "issued": {
                     "date-parts": [
                         [
@@ -1256,6 +1256,40 @@
             {
                 "id": "",
                 "type": "article-journal",
+                "title": "Preface by the program committee co-chairs",
+                "container-title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, EMNLP 2018",
+                "page": "viii-ix",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Preface by the program committee co-chairs — University of Illinois Urbana-Champaign Skip \nto main navigation Skip to search Skip to main content University of Illinois Urbana-Champaign \nHome University of Illinois Urbana-Champaign Logo LOGIN & Help Home Profiles Research \nunits Research & Scholarship Datasets Honors Press/Media Activities Search by expertise, \nname or affiliation Preface by the program committee co-chairs David Chiang, Julia \nHockenmaier, Jun'ichi Tsujii Computer Science Coordinated Science Lab Linguistics National \nCenter for Supercomputing Applications (NCSA) Research output: Contribution to journal › \nEditorial › peer-review Overview Original language English (US) Pages (from-to) viii-ix Journal \nProceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, \nEMNLP 2018 State Published - 2018 Event 2018 Conference on Empirical Methods in …",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Chiang",
+                        "given": "David"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Tsujii",
+                        "given": "Jun'ichi"
+                    }
+                ],
+                "link": "https://experts.illinois.edu/en/publications/preface-by-the-program-committee-co-chairs-2",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2018
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
                 "title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
                 "container-title": "",
                 "page": "",
@@ -1290,88 +1324,12 @@
                         ]
                     ]
                 }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Preface by the program committee co-chairs",
-                "container-title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, EMNLP 2018",
-                "page": "viii-ix",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "Preface by the program committee co-chairs — University of Illinois Urbana-Champaign Skip \nto main navigation Skip to search Skip to main content University of Illinois Urbana-Champaign \nHome University of Illinois Urbana-Champaign Logo LOGIN & Help Home Profiles Research \nunits Research & Scholarship Datasets Honors Press/Media Activities Search by expertise, \nname or affiliation Preface by the program committee co-chairs David Chiang, Julia \nHockenmaier, Jun'ichi Tsujii Computer Science Coordinated Science Lab Linguistics National \nCenter for Supercomputing Applications (NCSA) Research output: Contribution to journal › \nEditorial › peer-review Overview Original language English (US) Pages (from-to) viii-ix Journal \nProceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, \nEMNLP 2018 State Published - 2018 Event 2018 Conference on Empirical Methods in …",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Chiang",
-                        "given": "David"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Tsujii",
-                        "given": "Jun'ichi"
-                    }
-                ],
-                "link": "https://experts.illinois.edu/en/publications/preface-by-the-program-committee-co-chairs-2",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2018
-                        ]
-                    ]
-                }
             }
         ]
     },
     {
         "year": 2017,
         "pub_list": [
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Phrase localization and visual relationship detection with comprehensive image-language cues",
-                "container-title": "",
-                "page": "1928-1937",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "This paper presents a framework for localization or grounding of phrases in images using a large collection of linguistic and visual cues. We model the appearance, size, and position of entity bounding boxes, adjectives that contain attribute information, and spatial relationships between pairs of entities connected by verbs or prepositions. Special attention is given to relationships between people and clothing or body part mentions, as they are useful for distinguishing individuals. We automatically learn weights for combining these cues and at test time, perform joint inference over all phrases in a caption. The resulting system produces state of the art performance on phrase localization on the Flickr30k Entities dataset and visual relationship detection on the Stanford VRD dataset.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Plummer",
-                        "given": "Bryan A"
-                    },
-                    {
-                        "family": "Mallya",
-                        "given": "Arun"
-                    },
-                    {
-                        "family": "Cervantes",
-                        "given": "Christopher M"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Lazebnik",
-                        "given": "Svetlana"
-                    }
-                ],
-                "link": "http://openaccess.thecvf.com/content_iccv_2017/html/Plummer_Phrase_Localization_and_ICCV_2017_paper.html",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2017
-                        ]
-                    ]
-                }
-            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -1398,36 +1356,6 @@
                     }
                 ],
                 "link": "https://arxiv.org/abs/1710.02925",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2017
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Learning to predict denotational probabilities for modeling entailment",
-                "container-title": "",
-                "page": "721-730",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "We propose a framework that captures the denotational probabilities of words and phrases by embedding them in a vector space, and present a method to induce such an embedding from a dataset of denotational probabilities. We show that our model successfully predicts denotational probabilities for unseen phrases, and that its predictions are useful for textual entailment datasets such as SICK and SNLI.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Lai",
-                        "given": "Alice"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://aclanthology.org/E17-1068/",
                 "issued": {
                     "date-parts": [
                         [
@@ -1497,42 +1425,84 @@
                         ]
                     ]
                 }
-            }
-        ]
-    },
-    {
-        "year": 2016,
-        "pub_list": [
+            },
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Focused evaluation for image description with binary forced-choice tasks",
+                "title": "Learning to predict denotational probabilities for modeling entailment",
                 "container-title": "",
-                "page": "19-28",
+                "page": "721-730",
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "Current evaluation metrics for image description may be too coarse. We therefore propose a series of binary forced-choice tasks that each focus on a different aspect of the captions. We evaluate a number of different off-the-shelf image description systems. Our results indicate strengths and shortcomings of both generation and ranking based approaches.",
+                "abstract": "We propose a framework that captures the denotational probabilities of words and phrases by embedding them in a vector space, and present a method to induce such an embedding from a dataset of denotational probabilities. We show that our model successfully predicts denotational probabilities for unseen phrases, and that its predictions are useful for textual entailment datasets such as SICK and SNLI.",
                 "DOI": "",
                 "author": [
                     {
-                        "family": "Hodosh",
-                        "given": "Micah"
+                        "family": "Lai",
+                        "given": "Alice"
                     },
                     {
                         "family": "Hockenmaier",
                         "given": "Julia"
                     }
                 ],
-                "link": "https://aclanthology.org/W16-3203.pdf",
+                "link": "https://aclanthology.org/E17-1068/",
                 "issued": {
                     "date-parts": [
                         [
-                            2016
+                            2017
                         ]
                     ]
                 }
             },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Phrase localization and visual relationship detection with comprehensive image-language cues",
+                "container-title": "",
+                "page": "1928-1937",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "This paper presents a framework for localization or grounding of phrases in images using a large collection of linguistic and visual cues. We model the appearance, size, and position of entity bounding boxes, adjectives that contain attribute information, and spatial relationships between pairs of entities connected by verbs or prepositions. Special attention is given to relationships between people and clothing or body part mentions, as they are useful for distinguishing individuals. We automatically learn weights for combining these cues and at test time, perform joint inference over all phrases in a caption. The resulting system produces state of the art performance on phrase localization on the Flickr30k Entities dataset and visual relationship detection on the Stanford VRD dataset.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Plummer",
+                        "given": "Bryan A"
+                    },
+                    {
+                        "family": "Mallya",
+                        "given": "Arun"
+                    },
+                    {
+                        "family": "Cervantes",
+                        "given": "Christopher M"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Lazebnik",
+                        "given": "Svetlana"
+                    }
+                ],
+                "link": "http://openaccess.thecvf.com/content_iccv_2017/html/Plummer_Phrase_Localization_and_ICCV_2017_paper.html",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2017
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "year": 2016,
+        "pub_list": [
             {
                 "id": "",
                 "type": "article-journal",
@@ -1574,58 +1544,42 @@
                         ]
                     ]
                 }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Focused evaluation for image description with binary forced-choice tasks",
+                "container-title": "",
+                "page": "19-28",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Current evaluation metrics for image description may be too coarse. We therefore propose a series of binary forced-choice tasks that each focus on a different aspect of the captions. We evaluate a number of different off-the-shelf image description systems. Our results indicate strengths and shortcomings of both generation and ranking based approaches.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hodosh",
+                        "given": "Micah"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://aclanthology.org/W16-3203.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2016
+                        ]
+                    ]
+                }
             }
         ]
     },
     {
         "year": 2015,
         "pub_list": [
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models",
-                "container-title": "",
-                "page": "2641-2649",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "The Flickr30k dataset has become a standard benchmark for sentence-based image description. This paper presents Flickr30k Entities, which augments the 158k captions from Flickr30k with 244k coreference chains linking mentions of the same entities in images, as well as 276k manually annotated bounding boxes corresponding to each entity. Such annotation is essential for continued progress in automatic image description and grounded language understanding. We present experiments demonstrating the usefulness of our annotations for text-to-image reference resolution, or the task of localizing textual entity mentions in an image, and for bidirectional image-sentence retrieval. These experiments confirm that we can further improve the accuracy of state-of-the-art retrieval methods by training with explicit region-to-phrase correspondence, but at the same time, they show that accurately inferring this correspondence given an image and a caption remains really challenging.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Plummer",
-                        "given": "Bryan A"
-                    },
-                    {
-                        "family": "Wang",
-                        "given": "Liwei"
-                    },
-                    {
-                        "family": "Cervantes",
-                        "given": "Chris M"
-                    },
-                    {
-                        "family": "Caicedo",
-                        "given": "Juan C"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Lazebnik",
-                        "given": "Svetlana"
-                    }
-                ],
-                "link": "http://openaccess.thecvf.com/content_iccv_2015/html/Plummer_Flickr30k_Entities_Collecting_ICCV_2015_paper.html",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2015
-                        ]
-                    ]
-                }
-            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -1689,12 +1643,88 @@
                         ]
                     ]
                 }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models",
+                "container-title": "",
+                "page": "2641-2649",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "The Flickr30k dataset has become a standard benchmark for sentence-based image description. This paper presents Flickr30k Entities, which augments the 158k captions from Flickr30k with 244k coreference chains linking mentions of the same entities in images, as well as 276k manually annotated bounding boxes corresponding to each entity. Such annotation is essential for continued progress in automatic image description and grounded language understanding. We present experiments demonstrating the usefulness of our annotations for text-to-image reference resolution, or the task of localizing textual entity mentions in an image, and for bidirectional image-sentence retrieval. These experiments confirm that we can further improve the accuracy of state-of-the-art retrieval methods by training with explicit region-to-phrase correspondence, but at the same time, they show that accurately inferring this correspondence given an image and a caption remains really challenging.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Plummer",
+                        "given": "Bryan A"
+                    },
+                    {
+                        "family": "Wang",
+                        "given": "Liwei"
+                    },
+                    {
+                        "family": "Cervantes",
+                        "given": "Chris M"
+                    },
+                    {
+                        "family": "Caicedo",
+                        "given": "Juan C"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Lazebnik",
+                        "given": "Svetlana"
+                    }
+                ],
+                "link": "http://openaccess.thecvf.com/content_iccv_2015/html/Plummer_Flickr30k_Entities_Collecting_ICCV_2015_paper.html",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2015
+                        ]
+                    ]
+                }
             }
         ]
     },
     {
         "year": 2014,
         "pub_list": [
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Illinois-lh: A denotational and distributional approach to semantics",
+                "container-title": "",
+                "page": "329-334",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "This paper describes and analyzes our SemEval 2014 Task 1 system. Its features are based on distributional and denotational similarities; word alignment; negation; and hypernym/hyponym, synonym, and antonym relations.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Lai",
+                        "given": "Alice"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://aclanthology.org/S14-2055.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2014
+                        ]
+                    ]
+                }
+            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -1774,106 +1804,12 @@
                         ]
                     ]
                 }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Illinois-lh: A denotational and distributional approach to semantics",
-                "container-title": "",
-                "page": "329-334",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "This paper describes and analyzes our SemEval 2014 Task 1 system. Its features are based on distributional and denotational similarities; word alignment; negation; and hypernym/hyponym, synonym, and antonym relations.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Lai",
-                        "given": "Alice"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://aclanthology.org/S14-2055.pdf",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2014
-                        ]
-                    ]
-                }
             }
         ]
     },
     {
         "year": 2013,
         "pub_list": [
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Framing image description as a ranking task: Data, models and evaluation metrics",
-                "container-title": "Journal of Artificial Intelligence Research",
-                "page": "853-899",
-                "volume": "47",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "The ability to associate images with natural language sentences that describe what is depicted in them is a hallmark of image understanding, and a prerequisite for applications such as sentence-based image search. In analogy to image search, we propose to frame sentence-based image annotation as the task of ranking a given pool of captions. We introduce a new benchmark collection for sentence-based image description and search, consisting of 8,000 images that are each paired with five different captions which provide clear descriptions of the salient entities and events. We introduce a number of systems that perform quite well on this task, even though they are only based on features that can be obtained with minimal supervision. Our results clearly indicate the importance of training on multiple captions per image, and of capturing syntactic (word order-based) and semantic features of these captions. We also perform an in-depth comparison of human and automatic evaluation metrics for this task, and propose strategies for collecting human judgments cheaply and on a very large scale, allowing us to augment our collection with additional relevance judgments of which captions describe which image. Our analysis shows that metrics that consider the ranked list of results for each query image or sentence are significantly more robust than metrics that are based on a single response per query. Moreover, our study suggests that the evaluation of ranking-based image description systems may be fully automated.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Hodosh",
-                        "given": "Micah"
-                    },
-                    {
-                        "family": "Young",
-                        "given": "Peter"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://www.jair.org/index.php/jair/article/view/10833",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2013
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "An HDP Model for Inducing Combinatory Categorial Grammars",
-                "container-title": "Transactions of the Association for Computational Linguistics (TACL)",
-                "page": "75-88",
-                "volume": "1",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "We introduce a novel nonparametric Bayesian model for the induction of                     Combinatory Categorial Grammars from POS-tagged text. It achieves state of the                     art performance on a number of languages, and induces linguistically plausible                     lexicons.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Bisk",
-                        "given": "Yonatan"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00211/43196",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2013
-                        ]
-                    ]
-                }
-            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -1911,13 +1847,13 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Sentence-based image description with scalable, explicit models",
-                "container-title": "",
-                "page": "294-300",
-                "volume": "",
+                "title": "Framing image description as a ranking task: Data, models and evaluation metrics",
+                "container-title": "Journal of Artificial Intelligence Research",
+                "page": "853-899",
+                "volume": "47",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "Associating photographs with complete sentences that describe what is depicted in them is a challenging problem. This paper examines how an approach that is inspired by image tagging techniques which can scale to very large data sets performs on this much harder task, and examines some of the linguistic difficulties that this bag-of-words model faces.",
+                "abstract": "The ability to associate images with natural language sentences that describe what is depicted in them is a hallmark of image understanding, and a prerequisite for applications such as sentence-based image search. In analogy to image search, we propose to frame sentence-based image annotation as the task of ranking a given pool of captions. We introduce a new benchmark collection for sentence-based image description and search, consisting of 8,000 images that are each paired with five different captions which provide clear descriptions of the salient entities and events. We introduce a number of systems that perform quite well on this task, even though they are only based on features that can be obtained with minimal supervision. Our results clearly indicate the importance of training on multiple captions per image, and of capturing syntactic (word order-based) and semantic features of these captions. We also perform an in-depth comparison of human and automatic evaluation metrics for this task, and propose strategies for collecting human judgments cheaply and on a very large scale, allowing us to augment our collection with additional relevance judgments of which captions describe which image. Our analysis shows that metrics that consider the ranked list of results for each query image or sentence are significantly more robust than metrics that are based on a single response per query. Moreover, our study suggests that the evaluation of ranking-based image description systems may be fully automated.",
                 "DOI": "",
                 "author": [
                     {
@@ -1925,11 +1861,15 @@
                         "given": "Micah"
                     },
                     {
+                        "family": "Young",
+                        "given": "Peter"
+                    },
+                    {
                         "family": "Hockenmaier",
                         "given": "Julia"
                     }
                 ],
-                "link": "https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2013/W06/html/Hodosh_Sentence-Based_Image_Description_2013_CVPR_paper.html",
+                "link": "https://www.jair.org/index.php/jair/article/view/10833",
                 "issued": {
                     "date-parts": [
                         [
@@ -2035,6 +1975,66 @@
                         ]
                     ]
                 }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "An HDP Model for Inducing Combinatory Categorial Grammars",
+                "container-title": "Transactions of the Association for Computational Linguistics (TACL)",
+                "page": "75-88",
+                "volume": "1",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "We introduce a novel nonparametric Bayesian model for the induction of                     Combinatory Categorial Grammars from POS-tagged text. It achieves state of the                     art performance on a number of languages, and induces linguistically plausible                     lexicons.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Bisk",
+                        "given": "Yonatan"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00211/43196",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2013
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Sentence-based image description with scalable, explicit models",
+                "container-title": "",
+                "page": "294-300",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Associating photographs with complete sentences that describe what is depicted in them is a challenging problem. This paper examines how an approach that is inspired by image tagging techniques which can scale to very large data sets performs on this much harder task, and examines some of the linguistic difficulties that this bag-of-words model faces.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hodosh",
+                        "given": "Micah"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2013/W06/html/Hodosh_Sentence-Based_Image_Description_2013_CVPR_paper.html",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2013
+                        ]
+                    ]
+                }
             }
         ]
     },
@@ -2112,66 +2112,6 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Simple robust grammar induction with combinatory categorial grammars",
-                "container-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
-                "page": "1643-1649",
-                "volume": "26",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "We present a simple EM-based grammar induction algorithm for Combinatory Categorial Grammar (CCG) that achieves state-of-the-art performance by relying on a minimal number of very general linguistic principles. Unlike previous work on unsupervised parsing with CCGs, our approach has no prior language-specific knowledge, and discovers all categories automatically. Additionally, unlike other approaches, our grammar remains robust when parsing longer sentences, performing as well as or better than other systems. We believe this is a natural result of using an expressive grammar formalism with an extended domain of locality.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Bisk",
-                        "given": "Yonatan"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://ojs.aaai.org/index.php/AAAI/article/view/8355",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2012
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Induction of linguistic structure with combinatory categorial grammars",
-                "container-title": "",
-                "page": "90-95",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "Our system consists of a simple, EM-based induction algorithm (Bisk and Hockenmaier, 2012), which induces a language-specific Combinatory Categorial grammar (CCG) and lexicon based on a small number of linguistic principles, eg that verbs may be the roots of sentences and can take nouns as arguments.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Bisk",
-                        "given": "Yonatan"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://aclanthology.org/W12-1912.pdf",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2012
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
                 "title": "Combinatory Categorial Grammars for Robust Natural Language Processing",
                 "container-title": "University of Edinburgh",
                 "page": "",
@@ -2230,12 +2170,98 @@
                         ]
                     ]
                 }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Induction of linguistic structure with combinatory categorial grammars",
+                "container-title": "",
+                "page": "90-95",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Our system consists of a simple, EM-based induction algorithm (Bisk and Hockenmaier, 2012), which induces a language-specific Combinatory Categorial grammar (CCG) and lexicon based on a small number of linguistic principles, eg that verbs may be the roots of sentences and can take nouns as arguments.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Bisk",
+                        "given": "Yonatan"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://aclanthology.org/W12-1912.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2012
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Simple robust grammar induction with combinatory categorial grammars",
+                "container-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+                "page": "1643-1649",
+                "volume": "26",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "We present a simple EM-based grammar induction algorithm for Combinatory Categorial Grammar (CCG) that achieves state-of-the-art performance by relying on a minimal number of very general linguistic principles. Unlike previous work on unsupervised parsing with CCGs, our approach has no prior language-specific knowledge, and discovers all categories automatically. Additionally, unlike other approaches, our grammar remains robust when parsing longer sentences, performing as well as or better than other systems. We believe this is a natural result of using an expressive grammar formalism with an extended domain of locality.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Bisk",
+                        "given": "Yonatan"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://ojs.aaai.org/index.php/AAAI/article/view/8355",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2012
+                        ]
+                    ]
+                }
             }
         ]
     },
     {
         "year": 2011,
         "pub_list": [
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Lecture 6: Topic Models (Latent Dirichlet Allocation)",
+                "container-title": "Published online at cs. illinois. edu/class/sp10/cs598jhm/.../Lecture06HO. pdf. Last visited November",
+                "page": "",
+                "volume": "1",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Lecture 6: Topic Models (Latent Dirichlet Allocation) Page 1 CS598JHM: Advanced NLP (Spring \nʼ10) Julia Hockenmaier juliahmr@illinois.edu 3324 Siebel Center http://www.cs.uiuc.edu/class/sp10/cs598jhm \nLecture 6: Topic Models (Latent Dirichlet Allocation) Page 2 CS598JHM: Advanced NLP \nTopic models Motivating questions: -What are the topics that a document is about? -Given \none document, can we find other documents about the same topics? -How do topics in a \nfield change over time? A hierarchical Bayesian approach: -Assume each document defines \na distribution over (hidden) topics -Assume each topic defines a distribution over words \n-The posterior probability of these latent variables given a document collection determines \na hidden decomposition of the collection into topics. 2 Page 3 CS598JHM: Advanced \nNLP References D. Blei, A. Ng, and M. Jordan. Latent Dirichlet allocation. Journal of …",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://courses.grainger.illinois.edu/cs598jhm/sp2010/Slides/Lecture06.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2011
+                        ]
+                    ]
+                }
+            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -2273,32 +2299,6 @@
                         ]
                     ]
                 }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Lecture 6: Topic Models (Latent Dirichlet Allocation)",
-                "container-title": "Published online at cs. illinois. edu/class/sp10/cs598jhm/.../Lecture06HO. pdf. Last visited November",
-                "page": "",
-                "volume": "1",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "Lecture 6: Topic Models (Latent Dirichlet Allocation) Page 1 CS598JHM: Advanced NLP (Spring \nʼ10) Julia Hockenmaier juliahmr@illinois.edu 3324 Siebel Center http://www.cs.uiuc.edu/class/sp10/cs598jhm \nLecture 6: Topic Models (Latent Dirichlet Allocation) Page 2 CS598JHM: Advanced NLP \nTopic models Motivating questions: -What are the topics that a document is about? -Given \none document, can we find other documents about the same topics? -How do topics in a \nfield change over time? A hierarchical Bayesian approach: -Assume each document defines \na distribution over (hidden) topics -Assume each topic defines a distribution over words \n-The posterior probability of these latent variables given a document collection determines \na hidden decomposition of the collection into topics. 2 Page 3 CS598JHM: Advanced \nNLP References D. Blei, A. Ng, and M. Jordan. Latent Dirichlet allocation. Journal of …",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://courses.grainger.illinois.edu/cs598jhm/sp2010/Slides/Lecture06.pdf",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2011
-                        ]
-                    ]
-                }
             }
         ]
     },
@@ -2308,121 +2308,25 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Every picture tells a story: Generating sentences from images",
+                "title": "Normal-form parsing for Combinatory Categorial Grammars with generalized composition and type-raising",
                 "container-title": "",
-                "page": "15-29",
+                "page": "465-473",
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "Humans can prepare concise descriptions of pictures, focusing on what they find important. We demonstrate that automatic methods can do so too. We describe a system that can compute a score linking an image to a sentence. This score can be used to attach a descriptive sentence to a given image, or to obtain images that illustrate a given sentence. The score is obtained by comparing an estimate of meaning obtained from the image to one obtained from the sentence. Each estimate of meaning comes from a discriminative procedure that is learned using data. We evaluate on a novel dataset consisting of human-annotated images. While our underlying estimate of meaning is impoverished, it is sufficient to produce very good quantitative results, evaluated with a novel score that can account for synecdoche.",
+                "abstract": "We propose and implement a modification of the Eisner (1996) normal form to account for generalized composition of bounded degree, and an extension to deal with grammatical type-raising.",
                 "DOI": "",
                 "author": [
-                    {
-                        "family": "Farhadi",
-                        "given": "Ali"
-                    },
-                    {
-                        "family": "Hejrati",
-                        "given": "Mohsen"
-                    },
-                    {
-                        "family": "Sadeghi",
-                        "given": "Mohammad Amin"
-                    },
-                    {
-                        "family": "Young",
-                        "given": "Peter"
-                    },
-                    {
-                        "family": "Rashtchian",
-                        "given": "Cyrus"
-                    },
                     {
                         "family": "Hockenmaier",
                         "given": "Julia"
                     },
                     {
-                        "family": "Forsyth",
-                        "given": "David"
+                        "family": "Bisk",
+                        "given": "Yonatan"
                     }
                 ],
-                "link": "https://link.springer.com/chapter/10.1007/978-3-642-15561-1_2",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2010
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Collecting image annotations using amazon’s mechanical turk",
-                "container-title": "",
-                "page": "139-147",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "Crowd-sourcing approaches such as Amazon’s Mechanical Turk (MTurk) make it possible to annotate or collect large amounts of linguistic data at a relatively low cost and high speed. However, MTurk offers only limited control over who is allowed to particpate in a particular task. This is particularly problematic for tasks requiring free-form text entry. Unlike multiple-choice tasks there is no correct answer, and therefore control items for which the correct answer is known cannot be used. Furthermore, MTurk has no effective built-in mechanism to guarantee workers are proficient English writers. We describe our experience in creating corpora of images annotated with multiple one-sentence descriptions on MTurk and explore the effectiveness of different quality control strategies for collecting linguistic data using Mechanical MTurk. We find that the use of a qualification test provides the highest improvement of quality, whereas refining the annotations through follow-up tasks works rather poorly. Using our best setup, we construct two image corpora, totaling more than 40,000 descriptive captions for 9000 images.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Rashtchian",
-                        "given": "Cyrus"
-                    },
-                    {
-                        "family": "Young",
-                        "given": "Peter"
-                    },
-                    {
-                        "family": "Hodosh",
-                        "given": "Micah"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://aclanthology.org/W10-0721.pdf",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2010
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Citation author topic model in expert search",
-                "container-title": "",
-                "page": "1265-1273",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "This paper proposes a novel topic model, Citation-Author-Topic (CAT) model that addresses a semantic search task we define as expert search–given a research area as a query, it returns names of experts in this area. For example, Michael Collins would be one of the top names retrieved given the query Syntactic Parsing.Our contribution in this paper is two-fold. First, we model the cited author information together with words and paper authors. Such extra contextual information directly models linkage among authors and enhances the author-topic association, thus produces more coherent author-topic distribution. Second, we provide a preliminary solution to the task of expert search when the learning repository contains exclusively research related documents authored by the experts. When compared with a previous proposed model (Johri et al., 2010), the proposed model produces high quality author topic linkage and achieves over 33% error reduction evaluated by the standard MAP measurement.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Tu",
-                        "given": "Yuancheng"
-                    },
-                    {
-                        "family": "Johri",
-                        "given": "Nikhil"
-                    },
-                    {
-                        "family": "Roth",
-                        "given": "Dan"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://aclanthology.org/C10-2145.pdf",
+                "link": "https://aclanthology.org/C10-1053.pdf",
                 "issued": {
                     "date-parts": [
                         [
@@ -2472,63 +2376,33 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Normal-form parsing for Combinatory Categorial Grammars with generalized composition and type-raising",
+                "title": "Citation author topic model in expert search",
                 "container-title": "",
-                "page": "465-473",
+                "page": "1265-1273",
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "We propose and implement a modification of the Eisner (1996) normal form to account for generalized composition of bounded degree, and an extension to deal with grammatical type-raising.",
+                "abstract": "This paper proposes a novel topic model, Citation-Author-Topic (CAT) model that addresses a semantic search task we define as expert search–given a research area as a query, it returns names of experts in this area. For example, Michael Collins would be one of the top names retrieved given the query Syntactic Parsing.Our contribution in this paper is two-fold. First, we model the cited author information together with words and paper authors. Such extra contextual information directly models linkage among authors and enhances the author-topic association, thus produces more coherent author-topic distribution. Second, we provide a preliminary solution to the task of expert search when the learning repository contains exclusively research related documents authored by the experts. When compared with a previous proposed model (Johri et al., 2010), the proposed model produces high quality author topic linkage and achieves over 33% error reduction evaluated by the standard MAP measurement.",
                 "DOI": "",
                 "author": [
                     {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
+                        "family": "Tu",
+                        "given": "Yuancheng"
                     },
                     {
-                        "family": "Bisk",
-                        "given": "Yonatan"
-                    }
-                ],
-                "link": "https://aclanthology.org/C10-1053.pdf",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2010
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Cross-caption coreference resolution for automatic image understanding",
-                "container-title": "",
-                "page": "162-171",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "Recent work in computer vision has aimed to associate image regions with keywords describing the depicted entities, but actual image ‘understanding’would also require identifying their attributes, relations and activities. Since this information cannot be conveyed by simple keywords, we have collected a corpus of “action” photos each associated with five descriptive captions. In order to obtain a consistent semantic representation for each image, we need to first identify which NPs refer to the same entities. We present three hierarchical Bayesian models for cross-caption coreference resolution. We have also created a simple ontology of entity classes that appear in images and evaluate how well these can be recovered.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Hodosh",
-                        "given": "Micah"
+                        "family": "Johri",
+                        "given": "Nikhil"
                     },
                     {
-                        "family": "Young",
-                        "given": "Peter"
-                    },
-                    {
-                        "family": "Rashtchian",
-                        "given": "Cyrus"
+                        "family": "Roth",
+                        "given": "Dan"
                     },
                     {
                         "family": "Hockenmaier",
                         "given": "Julia"
                     }
                 ],
-                "link": "https://aclanthology.org/W10-2920.pdf",
+                "link": "https://aclanthology.org/C10-2145.pdf",
                 "issued": {
                     "date-parts": [
                         [
@@ -2604,6 +2478,44 @@
             {
                 "id": "",
                 "type": "article-journal",
+                "title": "Cross-caption coreference resolution for automatic image understanding",
+                "container-title": "",
+                "page": "162-171",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Recent work in computer vision has aimed to associate image regions with keywords describing the depicted entities, but actual image ‘understanding’would also require identifying their attributes, relations and activities. Since this information cannot be conveyed by simple keywords, we have collected a corpus of “action” photos each associated with five descriptive captions. In order to obtain a consistent semantic representation for each image, we need to first identify which NPs refer to the same entities. We present three hierarchical Bayesian models for cross-caption coreference resolution. We have also created a simple ontology of entity classes that appear in images and evaluate how well these can be recovered.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hodosh",
+                        "given": "Micah"
+                    },
+                    {
+                        "family": "Young",
+                        "given": "Peter"
+                    },
+                    {
+                        "family": "Rashtchian",
+                        "given": "Cyrus"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://aclanthology.org/W10-2920.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2010
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
                 "title": "Proceedings of the NAACL HLT 2010 Student Research Workshop",
                 "container-title": "",
                 "page": "",
@@ -2646,6 +2558,44 @@
             {
                 "id": "",
                 "type": "article-journal",
+                "title": "Collecting image annotations using amazon’s mechanical turk",
+                "container-title": "",
+                "page": "139-147",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Crowd-sourcing approaches such as Amazon’s Mechanical Turk (MTurk) make it possible to annotate or collect large amounts of linguistic data at a relatively low cost and high speed. However, MTurk offers only limited control over who is allowed to particpate in a particular task. This is particularly problematic for tasks requiring free-form text entry. Unlike multiple-choice tasks there is no correct answer, and therefore control items for which the correct answer is known cannot be used. Furthermore, MTurk has no effective built-in mechanism to guarantee workers are proficient English writers. We describe our experience in creating corpora of images annotated with multiple one-sentence descriptions on MTurk and explore the effectiveness of different quality control strategies for collecting linguistic data using Mechanical MTurk. We find that the use of a qualification test provides the highest improvement of quality, whereas refining the annotations through follow-up tasks works rather poorly. Using our best setup, we construct two image corpora, totaling more than 40,000 descriptive captions for 9000 images.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Rashtchian",
+                        "given": "Cyrus"
+                    },
+                    {
+                        "family": "Young",
+                        "given": "Peter"
+                    },
+                    {
+                        "family": "Hodosh",
+                        "given": "Micah"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://aclanthology.org/W10-0721.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2010
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
                 "title": "The future role of language resources for natural language parsing (We won't be able to rely on Pierre Vinken forever... or will we have to?)",
                 "container-title": "",
                 "page": "13",
@@ -2661,6 +2611,56 @@
                     }
                 ],
                 "link": "https://experts.illinois.edu/en/publications/the-future-role-of-language-resources-for-natural-language-parsin",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2010
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Every picture tells a story: Generating sentences from images",
+                "container-title": "",
+                "page": "15-29",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Humans can prepare concise descriptions of pictures, focusing on what they find important. We demonstrate that automatic methods can do so too. We describe a system that can compute a score linking an image to a sentence. This score can be used to attach a descriptive sentence to a given image, or to obtain images that illustrate a given sentence. The score is obtained by comparing an estimate of meaning obtained from the image to one obtained from the sentence. Each estimate of meaning comes from a discriminative procedure that is learned using data. We evaluate on a novel dataset consisting of human-annotated images. While our underlying estimate of meaning is impoverished, it is sufficient to produce very good quantitative results, evaluated with a novel score that can account for synecdoche.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Farhadi",
+                        "given": "Ali"
+                    },
+                    {
+                        "family": "Hejrati",
+                        "given": "Mohsen"
+                    },
+                    {
+                        "family": "Sadeghi",
+                        "given": "Mohammad Amin"
+                    },
+                    {
+                        "family": "Young",
+                        "given": "Peter"
+                    },
+                    {
+                        "family": "Rashtchian",
+                        "given": "Cyrus"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Forsyth",
+                        "given": "David"
+                    }
+                ],
+                "link": "https://link.springer.com/chapter/10.1007/978-3-642-15561-1_2",
                 "issued": {
                     "date-parts": [
                         [
@@ -2715,7 +2715,7 @@
                         "given": "Gang"
                     }
                 ],
-                "link": "https://books.google.com/books?hl=en&lr=&id=CN9n2ZvyzlMC&oi=fnd&pg=PA167&dq=info:d2EOjJIQMy8J:scholar.google.com&ots=3L_EJtdGZH&sig=_miSmj9ycSZhPMRYzPckyoeu_rY",
+                "link": "https://books.google.com/books?hl=en&lr=&id=CN9n2ZvyzlMC&oi=fnd&pg=PA167&dq=info:d2EOjJIQMy8J:scholar.google.com&ots=3L_EJteCWD&sig=oBC4g5g12z_fGGL4MhHXQbVHHos",
                 "issued": {
                     "date-parts": [
                         [
@@ -2729,36 +2729,6 @@
     {
         "year": 2008,
         "pub_list": [
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Non-local scrambling: The equivalence of TAG and CCG revisited",
-                "container-title": "",
-                "page": "41-48",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "It is well known that standard TAG cannot deal with certain instances of longdistance scrambling in German (Rambow, 1994). That CCG can deal with many instances of non-local scrambling in languages such as Turkish has previously been observed (eg by Hoffman (1995a) and Baldridge (2002)). We show here that CCG can derive German scrambling cases which are problematic for TAG, and give CCG analyses for other German constructions that require more expressive power than TAG provides. Such analyses raise the question of the linguistic significance of the TAG-CCG equivalence. We revisit the original equivalence proof, and show that a careful examination of the translation of CCG and TAG into Indexed Grammar reveals that the IG which is strongly equivalent to CCG can generate dependencies which the corresponding IG obtained from an LTAG cannot generate.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Young",
-                        "given": "Peter"
-                    }
-                ],
-                "link": "https://aclanthology.org/W08-2306.pdf",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2008
-                        ]
-                    ]
-                }
-            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -2868,6 +2838,36 @@
                         ]
                     ]
                 }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Non-local scrambling: The equivalence of TAG and CCG revisited",
+                "container-title": "",
+                "page": "41-48",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "It is well known that standard TAG cannot deal with certain instances of longdistance scrambling in German (Rambow, 1994). That CCG can deal with many instances of non-local scrambling in languages such as Turkish has previously been observed (eg by Hoffman (1995a) and Baldridge (2002)). We show here that CCG can derive German scrambling cases which are problematic for TAG, and give CCG analyses for other German constructions that require more expressive power than TAG provides. Such analyses raise the question of the linguistic significance of the TAG-CCG equivalence. We revisit the original equivalence proof, and show that a careful examination of the translation of CCG and TAG into Indexed Grammar reveals that the IG which is strongly equivalent to CCG can generate dependencies which the corresponding IG obtained from an LTAG cannot generate.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Young",
+                        "given": "Peter"
+                    }
+                ],
+                "link": "https://aclanthology.org/W08-2306.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2008
+                        ]
+                    ]
+                }
             }
         ]
     },
@@ -2896,40 +2896,6 @@
                     }
                 ],
                 "link": "https://direct.mit.edu/coli/article-abstract/33/3/355/1953",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2007
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Routes are trees: the parsing perspective on protein folding",
-                "container-title": "Proteins: Structure, Function, and Bioinformatics",
-                "page": "1-15",
-                "volume": "66",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "An important puzzle in structural biology is the question of how proteins are able to fold so quickly into their unique native structures. There is much evidence that protein folding is hierarchic. In that case, folding routes are not linear, but have a tree structure. Trees are commonly used to represent the grammatical structure of natural language sentences, and chart parsing algorithms efficiently search the space of all possible trees for a given input string. Here we show that one such method, the CKY algorithm, can be useful both for providing novel insight into the physical protein folding process, and for computational protein structure prediction. As proof of concept, we apply this algorithm to the HP lattice model of proteins. Our algorithm identifies all direct folding route trees to the native state and allows us to construct a simple model of the folding process. Despite its simplicity, our model provides an account for the …",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Joshi",
-                        "given": "Aravind K"
-                    },
-                    {
-                        "family": "Dill",
-                        "given": "Ken A"
-                    }
-                ],
-                "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.21195",
                 "issued": {
                     "date-parts": [
                         [
@@ -2987,48 +2953,6 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "The impact of deep linguistic processing on parsing technology",
-                "container-title": "",
-                "page": "36-38",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "As the organizers of the ACL 2007 Deep Linguistic Processing workshop (Baldwin et al., 2007), we were asked to discuss our perspectives on the role of current trends in deep linguistic processing for parsing technology. We are particularly interested in the ways in which efficient, broad coverage parsing systems for linguistically expressive grammars can be built and integrated into applications which require richer syntactic structures than shallow approaches can provide. This often requires hybrid technologies which use shallow or statistical methods for pre-or post-processing, to extend coverage, or to disambiguate the output.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Baldwin",
-                        "given": "Timothy"
-                    },
-                    {
-                        "family": "Dras",
-                        "given": "Mark"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "King",
-                        "given": "Tracy Holloway"
-                    },
-                    {
-                        "family": "Noord",
-                        "given": "Gertjan van"
-                    }
-                ],
-                "link": "https://aclanthology.org/W07-2205.pdf",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2007
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
                 "title": "ACL 2007 Workshop on Deep Linguistic Processing",
                 "container-title": "",
                 "page": "",
@@ -3071,6 +2995,48 @@
             {
                 "id": "",
                 "type": "article-journal",
+                "title": "The impact of deep linguistic processing on parsing technology",
+                "container-title": "",
+                "page": "36-38",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "As the organizers of the ACL 2007 Deep Linguistic Processing workshop (Baldwin et al., 2007), we were asked to discuss our perspectives on the role of current trends in deep linguistic processing for parsing technology. We are particularly interested in the ways in which efficient, broad coverage parsing systems for linguistically expressive grammars can be built and integrated into applications which require richer syntactic structures than shallow approaches can provide. This often requires hybrid technologies which use shallow or statistical methods for pre-or post-processing, to extend coverage, or to disambiguate the output.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Baldwin",
+                        "given": "Timothy"
+                    },
+                    {
+                        "family": "Dras",
+                        "given": "Mark"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "King",
+                        "given": "Tracy Holloway"
+                    },
+                    {
+                        "family": "Noord",
+                        "given": "Gertjan van"
+                    }
+                ],
+                "link": "https://aclanthology.org/W07-2205.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2007
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
                 "title": "Corpus-based evidence against sequence priming",
                 "container-title": "Poster at 20th Annual CUNY Conference on Human Sentence Processing",
                 "page": "",
@@ -3101,6 +3067,40 @@
                         ]
                     ]
                 }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Routes are trees: the parsing perspective on protein folding",
+                "container-title": "Proteins: Structure, Function, and Bioinformatics",
+                "page": "1-15",
+                "volume": "66",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "An important puzzle in structural biology is the question of how proteins are able to fold so quickly into their unique native structures. There is much evidence that protein folding is hierarchic. In that case, folding routes are not linear, but have a tree structure. Trees are commonly used to represent the grammatical structure of natural language sentences, and chart parsing algorithms efficiently search the space of all possible trees for a given input string. Here we show that one such method, the CKY algorithm, can be useful both for providing novel insight into the physical protein folding process, and for computational protein structure prediction. As proof of concept, we apply this algorithm to the HP lattice model of proteins. Our algorithm identifies all direct folding route trees to the native state and allows us to construct a simple model of the folding process. Despite its simplicity, our model provides an account for the …",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Joshi",
+                        "given": "Aravind K"
+                    },
+                    {
+                        "family": "Dill",
+                        "given": "Ken A"
+                    }
+                ],
+                "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.21195",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2007
+                        ]
+                    ]
+                }
             }
         ]
     },
@@ -3110,21 +3110,29 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Creating a CCGbank and a wide-coverage CCG lexicon for German",
+                "title": "Protein folding and chart parsing",
                 "container-title": "",
-                "page": "505-512",
+                "page": "293-300",
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "We present an algorithm which creates a German CCGbank by translating the syntax graphs in the German Tiger corpus into CCG derivation trees. The resulting corpus contains 46,628 derivations, covering 95% of all complete sentences in Tiger. Lexicons extracted from this corpus contain correct lexical entries for 94% of all known tokens in unseen text.",
+                "abstract": "How can proteins fold so quickly into their unique native structures? We show here that there is a natural analogy between parsing and the protein folding problem, and demonstrate that CKY can find the native structures of a simplified lattice model of proteins with high accuracy.",
                 "DOI": "",
                 "author": [
                     {
                         "family": "Hockenmaier",
                         "given": "Julia"
+                    },
+                    {
+                        "family": "Joshi",
+                        "given": "Aravind"
+                    },
+                    {
+                        "family": "Dill",
+                        "given": "Ken A"
                     }
                 ],
-                "link": "https://aclanthology.org/P06-1064.pdf",
+                "link": "https://aclanthology.org/W06-1635.pdf",
                 "issued": {
                     "date-parts": [
                         [
@@ -3170,29 +3178,21 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Protein folding and chart parsing",
+                "title": "Creating a CCGbank and a wide-coverage CCG lexicon for German",
                 "container-title": "",
-                "page": "293-300",
+                "page": "505-512",
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "How can proteins fold so quickly into their unique native structures? We show here that there is a natural analogy between parsing and the protein folding problem, and demonstrate that CKY can find the native structures of a simplified lattice model of proteins with high accuracy.",
+                "abstract": "We present an algorithm which creates a German CCGbank by translating the syntax graphs in the German Tiger corpus into CCG derivation trees. The resulting corpus contains 46,628 derivations, covering 95% of all complete sentences in Tiger. Lexicons extracted from this corpus contain correct lexical entries for 94% of all known tokens in unseen text.",
                 "DOI": "",
                 "author": [
                     {
                         "family": "Hockenmaier",
                         "given": "Julia"
-                    },
-                    {
-                        "family": "Joshi",
-                        "given": "Aravind"
-                    },
-                    {
-                        "family": "Dill",
-                        "given": "Ken A"
                     }
                 ],
-                "link": "https://aclanthology.org/W06-1635.pdf",
+                "link": "https://aclanthology.org/P06-1064.pdf",
                 "issued": {
                     "date-parts": [
                         [
@@ -3206,6 +3206,40 @@
     {
         "year": 2005,
         "pub_list": [
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Routes are trees: The parsing view on protein folding",
+                "container-title": "13th Annual Conference on Intelligent Systems for Molecular Biology (ISMB 2005) Poster A-36",
+                "page": "",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Protein folding is a hierarchical process that builds global from local structures and is parallel at first but serial at the end. Yet, the standard description of folding routes as linear sequences of events fails to capture the parallel, recursive, nature of this process. We propose that folding routes should instead be thought of as trees, which also provides a unified account of growth and assembly. Trees are used to represent the grammatical structure of language, and we show that, like natural language sentences, proteins have specific “constituent structures”, a concept that generalizes the idea of autonomous folding units. We demonstrate that the CKY parsing algorithm [2, 5] is an efficient method to find all direct routes to the native state. CKY implements a greedy search of locally optimal conformations. The physical plausibility of this strategy is validated by the fact that it predicts the results of [4] that folding speed depends on native contact order. Since CKY returns all native routes, we can quantify the kinetic accessibility of the native state. We focus on the HP model [3], but believe that our findings can in principle be carried over to more detailed structural representations.Folding routes are trees In a folding route tree, each node corresponds to a substring of the sequence and represents a step in the folding process in which the structure of its substring was found from the structures of its children. Different branches represent independent (simultaneous) folding events. The chain “moves” from the leaves upwards:",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Joshi",
+                        "given": "Aravind"
+                    },
+                    {
+                        "family": "Dill",
+                        "given": "Ken"
+                    }
+                ],
+                "link": "https://hockenmaier.cs.illinois.edu/Papers/ISMB2005/HockenmaierJoshiDill_ISMB05_final.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2005
+                        ]
+                    ]
+                }
+            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -3311,17 +3345,22 @@
                         ]
                     ]
                 }
-            },
+            }
+        ]
+    },
+    {
+        "year": 2004,
+        "pub_list": [
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Routes are trees: The parsing view on protein folding",
-                "container-title": "13th Annual Conference on Intelligent Systems for Molecular Biology (ISMB 2005) Poster A-36",
-                "page": "",
-                "volume": "",
+                "title": "Extending the coverage of a CCG system",
+                "container-title": "Research on Language and Computation",
+                "page": "165-208",
+                "volume": "2",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "Protein folding is a hierarchical process that builds global from local structures and is parallel at first but serial at the end. Yet, the standard description of folding routes as linear sequences of events fails to capture the parallel, recursive, nature of this process. We propose that folding routes should instead be thought of as trees, which also provides a unified account of growth and assembly. Trees are used to represent the grammatical structure of language, and we show that, like natural language sentences, proteins have specific “constituent structures”, a concept that generalizes the idea of autonomous folding units. We demonstrate that the CKY parsing algorithm [2, 5] is an efficient method to find all direct routes to the native state. CKY implements a greedy search of locally optimal conformations. The physical plausibility of this strategy is validated by the fact that it predicts the results of [4] that folding speed depends on native contact order. Since CKY returns all native routes, we can quantify the kinetic accessibility of the native state. We focus on the HP model [3], but believe that our findings can in principle be carried over to more detailed structural representations.Folding routes are trees In a folding route tree, each node corresponds to a substring of the sequence and represents a step in the folding process in which the structure of its substring was found from the structures of its children. Different branches represent independent (simultaneous) folding events. The chain “moves” from the leaves upwards:",
+                "abstract": "We demonstrate ways to enhance the coverage of a symbolic NLP system through data-intensive and machine learning techniques, while preserving the advantages of using a principled symbolic grammar formalism. We automatically acquire a large syntactic CCG lexicon from the Penn Treebank and combine it with semantic and morphological information from another hand-built lexicon using decision tree and maximum entropy classifiers. We also integrate statistical preprocessing methods in our system.",
                 "DOI": "",
                 "author": [
                     {
@@ -3329,28 +3368,23 @@
                         "given": "Julia"
                     },
                     {
-                        "family": "Joshi",
-                        "given": "Aravind"
+                        "family": "Bierner",
+                        "given": "Gann"
                     },
                     {
-                        "family": "Dill",
-                        "given": "Ken"
+                        "family": "Baldridger",
+                        "given": "Jason"
                     }
                 ],
-                "link": "https://hockenmaier.cs.illinois.edu/Papers/ISMB2005/HockenmaierJoshiDill_ISMB05_final.pdf",
+                "link": "https://link.springer.com/article/10.1023/B:ROLC.0000016736.80096.76",
                 "issued": {
                     "date-parts": [
                         [
-                            2005
+                            2004
                         ]
                     ]
                 }
-            }
-        ]
-    },
-    {
-        "year": 2004,
-        "pub_list": [
+            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -3392,160 +3426,12 @@
                         ]
                     ]
                 }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Extending the coverage of a CCG system",
-                "container-title": "Research on Language and Computation",
-                "page": "165-208",
-                "volume": "2",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "We demonstrate ways to enhance the coverage of a symbolic NLP system through data-intensive and machine learning techniques, while preserving the advantages of using a principled symbolic grammar formalism. We automatically acquire a large syntactic CCG lexicon from the Penn Treebank and combine it with semantic and morphological information from another hand-built lexicon using decision tree and maximum entropy classifiers. We also integrate statistical preprocessing methods in our system.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Bierner",
-                        "given": "Gann"
-                    },
-                    {
-                        "family": "Baldridger",
-                        "given": "Jason"
-                    }
-                ],
-                "link": "https://link.springer.com/article/10.1023/B:ROLC.0000016736.80096.76",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2004
-                        ]
-                    ]
-                }
             }
         ]
     },
     {
         "year": 2003,
         "pub_list": [
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Data and models for statistical parsing with Combinatory Categorial Grammar",
-                "container-title": "",
-                "page": "",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "This dissertation is concerned with the creation of training data and the development of probability models for statistical parsing of English with Combinatory Categorial Grammar (CCG). Parsing, or syntactic analysis, is a prerequisite for semantic interpretation, and forms therefore an integral part of any system which requires natural language understanding. Since almost all naturally occurring sentences are ambiguous, it is not sufficient (and often impossible) to generate all possible syntactic analyses. Instead, the parser needs to rank competing analyses and select only the most likely ones. A statistical parser uses a probability model to perform this task. I propose a number of ways in which such probability models can be defined for CCG. The kinds of models developed in this dissertation, generative models over normal-form derivation trees, are particularly simple, and have the further property of restricting the set of syntactic analyses to those corresponding to a canonical derivation structure. This is important to guarantee that parsing can be done efficiently. In order to achieve high parsing accuracy, a large corpus of annotated data is required to estimate the parameters of the probability models. Most existing wide-coverage statistical parsers use models of phrase-structure trees estimated from the Penn Treebank, a 1-million-word corpus of manually annotated sentences from theWall Street Journal. This dissertation presents an algorithm which translates the phrase-structure analyses of the Penn Treebank to CCG derivations. The resulting corpus, CCGbank, is used to train and test the models proposed in this dissertation. Experimental …",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://era.ed.ac.uk/handle/1842/320",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2003
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Bootstrapping statistical parsers from small datasets",
-                "container-title": "",
-                "page": "331-338",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "We present a practical co-training method for bootstrapping statistical parsers using a small amount of manually parsed training material and a much larger pool of raw sentences. Experimental results show that unlabelled sentences can be used to improve the performance of statistical parsers. In addition, we consider the problem of bootstrapping parsers when the manually parsed training material is in a different domain to either the raw sentences or the testing material. We show that bootstrapping continues to be useful, even though no manually produced parses from the target domain are used.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Steedman",
-                        "given": "Mark"
-                    },
-                    {
-                        "family": "Osborne",
-                        "given": "Miles"
-                    },
-                    {
-                        "family": "Sarkar",
-                        "given": "Anoop"
-                    },
-                    {
-                        "family": "Clark",
-                        "given": "Stephen"
-                    },
-                    {
-                        "family": "Hwa",
-                        "given": "Rebecca"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Ruhlen",
-                        "given": "Paul"
-                    },
-                    {
-                        "family": "Baker",
-                        "given": "Steven"
-                    },
-                    {
-                        "family": "Crim",
-                        "given": "Jeremiah"
-                    }
-                ],
-                "link": "https://www.research.ed.ac.uk/en/publications/bootstrapping-statistical-parsers-from-small-datasets",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2003
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Identifying semantic roles using combinatory categorial grammar",
-                "container-title": "",
-                "page": "57-64",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "We present a system for automatically identifying PropBank-style semantic roles based on the output of a statistical parser for Combinatory Categorial Grammar. This system performs at least as well as a system based on a traditional Treebank parser, and outperforms it on core argument roles.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Gildea",
-                        "given": "Daniel"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://aclanthology.org/W03-1008.pdf",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2003
-                        ]
-                    ]
-                }
-            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -3564,64 +3450,6 @@
                     }
                 ],
                 "link": "https://aclanthology.org/P03-1046.pdf",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2003
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Example selection for bootstrapping statistical parsers",
-                "container-title": "",
-                "page": "236-243",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "This paper investigates bootstrapping for statistical parsers to reduce their reliance on manually annotated training data. We consider both a mostly-unsupervised approach, co-training, in which two parsers are iteratively re-trained on each other’s output; and a semi-supervised approach, corrected co-training, in which a human corrects each parser’s output before adding it to the training data. The selection of labeled training examples is an integral part of both frameworks. We propose several selection methods based on the criteria of minimizing errors in the data and maximizing training utility. We show that incorporating the utility criterion into the selection method results in better parsers for both frameworks.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Steedman",
-                        "given": "Mark"
-                    },
-                    {
-                        "family": "Hwa",
-                        "given": "Rebecca"
-                    },
-                    {
-                        "family": "Clark",
-                        "given": "Stephen"
-                    },
-                    {
-                        "family": "Osborne",
-                        "given": "Miles"
-                    },
-                    {
-                        "family": "Sarkar",
-                        "given": "Anoop"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Ruhlen",
-                        "given": "Paul"
-                    },
-                    {
-                        "family": "Baker",
-                        "given": "Steven"
-                    },
-                    {
-                        "family": "Crim",
-                        "given": "Jeremiah"
-                    }
-                ],
-                "link": "https://aclanthology.org/N03-1031.pdf",
                 "issued": {
                     "date-parts": [
                         [
@@ -3745,42 +3573,184 @@
                         ]
                     ]
                 }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Example selection for bootstrapping statistical parsers",
+                "container-title": "",
+                "page": "236-243",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "This paper investigates bootstrapping for statistical parsers to reduce their reliance on manually annotated training data. We consider both a mostly-unsupervised approach, co-training, in which two parsers are iteratively re-trained on each other’s output; and a semi-supervised approach, corrected co-training, in which a human corrects each parser’s output before adding it to the training data. The selection of labeled training examples is an integral part of both frameworks. We propose several selection methods based on the criteria of minimizing errors in the data and maximizing training utility. We show that incorporating the utility criterion into the selection method results in better parsers for both frameworks.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Steedman",
+                        "given": "Mark"
+                    },
+                    {
+                        "family": "Hwa",
+                        "given": "Rebecca"
+                    },
+                    {
+                        "family": "Clark",
+                        "given": "Stephen"
+                    },
+                    {
+                        "family": "Osborne",
+                        "given": "Miles"
+                    },
+                    {
+                        "family": "Sarkar",
+                        "given": "Anoop"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Ruhlen",
+                        "given": "Paul"
+                    },
+                    {
+                        "family": "Baker",
+                        "given": "Steven"
+                    },
+                    {
+                        "family": "Crim",
+                        "given": "Jeremiah"
+                    }
+                ],
+                "link": "https://aclanthology.org/N03-1031.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2003
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Bootstrapping statistical parsers from small datasets",
+                "container-title": "",
+                "page": "331-338",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "We present a practical co-training method for bootstrapping statistical parsers using a small amount of manually parsed training material and a much larger pool of raw sentences. Experimental results show that unlabelled sentences can be used to improve the performance of statistical parsers. In addition, we consider the problem of bootstrapping parsers when the manually parsed training material is in a different domain to either the raw sentences or the testing material. We show that bootstrapping continues to be useful, even though no manually produced parses from the target domain are used.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Steedman",
+                        "given": "Mark"
+                    },
+                    {
+                        "family": "Osborne",
+                        "given": "Miles"
+                    },
+                    {
+                        "family": "Sarkar",
+                        "given": "Anoop"
+                    },
+                    {
+                        "family": "Clark",
+                        "given": "Stephen"
+                    },
+                    {
+                        "family": "Hwa",
+                        "given": "Rebecca"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Ruhlen",
+                        "given": "Paul"
+                    },
+                    {
+                        "family": "Baker",
+                        "given": "Steven"
+                    },
+                    {
+                        "family": "Crim",
+                        "given": "Jeremiah"
+                    }
+                ],
+                "link": "https://www.research.ed.ac.uk/en/publications/bootstrapping-statistical-parsers-from-small-datasets",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2003
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Identifying semantic roles using combinatory categorial grammar",
+                "container-title": "",
+                "page": "57-64",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "We present a system for automatically identifying PropBank-style semantic roles based on the output of a statistical parser for Combinatory Categorial Grammar. This system performs at least as well as a system based on a traditional Treebank parser, and outperforms it on core argument roles.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Gildea",
+                        "given": "Daniel"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://aclanthology.org/W03-1008.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2003
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Data and models for statistical parsing with Combinatory Categorial Grammar",
+                "container-title": "",
+                "page": "",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "This dissertation is concerned with the creation of training data and the development of probability models for statistical parsing of English with Combinatory Categorial Grammar (CCG). Parsing, or syntactic analysis, is a prerequisite for semantic interpretation, and forms therefore an integral part of any system which requires natural language understanding. Since almost all naturally occurring sentences are ambiguous, it is not sufficient (and often impossible) to generate all possible syntactic analyses. Instead, the parser needs to rank competing analyses and select only the most likely ones. A statistical parser uses a probability model to perform this task. I propose a number of ways in which such probability models can be defined for CCG. The kinds of models developed in this dissertation, generative models over normal-form derivation trees, are particularly simple, and have the further property of restricting the set of syntactic analyses to those corresponding to a canonical derivation structure. This is important to guarantee that parsing can be done efficiently. In order to achieve high parsing accuracy, a large corpus of annotated data is required to estimate the parameters of the probability models. Most existing wide-coverage statistical parsers use models of phrase-structure trees estimated from the Penn Treebank, a 1-million-word corpus of manually annotated sentences from theWall Street Journal. This dissertation presents an algorithm which translates the phrase-structure analyses of the Penn Treebank to CCG derivations. The resulting corpus, CCGbank, is used to train and test the models proposed in this dissertation. Experimental …",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://era.ed.ac.uk/handle/1842/320",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2003
+                        ]
+                    ]
+                }
             }
         ]
     },
     {
         "year": 2002,
         "pub_list": [
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Generative models for statistical parsing with Combinatory Categorial Grammar",
-                "container-title": "",
-                "page": "335-342",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "This paper compares a number of generative probability models for a widecoverage Combinatory Categorial Grammar (CCG) parser. These models are trained and tested on a corpus obtained by translating the Penn Treebank trees into CCG normal-form derivations. According to an evaluation of unlabeled word-word dependencies, our best model achieves a performance of 89.9%, comparable to the figures given by Collins (1999) for a linguistically less expressive grammar. In contrast to Gildea (2001), we find a significant improvement from modeling wordword dependencies.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Steedman",
-                        "given": "Mark"
-                    }
-                ],
-                "link": "https://aclanthology.org/P02-1043.pdf",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2002
-                        ]
-                    ]
-                }
-            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -3807,6 +3777,36 @@
                     }
                 ],
                 "link": "https://aclanthology.org/P02-1042.pdf",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2002
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Generative models for statistical parsing with Combinatory Categorial Grammar",
+                "container-title": "",
+                "page": "335-342",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "This paper compares a number of generative probability models for a widecoverage Combinatory Categorial Grammar (CCG) parser. These models are trained and tested on a corpus obtained by translating the Penn Treebank trees into CCG normal-form derivations. According to an evaluation of unlabeled word-word dependencies, our best model achieves a performance of 89.9%, comparable to the figures given by Collins (1999) for a linguistically less expressive grammar. In contrast to Gildea (2001), we find a significant improvement from modeling wordword dependencies.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Steedman",
+                        "given": "Mark"
+                    }
+                ],
+                "link": "https://aclanthology.org/P02-1043.pdf",
                 "issued": {
                     "date-parts": [
                         [
@@ -3848,36 +3848,6 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Evaluating a wide-coverage CCG parser",
-                "container-title": "Proceedings of the LREC 2002 beyond PARSEVAL workshop",
-                "page": "60-66",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "This paper compares three evaluation metrics for a CCG parser trained and tested on a CCG version of the Penn Treebank. The standard Parseval metrics can be applied to the output of this parser; however, these metrics are problematic for CCG, and a comparison with scores given for standard Penn Treebank parsers is uninformative. As an alternative, we consider two evaluations based on headdependencies; one considers local dependencies defined in terms of the derivation tree, and one considers dependencies defined in terms of the CCG categories. The latter set of dependencies includes long-range dependencies such as those inherent in coordination and extraction phenomena.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Clark",
-                        "given": "Stephen"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "http://lrec-conf.org/proceedings/lrec2002/pdf/ws20.pdf#page=64",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2002
-                        ]
-                    ]
-                }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
                 "title": "Parsing with CCG",
                 "container-title": "",
                 "page": "",
@@ -3901,6 +3871,36 @@
                     }
                 ],
                 "link": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=08496c264f02eb1545ae9aafa14061ea5893d0bc",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2002
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Evaluating a wide-coverage CCG parser",
+                "container-title": "Proceedings of the LREC 2002 beyond PARSEVAL workshop",
+                "page": "60-66",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "This paper compares three evaluation metrics for a CCG parser trained and tested on a CCG version of the Penn Treebank. The standard Parseval metrics can be applied to the output of this parser; however, these metrics are problematic for CCG, and a comparison with scores given for standard Penn Treebank parsers is uninformative. As an alternative, we consider two evaluations based on headdependencies; one considers local dependencies defined in terms of the derivation tree, and one considers dependencies defined in terms of the CCG categories. The latter set of dependencies includes long-range dependencies such as those inherent in coordination and extraction phenomena.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Clark",
+                        "given": "Stephen"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "http://lrec-conf.org/proceedings/lrec2002/pdf/ws20.pdf#page=64",
                 "issued": {
                     "date-parts": [
                         [
