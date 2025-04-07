@@ -14,6 +14,8 @@ def fetch_publications(user_id):
         filled_pub = scholarly.fill(pub)
         bib = filled_pub.get("bib", {})
         year = int(bib.get("pub_year", 0))
+        if year == 0:
+            continue
         authors = bib.get("author", "").split(" and ")
         title = bib.get("title", "")
 

@@ -4015,44 +4015,5 @@
                 }
             }
         ]
-    },
-    {
-        "year": 0,
-        "pub_list": [
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Natural Language Processing and Collaborative AI in Minecraft",
-                "container-title": "",
-                "page": "",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "The goal of our project is to create a Builder AI and an Architect AI that can communicate between each other to create block structures in Minecraft. The architect communicates instructions to the Builder of how to create a final build structure. The Architect can observe the Builder but cannot place blocks. The Builder uses the Architect’s instructions to place blocks to build the structure. The Builder can also communicate and ask questions to the Architect in return.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Kaplan",
-                        "given": "Elizabeth"
-                    },
-                    {
-                        "family": "Jayannavar",
-                        "given": "Prashant"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    }
-                ],
-                "link": "https://scholar.google.com/scholar?cluster=8075260691281104969&hl=en&oi=scholarr",
-                "issued": {
-                    "date-parts": [
-                        [
-                            0
-                        ]
-                    ]
-                }
-            }
-        ]
     }
 ]
