@@ -4,7 +4,7 @@ category: student
 title: Rajarshi Haldar
 image: rajarshi_haldar.jpg
 role: Ph.D. Candidate
-interest: ""
+interest: "Natural Language Generation and Evaluation"
 netid: rhaldar2
 social:
     # twitter: https://x.com/
