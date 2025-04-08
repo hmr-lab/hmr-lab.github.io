@@ -2,8 +2,8 @@
 layout: member
 category: student
 title: Katya Yegorova
-image: katya_yegorova.jpeg
-role: Ph.D. Candidate
+image: katya_yegorova.png
+role: Ph.D. Candidate (Co-advised by Mark Hasegawa-Johnson)
 interest: "Natural Language and Speech Processing in low-resource scenarios; Mechanistic Interpretability."
 netid: yay2
 social:
