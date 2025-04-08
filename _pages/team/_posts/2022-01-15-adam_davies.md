@@ -5,7 +5,7 @@ title: Adam Davies
 image: adam_davies.jpg
 role: Ph.D. Candidate (Co-advised by Chengxiang Zhai)
 interest: "Mechanistic Interpretability"
-netid: ihcho2
+netid: adavies4
 social:
     twitter: https://twitter.com/adamdaviesnlp
     linkedin: https://www.linkedin.com/in/adamhdavies
