@@ -5,7 +5,7 @@ title: Ikhyun Cho
 image: ikhyun_cho.jpg
 role: Ph.D. Student
 interest: "Enhancing interpretability of large language models"
-netid: samuel27
+netid: ihcho2
 social:
     # twitter: https://x.com/
     linkedin: https://www.linkedin.com/in/익현-조-1705571b8/
