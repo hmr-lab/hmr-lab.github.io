@@ -3,7 +3,7 @@ layout: member
 category: student
 title: Ikhyun Cho
 image: ikhyun_cho.jpg
-role: Ph.D. Student
+role: Ph.D. Candidate
 interest: "Enhancing interpretability of large language models"
 netid: ihcho2
 social:
