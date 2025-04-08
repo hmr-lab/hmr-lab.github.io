@@ -4,7 +4,7 @@ category: student
 title: Ikhyun Cho
 image: ikhyun_cho.jpg
 role: Ph.D. Student
-interest: "Mechanistic Interpretability"
+interest: "Enhancing interpretability of large language models"
 netid: samuel27
 social:
     # twitter: https://x.com/
