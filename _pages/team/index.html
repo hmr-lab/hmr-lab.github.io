@@ -104,3 +104,64 @@ permalink: /team/
 </div>
 
 {% endfor %}
+<h2><a id="staff"></a>Alumni</h2>
+<h3><a id="staff"></a>Ph.D.</h3>
+{% assign members = site.posts | where: 'category', 'alumni-phd' | sort: 'date' %}
+{% for member in members %}
+<div class="card team-member-card">
+    <div class="row align-items-center mt-3">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-10">
+            <div class="card-body">
+            <h4 class="card-title">{{ member.title }}</h4>
+            <p class="card-text">{{ member.role }}</p>
+            <!-- Personal Website -->
+            {% if member.social.website %}
+                <a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a>
+            {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+<h3><a id="staff"></a>M.S.</h3>
+{% assign members = site.posts | where: 'category', 'alumni-ms' | sort: 'date' %}
+{% for member in members %}
+<div class="card team-member-card">
+    <div class="row align-items-center mt-3">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-10">
+            <div class="card-body">
+            <h4 class="card-title">{{ member.title }}</h4>
+            <p class="card-text">{{ member.role }}</p>
+            <!-- Personal Website -->
+            {% if member.social.website %}
+                <a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a>
+            {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+<h3><a id="staff"></a>B.S.</h3>
+{% assign members = site.posts | where: 'category', 'alumni-bs' | sort: 'date' %}
+{% for member in members %}
+<div class="card team-member-card">
+    <div class="row align-items-center mt-3">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-10">
+            <div class="card-body">
+            <h4 class="card-title">{{ member.title }}</h4>
+            <p class="card-text">{{ member.role }}</p>
+            <!-- Personal Website -->
+            {% if member.social.website %}
+                <a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a>
+            {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
