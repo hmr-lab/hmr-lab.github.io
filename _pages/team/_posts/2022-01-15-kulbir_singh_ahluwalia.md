@@ -3,8 +3,8 @@ layout: member
 category: student
 title: Kulbir Singh Ahluwalia
 image: kulbir_singh_ahluwalia.jpg
-role: Ph.D. Candidate
-interest: ""
+role: Ph.D. Candidate (Co-advised by Girish Chowdhary)
+interest: "Natural language grounding, Field robotics, Robot learning"
 netid: ksa5
 social:
     twitter: https://x.com/Kulbir_Singh_

@@ -10,6 +10,6 @@ social:
     # twitter: https://x.com/
     linkedin: https://www.linkedin.com/in/risham-sidhu-b2a090150/
     # google-scholar: https://scholar.google.com/
-    # github: https://github.com/
+    github: https://github.com/rishamsidhu
     # website: 
 ---
