@@ -5,6 +5,180 @@
             {
                 "id": "",
                 "type": "article-journal",
+                "title": "ReasoningFlow: Semantic Structure of Complex Reasoning Traces",
+                "container-title": "arXiv preprint arXiv:2506.02532",
+                "page": "",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Large reasoning models (LRMs) generate complex reasoning traces with planning, reflection, verification, and backtracking. In this work, we introduce ReasoningFlow, a unified schema for analyzing the semantic structures of these complex traces. ReasoningFlow parses traces into directed acyclic graphs, enabling the characterization of distinct reasoning patterns as subgraph structures. This human-interpretable representation offers promising applications in understanding, evaluating, and enhancing the reasoning processes of LRMs.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Lee",
+                        "given": "Jinu"
+                    },
+                    {
+                        "family": "Mukherjee",
+                        "given": "Sagnik"
+                    },
+                    {
+                        "family": "Hakkani-Tur",
+                        "given": "Dilek"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://arxiv.org/abs/2506.02532",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2025
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Dagstuhl Reports, Vol. 14, Issue 12 ISSN 2192-5283",
+                "container-title": "",
+                "page": "",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "The Dagstuhl Seminar 24491 “Deep Learning for RNA Regulation and Multidimensional Transcriptomics” convened experts from computer science, computational biology, and experimental research to explore the intersection of artificial intelligence and RNA biology. The seminar facilitated discussions on the latest computational methods and experimental approaches that are reshaping our understanding of RNA-mediated gene regulation. With the rapid growth of transcriptomics data, deep learning methods are becoming essential tools for extracting insights from complex datasets, ranging from primary sequence information to intricate cellular dynamics. A key theme of the seminar was the exploration of non-coding RNAs, including long noncoding RNAs (lncRNAs) and microRNAs, which play pivotal roles in regulating gene expression. High-throughput methods to profile these RNAs, combined with deep …",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Marsico",
+                        "given": "Annalisa"
+                    },
+                    {
+                        "family": "Ohler",
+                        "given": "Uwe"
+                    },
+                    {
+                        "family": "Ulitsky",
+                        "given": "Igor"
+                    },
+                    {
+                        "family": "Zarnack",
+                        "given": "Kathi"
+                    },
+                    {
+                        "family": "Capitanchik",
+                        "given": "Charlotte"
+                    },
+                    {
+                        "family": "Bernardi",
+                        "given": "Raffaella"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Kruschwitz",
+                        "given": "Udo"
+                    },
+                    {
+                        "family": "Jayannavar",
+                        "given": "Prashant"
+                    },
+                    {
+                        "family": "Poesio",
+                        "given": "Massimo"
+                    },
+                    {
+                        "family": "RB",
+                        "given": "Olgica Milenkovic"
+                    },
+                    {
+                        "family": "Yakhini",
+                        "given": "Zohar"
+                    },
+                    {
+                        "family": "Yehezkeally",
+                        "given": "Yonatan"
+                    },
+                    {
+                        "family": "Banerjee",
+                        "given": "Anisha"
+                    },
+                    {
+                        "family": "Walter",
+                        "given": "Frederik"
+                    },
+                    {
+                        "family": "Ali",
+                        "given": "Shaukat"
+                    },
+                    {
+                        "family": "Barzen",
+                        "given": "Johanna"
+                    },
+                    {
+                        "family": "Delgado",
+                        "given": "Andrea"
+                    },
+                    {
+                        "family": "Müller",
+                        "given": "Hausi A"
+                    },
+                    {
+                        "family": "Murillo",
+                        "given": "Juan Manuel"
+                    }
+                ],
+                "link": "https://scholar.google.com/scholar?cluster=12954255520442059873&hl=en&oi=scholarr",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2025
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "The Power of Bullet Lists: A Simple Yet Effective Prompting Approach to Enhancing Spatial Reasoning in Large Language Models",
+                "container-title": "",
+                "page": "3047-3057",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "While large language models (LLMs) are dominating the field of natural language processing, it remains an open question how well these models can perform spatial reasoning. Contrary to recent studies suggesting that LLMs struggle with spatial reasoning tasks, we demonstrate in this paper that a novel prompting technique, termed Patient Visualization of Thought (Patient-VoT), can boost LLMs’ spatial reasoning abilities. The core idea behind Patient-VoT is to explicitly integrate* bullet lists, coordinates, and visualizations* into the reasoning process. By applying Patient-VoT, we achieve a significant boost in spatial reasoning performance compared to prior prompting techniques. We also show that integrating bullet lists into reasoning is effective in planning tasks, highlighting its general effectiveness across different applications.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Cho",
+                        "given": "Ikhyun"
+                    },
+                    {
+                        "family": "Park",
+                        "given": "Changyeon"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://aclanthology.org/2025.findings-naacl.166/",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2025
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
                 "title": "Evaluating and Designing Sparse Autoencoders by Approximating Quasi-Orthogonality",
                 "container-title": "arXiv preprint arXiv:2503.24277",
                 "page": "",
@@ -43,7 +217,7 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Scaling Evaluation-time Compute with Reasoning Models as Process Evaluators",
+                "title": "Scaling evaluation-time compute with reasoning models as process evaluators",
                 "container-title": "arXiv preprint arXiv:2503.19877",
                 "page": "",
                 "volume": "",
@@ -109,13 +283,13 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "RAG-RL: Advancing Retrieval-Augmented Generation via RL and Curriculum Learning",
+                "title": "Rag-rl: Advancing retrieval-augmented generation via rl and curriculum learning",
                 "container-title": "arXiv preprint arXiv:2503.12759",
                 "page": "",
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "Recent research highlights the challenges retrieval models face in retrieving useful contexts and the limitations of generation models in effectively utilizing those contexts in retrieval-augmented generation (RAG) settings. To address these challenges, we introduce RAG-RL, the first reasoning language model (RLM) specifically trained for RAG. RAG-RL demonstrates that stronger answer generation models can identify relevant contexts within larger sets of retrieved information -- thereby alleviating the burden on retrievers -- while also being able to utilize those contexts more effectively. Moreover, we show that curriculum design in the reinforcement learning (RL) post-training process is a powerful approach to enhancing model performance. We benchmark our method on two open-domain question-answering datasets and achieve state-of-the-art results, surpassing previous SOTA generative reader models. In addition, we offers empirical insights into various curriculum learning strategies, providing a deeper understanding of their impact on model performance.",
+                "abstract": "Retrieval-augmented generation (RAG) systems rely on retrieval models for identifying relevant contexts and answer generation models for utilizing those contexts. However, retrievers exhibit imperfect recall and precision, limiting downstream performance. We introduce RAG-RL, an answer generation model trained not only to produce answers but also to identify and cite relevant information from larger sets of retrieved contexts, shifting some of the burden of identifying relevant documents from the retriever to the answer generator. Our approach uses curriculum learning, where the model is first trained on easier examples that include only relevant contexts. Our experiments show that these training samples enable models to acquire citation and reasoning skills with greater sample efficiency and generalizability, demonstrating strong model performance even as the number of irrelevant passages increases. We benchmark our methods on three open-domain multi-hop question answering datasets and report significant gains in answer and citation accuracy. Our experiments provide empirical insights into how easier training samples can give models stronger signals for learning specific skills (e.g., citation generation) and how different components of post-training (e.g., training set construction, rule-based rewards, training sample ordering, etc.) impact final model performance.",
                 "DOI": "",
                 "author": [
                     {
@@ -133,6 +307,10 @@
                     {
                         "family": "Niu",
                         "given": "Cheng"
+                    },
+                    {
+                        "family": "Peng",
+                        "given": "Hao"
                     },
                     {
                         "family": "Hockenmaier",
@@ -155,7 +333,7 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Entailment-Preserving First-order Logic Representations in Natural Language Entailment",
+                "title": "Entailment-preserving first-order logic representations in natural language entailment",
                 "container-title": "arXiv preprint arXiv:2502.16757",
                 "page": "",
                 "volume": "",
@@ -211,7 +389,7 @@
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "Step-by-step reasoning is widely used to enhance the reasoning ability of large language models (LLMs) in complex problems. Evaluating the quality of reasoning traces is crucial for understanding and improving LLM reasoning. However, the evaluation criteria remain highly unstandardized, leading to fragmented efforts in developing metrics and meta-evaluation benchmarks. To address this gap, this survey provides a comprehensive overview of step-by-step reasoning evaluation, proposing a taxonomy of evaluation criteria with four top-level categories (groundedness, validity, coherence, and utility). We then categorize metrics based on their implementations, survey which metrics are used for assessing each criterion, and explore whether evaluator models can transfer across different criteria. Finally, we identify key directions for future research.",
+                "abstract": "Step-by-step reasoning is widely used to enhance the reasoning ability of large language models (LLMs) in complex problems. Evaluating the quality of reasoning traces is crucial for understanding and improving LLM reasoning. However, existing evaluation practices are highly inconsistent, resulting in fragmented progress across evaluator design and benchmark development. To address this gap, this survey provides a comprehensive overview of step-by-step reasoning evaluation, proposing a taxonomy of evaluation criteria with four top-level categories (factuality, validity, coherence, and utility). Based on the taxonomy, we review different evaluator implementations and recent findings, leading to promising directions for future research.",
                 "DOI": "",
                 "author": [
                     {
@@ -285,6 +463,48 @@
                         ]
                     ]
                 }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Human in the Loop Learning through Grounded Interaction in Games (Dagstuhl Perspectives Workshop 24492)",
+                "container-title": "Dagstuhl Reports",
+                "page": "28-45",
+                "volume": "14",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Over the past few years, methods for learning from interaction have become a crucial paradigm in Artificial Intelligence, and we are now witnessing a growing interest in learning from grounded interaction, in particular through dialogue games. In the Dagstuhl Perspectives Workshop 24492,\" Human-in-the-Loop Learning through Grounded Interaction in Games\", we discussed these new developments, and identified a few crucial directions for this research. These directions were considering agent behavior in complex interaction; ensuring that games properly tested all aspects of an agent’s cognitive and communicative ability; considering the types of grounding required at all levels of interaction; and developing new training methods that could fully leverage these richer types of context and communication.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Bernardi",
+                        "given": "Raffaella"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Kruschwitz",
+                        "given": "Udo"
+                    },
+                    {
+                        "family": "Jayannavar",
+                        "given": "Prashant"
+                    },
+                    {
+                        "family": "Poesio",
+                        "given": "Massimo"
+                    }
+                ],
+                "link": "https://drops.dagstuhl.de/entities/document/10.4230/DagRep.14.12.28",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2025
+                        ]
+                    ]
+                }
             }
         ]
     },
@@ -294,7 +514,7 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Tutor-ICL: Guiding Large Language Models for Improved In-Context Learning Performance",
+                "title": "Tutor-icl: Guiding large language models for improved in-context learning performance",
                 "container-title": "",
                 "page": "9496-9506",
                 "volume": "",
@@ -328,13 +548,13 @@
             {
                 "id": "",
                 "type": "article-journal",
-                "title": "Measuring the reliability of causal probing methods: Tradeoffs, limitations, and the plight of nullifying interventions",
+                "title": "How Reliable are Causal Probing Interventions?",
                 "container-title": "arXiv preprint arXiv:2408.15510",
                 "page": "",
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "Causal probing is an approach to interpreting foundation models, such as large language models, by training probes to recognize latent properties of interest from embeddings, intervening on probes to modify this representation, and analyzing the resulting changes in the model's behavior. While some recent works have cast doubt on the theoretical basis of several leading causal probing intervention methods, it has been unclear how to systematically and empirically evaluate their effectiveness in practice. To address this problem, we propose a general empirical analysis framework to evaluate the reliability of causal probing interventions, formally defining and quantifying two key causal probing desiderata: completeness (fully transforming the representation of the target property) and selectivity (minimally impacting other properties). Our formalism allows us to make the first direct comparisons between different families of causal probing methods (e.g., linear vs. nonlinear or counterfactual vs. nullifying interventions). We conduct extensive experiments across several leading methods, finding that (1) there is an inherent tradeoff between these criteria, and no method is able to consistently satisfy both at once; and (2) across the board, nullifying interventions are always far less complete than counterfactual interventions, indicating that nullifying methods may not be an effective approach to causal probing.",
+                "abstract": "Causal probing aims to analyze foundation models by examining how intervening on their representation of various latent properties impacts their outputs. Recent works have cast doubt on the theoretical basis of several leading causal probing methods, but it has been unclear how to systematically evaluate the effectiveness of these methods in practice. To address this, we define two key causal probing desiderata: completeness (how thoroughly the representation of the target property has been transformed) and selectivity (how little non-targeted properties have been impacted). We find that there is an inherent tradeoff between the two, which we define as reliability, their harmonic mean. We introduce an empirical analysis framework to measure and evaluate these quantities, allowing us to make the first direct comparisons between different families of leading causal probing methods (e.g., linear vs. nonlinear, or concept removal vs. counterfactual interventions). We find that: (1) no method is reliable across all layers; (2) more reliable methods have a greater impact on LLM behavior; (3) nonlinear interventions are more reliable in early and intermediate layers, and linear interventions are more reliable in later layers; and (4) concept removal methods are far less reliable than counterfactual interventions, suggesting that they may not be an effective approach to causal probing.",
                 "DOI": "",
                 "author": [
                     {
@@ -457,6 +677,44 @@
                     }
                 ],
                 "link": "https://arxiv.org/abs/2401.08998",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2024
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Measuring the reliability of causal probing methods: Tradeoffs, limitations, and the plight of nullifying interventions",
+                "container-title": "",
+                "page": "",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Causal probing aims to analyze large language models (or other foundation models) by examining how modifying their representation of various latent properties using interventions derived from probing classifiers impacts their outputs. Recent works have cast doubt on the theoretical basis of several leading causal probing intervention methods, but it has been unclear how to systematically evaluate the effectiveness of probing interventions in practice. To address this, we formally define and quantify two key causal probing desiderata: completeness (how thoroughly the representation of the target property has been transformed) and selectivity (how little other properties have been impacted). We introduce an empirical analysis framework to measure and evaluate completeness and selectivity, allowing us to make the first direct comparisons of the reliability of different families of causal probing methods (e.g., linear vs. nonlinear or counterfactual vs. nullifying interventions). Our experimental analysis shows that: (1) there is an inherent tradeoff between completeness and selectivity, (2) no leading probing method is able to consistently satisfy both criteria at once, and (3) across the board, nullifying interventions are far less complete than counterfactual interventions, which suggests that nullifying methods may not be an effective approach to causal probing.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Canby",
+                        "given": "Marc"
+                    },
+                    {
+                        "family": "Davies",
+                        "given": "Adam"
+                    },
+                    {
+                        "family": "Rastogi",
+                        "given": "Chirag"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    }
+                ],
+                "link": "https://openreview.net/forum?id=Ku1tUKnAnC",
                 "issued": {
                     "date-parts": [
                         [
@@ -678,7 +936,7 @@
                 "id": "",
                 "type": "article-journal",
                 "title": "Beast: Building an embodied action-prediction system with trajectory data",
-                "container-title": "",
+                "container-title": "Alexa Prize SimBot Challenge Proceedings",
                 "page": "",
                 "volume": "",
                 "issue": "",
@@ -1262,7 +1520,7 @@
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "Preface by the program committee co-chairs — University of Illinois Urbana-Champaign Skip \nto main navigation Skip to search Skip to main content University of Illinois Urbana-Champaign \nHome University of Illinois Urbana-Champaign Logo LOGIN & Help Home Profiles Research \nunits Research & Scholarship Datasets Honors Press/Media Activities Search by expertise, \nname or affiliation Preface by the program committee co-chairs David Chiang, Julia \nHockenmaier, Jun'ichi Tsujii Computer Science Coordinated Science Lab Linguistics National \nCenter for Supercomputing Applications (NCSA) Research output: Contribution to journal › \nEditorial › peer-review Overview Original language English (US) Pages (from-to) viii-ix Journal \nProceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, \nEMNLP 2018 State Published - 2018 Event 2018 Conference on Empirical Methods in …",
+                "abstract": "Preface by the program committee co-chairs - Illinois Experts Skip to main navigation Skip to \nsearch Skip to main content Illinois Experts Home Illinois Experts Logo LOGIN & Help Home \nProfiles Research units Research & Scholarship Datasets Honors Press/Media Activities \nSearch by expertise, name or affiliation Preface by the program committee co-chairs David \nChiang, Julia Hockenmaier, Jun'ichi Tsujii Coordinated Science Lab Linguistics National \nCenter for Supercomputing Applications (NCSA) Siebel School of Computing and Data Science \nResearch output: Contribution to journal › Editorial › peer-review Overview Original language \nEnglish (US) Pages (from-to) viii-ix Journal Proceedings of the 2018 Conference on Empirical \nMethods in Natural Language Processing, EMNLP 2018 State Published - 2018 Event 2018 \nConference on Empirical Methods in Natural Language Processing, EMNLP 2018 - Brussels, …",
                 "DOI": "",
                 "author": [
                     {
@@ -1698,6 +1956,48 @@
             {
                 "id": "",
                 "type": "article-journal",
+                "title": "Improving image-sentence embeddings using large weakly annotated photo collections",
+                "container-title": "",
+                "page": "529-545",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "This paper studies the problem of associating images with descriptive sentences by embedding them in a common latent space. We are interested in learning such embeddings from hundreds of thousands or millions of examples. Unfortunately, it is prohibitively expensive to fully annotate this many training images with ground-truth sentences. Instead, we ask whether we can learn better image-sentence embeddings by augmenting small fully annotated training sets with millions of images that have weak and noisy annotations (titles, tags, or descriptions). After investigating several state-of-the-art scalable embedding methods, we introduce a new algorithm called Stacked Auxiliary Embedding that can successfully transfer knowledge from millions of weakly annotated images to improve the accuracy of retrieval-based image description.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Gong",
+                        "given": "Yunchao"
+                    },
+                    {
+                        "family": "Wang",
+                        "given": "Liwei"
+                    },
+                    {
+                        "family": "Hodosh",
+                        "given": "Micah"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Lazebnik",
+                        "given": "Svetlana"
+                    }
+                ],
+                "link": "https://link.springer.com/chapter/10.1007/978-3-319-10593-2_35",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2014
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
                 "title": "Illinois-lh: A denotational and distributional approach to semantics",
                 "container-title": "",
                 "page": "329-334",
@@ -1762,48 +2062,6 @@
                         ]
                     ]
                 }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Improving image-sentence embeddings using large weakly annotated photo collections",
-                "container-title": "",
-                "page": "529-545",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "This paper studies the problem of associating images with descriptive sentences by embedding them in a common latent space. We are interested in learning such embeddings from hundreds of thousands or millions of examples. Unfortunately, it is prohibitively expensive to fully annotate this many training images with ground-truth sentences. Instead, we ask whether we can learn better image-sentence embeddings by augmenting small fully annotated training sets with millions of images that have weak and noisy annotations (titles, tags, or descriptions). After investigating several state-of-the-art scalable embedding methods, we introduce a new algorithm called Stacked Auxiliary Embedding that can successfully transfer knowledge from millions of weakly annotated images to improve the accuracy of retrieval-based image description.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Gong",
-                        "given": "Yunchao"
-                    },
-                    {
-                        "family": "Wang",
-                        "given": "Liwei"
-                    },
-                    {
-                        "family": "Hodosh",
-                        "given": "Micah"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Lazebnik",
-                        "given": "Svetlana"
-                    }
-                ],
-                "link": "https://link.springer.com/chapter/10.1007/978-3-319-10593-2_35",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2014
-                        ]
-                    ]
-                }
             }
         ]
     },
@@ -1819,7 +2077,7 @@
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "We propose and study novel text representation features created from parse tree structures. Unlike the traditional parse tree features which include all the attached syntactic categories to capture linguistic properties of text, the new features are solely or primarily defined based on the tree structure, and thus better reflect the pure structural properties of parse trees. We hypothesize that these new complex structural features capture an orthogonal perspective of text even compared to advanced syntactic ones. Evaluation based on three different text categorization tasks (i.e., nationality detection, essay scoring, and sentiment analysis) shows that the proposed new tree structure features complement the existing ones to enrich text representation. Experiment results further show that a combination of the proposed new structure features with word n-grams can improve F 1  score and classification accuracy.",
+                "abstract": "We propose and study novel text representation features created from parse tree structures. Unlike the traditional parse tree features which include all the attached syntactic categories to capture linguistic properties of text, the new features are solely or primarily defined based on the tree structure, and thus better reflect the pure structural properties of parse trees. We hypothesize that these new complex structural features capture an orthogonal perspective of text even compared to advanced syntactic ones. Evaluation based on three different text categorization tasks (i.e., nationality detection, essay scoring, and sentiment analysis) shows that the proposed new tree structure features complement the existing ones to enrich text representation. Experiment results further show that a combination of the proposed new structure features with word n-grams can improve F1 score and classification accuracy.",
                 "DOI": "",
                 "author": [
                     {
@@ -2082,6 +2340,32 @@
             {
                 "id": "",
                 "type": "article-journal",
+                "title": "CI-P: Collaborative Research: Visual entailment data set and challenge for the Language and Vision Community",
+                "container-title": "NSF Award Number 1205627. Directorate for Computer and Information Science and Engineering",
+                "page": "5627",
+                "volume": "12",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Vision and language provide fundamental means to interpret, learn, and communicate about the world around us. A primary goal of computer vision and natural language processing research is therefore to automatically uncover and analyze the information that images and video, or text and speech, convey about the world. Both communities are concerned with tasks that require increasingly deeper understanding, including the ability to reason with and draw inferences from this information. Since vision and language are complementary modalities, there is now also an increasing amount of work at the interface of both fields. However, progress in multimodal analysis requires a tighter collaboration between the two communities, since each currently relies on its own set of techniques, datasets and evaluation criteria.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia C"
+                    }
+                ],
+                "link": "https://ui.adsabs.harvard.edu/abs/2012nsf....1205627H/abstract",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2012
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
                 "title": "Beefmoves: dissemination, diversity, and dynamics of English borrowings in a German hip hop forum",
                 "container-title": "",
                 "page": "135-139",
@@ -2162,7 +2446,7 @@
                         "given": "Sharon"
                     }
                 ],
-                "link": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=520b3b44f51ceb123f0fbc63d2b821798c8052ff",
+                "link": "https://homepages.inf.ed.ac.uk/steedman/papers/ccg/nasslli12.pdf",
                 "issued": {
                     "date-parts": [
                         [
@@ -2239,6 +2523,32 @@
             {
                 "id": "",
                 "type": "article-journal",
+                "title": "CAREER: Bayesian Models for Lexicalized Grammars",
+                "container-title": "NSF Award Number 1053856. Directorate for Computer and Information Science and Engineering",
+                "page": "53856",
+                "volume": "10",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Natural language processing (NLP) is a key technology for the digital age. At the core of most NLP systems is a parser, a program which identifies the grammatical structure of sentences. Parsing is an essential prerequisite for language understanding. But despite significant progress in recent decades, accurate wide-coverage parsing for any genre or language remains an unsolved problem. The broader impact of this CAREER project will be to advance the state of art in NLP technology through the development of more accurate statistical parsing models.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia C"
+                    }
+                ],
+                "link": "https://ui.adsabs.harvard.edu/abs/2011nsf....1053856H/abstract",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2011
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
                 "title": "Lecture 6: Topic Models (Latent Dirichlet Allocation)",
                 "container-title": "Published online at cs. illinois. edu/class/sp10/cs598jhm/.../Lecture06HO. pdf. Last visited November",
                 "page": "",
@@ -2305,6 +2615,56 @@
     {
         "year": 2010,
         "pub_list": [
+            {
+                "id": "",
+                "type": "article-journal",
+                "title": "Every picture tells a story: Generating sentences from images",
+                "container-title": "",
+                "page": "15-29",
+                "volume": "",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "Humans can prepare concise descriptions of pictures, focusing on what they find important. We demonstrate that automatic methods can do so too. We describe a system that can compute a score linking an image to a sentence. This score can be used to attach a descriptive sentence to a given image, or to obtain images that illustrate a given sentence. The score is obtained by comparing an estimate of meaning obtained from the image to one obtained from the sentence. Each estimate of meaning comes from a discriminative procedure that is learned using data. We evaluate on a novel dataset consisting of human-annotated images. While our underlying estimate of meaning is impoverished, it is sufficient to produce very good quantitative results, evaluated with a novel score that can account for synecdoche.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Farhadi",
+                        "given": "Ali"
+                    },
+                    {
+                        "family": "Hejrati",
+                        "given": "Mohsen"
+                    },
+                    {
+                        "family": "Sadeghi",
+                        "given": "Mohammad Amin"
+                    },
+                    {
+                        "family": "Young",
+                        "given": "Peter"
+                    },
+                    {
+                        "family": "Rashtchian",
+                        "given": "Cyrus"
+                    },
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Forsyth",
+                        "given": "David"
+                    }
+                ],
+                "link": "https://link.springer.com/chapter/10.1007/978-3-642-15561-1_2",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2010
+                        ]
+                    ]
+                }
+            },
             {
                 "id": "",
                 "type": "article-journal",
@@ -2618,56 +2978,6 @@
                         ]
                     ]
                 }
-            },
-            {
-                "id": "",
-                "type": "article-journal",
-                "title": "Every picture tells a story: Generating sentences from images",
-                "container-title": "",
-                "page": "15-29",
-                "volume": "",
-                "issue": "",
-                "source": "Google Scholar",
-                "abstract": "Humans can prepare concise descriptions of pictures, focusing on what they find important. We demonstrate that automatic methods can do so too. We describe a system that can compute a score linking an image to a sentence. This score can be used to attach a descriptive sentence to a given image, or to obtain images that illustrate a given sentence. The score is obtained by comparing an estimate of meaning obtained from the image to one obtained from the sentence. Each estimate of meaning comes from a discriminative procedure that is learned using data. We evaluate on a novel dataset consisting of human-annotated images. While our underlying estimate of meaning is impoverished, it is sufficient to produce very good quantitative results, evaluated with a novel score that can account for synecdoche.",
-                "DOI": "",
-                "author": [
-                    {
-                        "family": "Farhadi",
-                        "given": "Ali"
-                    },
-                    {
-                        "family": "Hejrati",
-                        "given": "Mohsen"
-                    },
-                    {
-                        "family": "Sadeghi",
-                        "given": "Mohammad Amin"
-                    },
-                    {
-                        "family": "Young",
-                        "given": "Peter"
-                    },
-                    {
-                        "family": "Rashtchian",
-                        "given": "Cyrus"
-                    },
-                    {
-                        "family": "Hockenmaier",
-                        "given": "Julia"
-                    },
-                    {
-                        "family": "Forsyth",
-                        "given": "David"
-                    }
-                ],
-                "link": "https://link.springer.com/chapter/10.1007/978-3-642-15561-1_2",
-                "issued": {
-                    "date-parts": [
-                        [
-                            2010
-                        ]
-                    ]
-                }
             }
         ]
     },
@@ -2715,7 +3025,7 @@
                         "given": "Gang"
                     }
                 ],
-                "link": "https://books.google.com/books?hl=en&lr=&id=CN9n2ZvyzlMC&oi=fnd&pg=PA167&dq=info:d2EOjJIQMy8J:scholar.google.com&ots=3L_EJteCWD&sig=oBC4g5g12z_fGGL4MhHXQbVHHos",
+                "link": "https://books.google.com/books?hl=en&lr=&id=CN9n2ZvyzlMC&oi=fnd&pg=PA167&dq=info:d2EOjJIQMy8J:scholar.google.com&ots=3L-DMokGRH&sig=Ti_Hoon_Svg07X8EW8sRRTyJbFw",
                 "issued": {
                     "date-parts": [
                         [
@@ -2830,7 +3140,7 @@
                         "given": "Yi"
                     }
                 ],
-                "link": "https://aclanthology.org/W08-1300.pdf",
+                "link": "https://aclanthology.org/W08-1300/",
                 "issued": {
                     "date-parts": [
                         [
@@ -3695,11 +4005,11 @@
                 "type": "article-journal",
                 "title": "Identifying semantic roles using combinatory categorial grammar",
                 "container-title": "",
-                "page": "57-64",
+                "page": "",
                 "volume": "",
                 "issue": "",
                 "source": "Google Scholar",
-                "abstract": "We present a system for automatically identifying PropBank-style semantic roles based on the output of a statistical parser for Combinatory Categorial Grammar. This system performs at least as well as a system based on a traditional Treebank parser, and outperforms it on core argument roles.",
+                "abstract": "We present a system for automatically identifying PropBank-style semantic roles based on the output of a statistical parser for Combinatory Categorical Grammar. This system performs at least as well as a system based on a traditional Treebank parser, and outperforms it on core argument roles.",
                 "DOI": "",
                 "author": [
                     {
@@ -3711,7 +4021,7 @@
                         "given": "Julia"
                     }
                 ],
-                "link": "https://aclanthology.org/W03-1008.pdf",
+                "link": "https://apps.dtic.mil/sti/html/tr/ADA459462/",
                 "issued": {
                     "date-parts": [
                         [
@@ -3848,6 +4158,36 @@
             {
                 "id": "",
                 "type": "article-journal",
+                "title": "Generative Models for Statistical Parsing with Combinatory Categorial",
+                "container-title": "40th Annual Meeting of the Association for Computational Linguistics: 7-12 July 2002, University of Pennsylvania, Philadelphia, Pennsylvania, USA.",
+                "page": "335",
+                "volume": "1",
+                "issue": "",
+                "source": "Google Scholar",
+                "abstract": "This paper compares a number of generative probability models for a widecoverage Combinatory Categorial Grammar (CCG) parser. These models are trained and tested on a corpus obtained by translating the Penn Treebank trees into CCG normal-form derivations. According to an evaluation of unlabeled word-word dependencies, our best model achieves a performance of 89.9%, comparable to the figures given by Collins (1999) for a lin-guistically less expressive grammar. In contrast to Gildea (2001), we find a significant improvement from modeling wordword dependencies.",
+                "DOI": "",
+                "author": [
+                    {
+                        "family": "Hockenmaier",
+                        "given": "Julia"
+                    },
+                    {
+                        "family": "Steedman",
+                        "given": "Mark"
+                    }
+                ],
+                "link": "https://scholar.google.com/scholar?cluster=13927796087451342990&hl=en&oi=scholarr",
+                "issued": {
+                    "date-parts": [
+                        [
+                            2002
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "",
+                "type": "article-journal",
                 "title": "Parsing with CCG",
                 "container-title": "",
                 "page": "",
@@ -3870,7 +4210,7 @@
                         "given": "Julia"
                     }
                 ],
-                "link": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=08496c264f02eb1545ae9aafa14061ea5893d0bc",
+                "link": "https://homepages.inf.ed.ac.uk/steedman/papers/ccg/lecture2.pdf",
                 "issued": {
                     "date-parts": [
                         [
@@ -3970,7 +4310,7 @@
                         "given": "Jason"
                     }
                 ],
-                "link": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=0e06967ca942ef9531562e7c30a6010a90cfc7b0",
+                "link": "https://www.researchgate.net/profile/Jason-Baldridge/publication/2885719_Providing_Robustness_for_a_CCG_System/links/0fcfd5136d5d460d00000000/Providing-Robustness-for-a-CCG-System.pdf",
                 "issued": {
                     "date-parts": [
                         [
