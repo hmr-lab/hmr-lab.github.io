@@ -393,22 +393,6 @@
       - - 2022
 - year: 2021
   pub_list:
-  - title: Multi-perspective, multi-task neural network model for matching text to
-      program code
-    container-title: ACL 2020 Main
-    author:
-    - family: Xiong
-      given: Jinjun
-    - family: Haldar
-      given: Rajarshi
-    - family: Hockenmaier
-      given: Julia Constanze
-    - family: Wu
-      given: Lingfei
-    link: https://experts.illinois.edu/en/publications/multi-perspective-multi-task-neural-network-model-for-matching-te
-    issued:
-      date-parts:
-      - - 2020
   - title: 'HySPA: Hybrid span generation for scalable text-to-graph extraction'
     container-title: ACL 2021 Findings
     author:
@@ -443,6 +427,22 @@
     - family: Hockenmaier
       given: Julia
     link: https://aclanthology.org/2020.sigmorphon-1.15/
+    issued:
+      date-parts:
+      - - 2020
+  - title: Multi-perspective, multi-task neural network model for matching text to
+      program code
+    container-title: ACL 2020 Main
+    author:
+    - family: Xiong
+      given: Jinjun
+    - family: Haldar
+      given: Rajarshi
+    - family: Hockenmaier
+      given: Julia Constanze
+    - family: Wu
+      given: Lingfei
+    link: https://experts.illinois.edu/en/publications/multi-perspective-multi-task-neural-network-model-for-matching-te
     issued:
       date-parts:
       - - 2020
