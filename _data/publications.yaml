@@ -1,5 +1,64 @@
 - year: 2025
   pub_list:
+  - title: 'Evaluating step-by-step reasoning traces: A survey'
+    container-title: EMNLP 2025 Findings
+    author:
+    - family: Lee
+      given: Jinu
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2502.12289
+    issued:
+      date-parts:
+      - - 2025
+  - title: Analyzing Multilingualism in Large Language Models with Sparse Autoencoders
+    container-title: COLM 2025
+    author:
+    - family: Cho
+      given: Ikhyun
+    - family: Hockenmaier
+      given: Julia
+    link: https://openreview.net/forum?id=NmGSvZoU3K#discussion
+    issued:
+      date-parts:
+      - - 2025
+  - title: Evaluating and Designing Sparse Autoencoders by Approximating Quasi-Orthogonality
+    container-title: COLM 2025
+    author:
+    - family: Lee
+      given: Sewoong
+    - family: Davies
+      given: Adam
+    - family: Canby
+      given: Marc E
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2503.24277
+    issued:
+      date-parts:
+      - - 2025
+  - title: Entailment-preserving first-order logic representations in natural language
+      entailment
+    container-title: ACL 2025 Main Conference
+    author:
+    - family: Lee
+      given: Jinu
+    - family: Liu
+      given: Qi
+    - family: Ma
+      given: Runzhi
+    - family: Han
+      given: Vincent
+    - family: Wang
+      given: Ziqi
+    - family: Ji
+      given: Heng
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2502.16757
+    issued:
+      date-parts:
+      - - 2025
   - title: 'ReasoningFlow: Semantic Structure of Complex Reasoning Traces'
     container-title: ArgMining @ ACL 2025
     author:
@@ -26,21 +85,6 @@
     - family: Hockenmaier
       given: Julia
     link: https://aclanthology.org/2025.findings-naacl.166/
-    issued:
-      date-parts:
-      - - 2025
-  - title: Evaluating and Designing Sparse Autoencoders by Approximating Quasi-Orthogonality
-    container-title: COLM 2025
-    author:
-    - family: Lee
-      given: Sewoong
-    - family: Davies
-      given: Adam
-    - family: Canby
-      given: Marc E
-    - family: Hockenmaier
-      given: Julia
-    link: https://arxiv.org/abs/2503.24277
     issued:
       date-parts:
       - - 2025
@@ -92,39 +136,6 @@
     - family: Zhang
       given: Tong
     link: https://arxiv.org/abs/2503.12759
-    issued:
-      date-parts:
-      - - 2025
-  - title: Entailment-preserving first-order logic representations in natural language
-      entailment
-    container-title: ACL 2025 Main Conference
-    author:
-    - family: Lee
-      given: Jinu
-    - family: Liu
-      given: Qi
-    - family: Ma
-      given: Runzhi
-    - family: Han
-      given: Vincent
-    - family: Wang
-      given: Ziqi
-    - family: Ji
-      given: Heng
-    - family: Hockenmaier
-      given: Julia
-    link: https://arxiv.org/abs/2502.16757
-    issued:
-      date-parts:
-      - - 2025
-  - title: 'Evaluating step-by-step reasoning traces: A survey'
-    container-title: EMNLP 2025 Findings
-    author:
-    - family: Lee
-      given: Jinu
-    - family: Hockenmaier
-      given: Julia
-    link: https://arxiv.org/abs/2502.12289
     issued:
       date-parts:
       - - 2025
