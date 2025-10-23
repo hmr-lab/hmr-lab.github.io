@@ -1,0 +1,1565 @@
+- year: 2025
+  pub_list:
+  - title: 'ReasoningFlow: Semantic Structure of Complex Reasoning Traces'
+    container-title: ArgMining @ ACL 2025
+    author:
+    - family: Lee
+      given: Jinu
+    - family: Mukherjee
+      given: Sagnik
+    - family: Hakkani-Tur
+      given: Dilek
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2506.02532
+    issued:
+      date-parts:
+      - - 2025
+  - title: 'The Power of Bullet Lists: A Simple Yet Effective Prompting Approach to
+      Enhancing Spatial Reasoning in Large Language Models'
+    container-title: NAACL 2025 Findings
+    author:
+    - family: Cho
+      given: Ikhyun
+    - family: Park
+      given: Changyeon
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/2025.findings-naacl.166/
+    issued:
+      date-parts:
+      - - 2025
+  - title: Evaluating and Designing Sparse Autoencoders by Approximating Quasi-Orthogonality
+    container-title: COLM 2025
+    author:
+    - family: Lee
+      given: Sewoong
+    - family: Davies
+      given: Adam
+    - family: Canby
+      given: Marc E
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2503.24277
+    issued:
+      date-parts:
+      - - 2025
+  - title: Scaling evaluation-time compute with reasoning models as process evaluators
+    container-title: arXiv preprint arXiv:2503.19877
+    author:
+    - family: Kim
+      given: Seungone
+    - family: Wu
+      given: Ian
+    - family: Lee
+      given: Jinu
+    - family: Yue
+      given: Xiang
+    - family: Lee
+      given: Seongyun
+    - family: Moon
+      given: Mingyeong
+    - family: Gashteovski
+      given: Kiril
+    - family: Lawrence
+      given: Carolin
+    - family: Hockenmaier
+      given: Julia
+    - family: Neubig
+      given: Graham
+    - family: Welleck
+      given: Sean
+    link: https://arxiv.org/abs/2503.19877
+    issued:
+      date-parts:
+      - - 2025
+  - title: 'Rag-rl: Advancing retrieval-augmented generation via rl and curriculum
+      learning'
+    container-title: arXiv preprint arXiv:2503.12759
+    author:
+    - family: Huang
+      given: Jerry
+    - family: Madala
+      given: Siddarth
+    - family: Sidhu
+      given: Risham
+    - family: Niu
+      given: Cheng
+    - family: Peng
+      given: Hao
+    - family: Hockenmaier
+      given: Julia
+    - family: Zhang
+      given: Tong
+    link: https://arxiv.org/abs/2503.12759
+    issued:
+      date-parts:
+      - - 2025
+  - title: Entailment-preserving first-order logic representations in natural language
+      entailment
+    container-title: ACL 2025 Main Conference
+    author:
+    - family: Lee
+      given: Jinu
+    - family: Liu
+      given: Qi
+    - family: Ma
+      given: Runzhi
+    - family: Han
+      given: Vincent
+    - family: Wang
+      given: Ziqi
+    - family: Ji
+      given: Heng
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2502.16757
+    issued:
+      date-parts:
+      - - 2025
+  - title: 'Evaluating step-by-step reasoning traces: A survey'
+    container-title: EMNLP 2025 Findings
+    author:
+    - family: Lee
+      given: Jinu
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2502.12289
+    issued:
+      date-parts:
+      - - 2025
+  - title: 'BAP v2: An Enhanced Task Framework for Instruction Following in Minecraft
+      Dialogues'
+    container-title: arXiv preprint arXiv:2501.10836
+    author:
+    - family: Jayannavar
+      given: Prashant
+    - family: Ren
+      given: Liliang
+    - family: Hudspeth
+      given: Marisa
+    - family: Lambert
+      given: Charlotte
+    - family: Cordes
+      given: Ariel
+    - family: Kaplan
+      given: Elizabeth
+    - family: Narayan-Chen
+      given: Anjali
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2501.10836
+    issued:
+      date-parts:
+      - - 2025
+- year: 2024
+  pub_list:
+  - title: 'Tutor-icl: Guiding large language models for improved in-context learning
+      performance'
+    container-title: EMNLP 2024 Findings
+    author:
+    - family: Cho
+      given: Ikhyun
+    - family: Kwon
+      given: Gaeul
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/2024.findings-emnlp.554/
+    issued:
+      date-parts:
+      - - 2024
+  - title: How Reliable are Causal Probing Interventions?
+    container-title: Foundation Model Interventions @ NeurIPS 2024
+    author:
+    - family: Canby
+      given: Marc
+    - family: Davies
+      given: Adam
+    - family: Rastogi
+      given: Chirag
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2408.15510
+    issued:
+      date-parts:
+      - - 2024
+  - title: Analyzing the performance of large language models on code summarization
+    container-title: LREC 2024 Main Conference
+    author:
+    - family: Haldar
+      given: Rajarshi
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2404.08018
+    issued:
+      date-parts:
+      - - 2024
+  - title: 'ViT-MUL: A Baseline Study on Recent Machine Unlearning Methods Applied
+      to Vision Transformers'
+    container-title: arXiv preprint arXiv:2403.09681
+    author:
+    - family: Cho
+      given: Ikhyun
+    - family: Park
+      given: Changyeon
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2403.09681
+    issued:
+      date-parts:
+      - - 2024
+  - title: 'Attack and reset for unlearning: Exploiting adversarial noise toward machine
+      unlearning through parameter re-initialization'
+    container-title: arXiv preprint arXiv:2401.08998
+    author:
+    - family: Jung
+      given: Yoonhwa
+    - family: Cho
+      given: Ikhyun
+    - family: Hsu
+      given: Shun-Hsiang
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2401.08998
+    issued:
+      date-parts:
+      - - 2024
+  - title: Transformer language model for mapping construction schedule activities
+      to uniformat categories
+    container-title: Automation in Construction
+    author:
+    - family: Jung
+      given: Yoonhwa
+    - family: Hockenmaier
+      given: Julia
+    - family: Golparvar-Fard
+      given: Mani
+    link: https://www.sciencedirect.com/science/article/pii/S0926580523004430
+    issued:
+      date-parts:
+      - - 2024
+- year: 2023
+  pub_list:
+  - title: 'SIR-ABSC: Incorporating Syntax into RoBERTa-based Sentiment Analysis Models
+      with a Special Aggregator Token'
+    container-title: EMNLP 2023 Findings
+    author:
+    - family: Cho
+      given: Ikhyun
+    - family: Jung
+      given: Yoonhwa
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/2023.findings-emnlp.572/
+    issued:
+      date-parts:
+      - - 2023
+  - title: 'A Framework for Bidirectional Decoding: Case Study in Morphological Inflection'
+    container-title: EMNLP 2023 Findings
+    author:
+    - family: Canby
+      given: Marc E
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2305.12580
+    issued:
+      date-parts:
+      - - 2023
+  - title: Graph-based event schema induction for information retrieval
+    container-title: US Patent 11615152
+    author:
+    - family: Haldar
+      given: Rajarshi
+    - family: Deng
+      given: Yu
+    - family: Wu
+      given: Lingfei
+    - family: Mahindru
+      given: Ruchi
+    - family: Hockenmaier
+      given: Julia Constanze
+    - family: Kaya
+      given: Sinem Guven
+    link: https://patents.google.com/patent/US11615152/en
+    issued:
+      date-parts:
+      - - 2023
+  - title: Feasibility analysis on the use of nlp-based schedule analytics for 4d
+      project planning and controls
+    container-title: Computing in Civil Engineering 2023
+    author:
+    - family: Jung
+      given: Yoonhwa
+    - family: Hockenmaier
+      given: Julia
+    - family: Golparvar-Fard
+      given: Mani
+    link: https://ascelibrary.org/doi/abs/10.1061/9780784485224.006
+    issued:
+      date-parts:
+      - - 2023
+  - title: 'Beast: Building an embodied action-prediction system with trajectory data'
+    container-title: Alexa Prize SimBot Challenge Proceedings
+    author:
+    - family: Chakraborty
+      given: Neeloy
+    - family: Sidhu
+      given: Risham
+    - family: Abdullai
+      given: Blerim
+    - family: Chen
+      given: Haomiao
+    - family: Ravi
+      given: Nikil
+    - family: Ankur
+      given: Abhinav
+    - family: Prasad
+      given: Devika
+    - family: Hockenmaier
+      given: Julia
+    link: https://assets.amazon.science/3f/fa/439ec3a84ca7b0117088d5aad14d/revised-amazon-simbot-kingfisher-technical-report.pdf
+    issued:
+      date-parts:
+      - - 2023
+- year: 2022
+  pub_list:
+  - title: Multimedia generative script learning for task planning
+    container-title: ACL 2023 Findings
+    author:
+    - family: Wang
+      given: Qingyun
+    - family: Li
+      given: Manling
+    - family: Chan
+      given: Hou Pong
+    - family: Huang
+      given: Lifu
+    - family: Hockenmaier
+      given: Julia
+    - family: Chowdhary
+      given: Girish
+    - family: Ji
+      given: Heng
+    link: https://arxiv.org/abs/2208.12306
+    issued:
+      date-parts:
+      - - 2022
+  - title: 'Human-guided collaborative problem solving: A natural language based framework'
+    container-title: arXiv preprint arXiv:2207.09566
+    author:
+    - family: Kokel
+      given: Harsha
+    - family: Das
+      given: Mayukh
+    - family: Islam
+      given: Rakibul
+    - family: Bonn
+      given: Julia
+    - family: Cai
+      given: Jon
+    - family: Dan
+      given: Soham
+    - family: Narayan-Chen
+      given: Anjali
+    - family: Jayannavar
+      given: Prashant
+    - family: Doppa
+      given: Janardhan Rao
+    - family: Hockenmaier
+      given: Julia
+    - family: Natarajan
+      given: Sriraam
+    - family: Palmer
+      given: Martha
+    - family: Roth
+      given: Dan
+    link: https://arxiv.org/abs/2207.09566
+    issued:
+      date-parts:
+      - - 2022
+  - title: Learning and critiquing pairwise activity relationships for schedule quality
+      control via deep learning-based natural language processing
+    container-title: Automation in Construction
+    author:
+    - family: Amer
+      given: Fouad
+    - family: Hockenmaier
+      given: Julia
+    - family: Golparvar-Fard
+      given: Mani
+    link: https://www.sciencedirect.com/science/article/pii/S0926580521004878
+    issued:
+      date-parts:
+      - - 2022
+- year: 2021
+  pub_list:
+  - title: Multi-perspective, multi-task neural network model for matching text to
+      program code
+    container-title: ACL 2020 Main
+    author:
+    - family: Xiong
+      given: Jinjun
+    - family: Haldar
+      given: Rajarshi
+    - family: Hockenmaier
+      given: Julia Constanze
+    - family: Wu
+      given: Lingfei
+    link: https://experts.illinois.edu/en/publications/multi-perspective-multi-task-neural-network-model-for-matching-te
+    issued:
+      date-parts:
+      - - 2020
+  - title: 'HySPA: Hybrid span generation for scalable text-to-graph extraction'
+    container-title: ACL 2021 Findings
+    author:
+    - family: Ren
+      given: Liliang
+    - family: Sun
+      given: Chenkai
+    - family: Ji
+      given: Heng
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2106.15838
+    issued:
+      date-parts:
+      - - 2021
+- year: 2020
+  pub_list:
+  - title: 'University of Illinois submission to the SIGMORPHON 2020 shared task 0:
+      Typologically diverse morphological inflection'
+    container-title: 'SIGMORPHON 2020'
+    author:
+    - family: Canby
+      given: Marc
+    - family: Karipbayeva
+      given: Aidana
+    - family: Lunt
+      given: Bryan
+    - family: Mozaffari
+      given: Sahand
+    - family: Yoder
+      given: Charlotte
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/2020.sigmorphon-1.15/
+    issued:
+      date-parts:
+      - - 2020
+  - title: Learning to execute instructions in a Minecraft dialogue
+    container-title: ACL 2020 Main
+    author:
+    - family: Jayannavar
+      given: Prashant
+    - family: Narayan-Chen
+      given: Anjali
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/2020.acl-main.232/
+    issued:
+      date-parts:
+      - - 2020
+  - title: A multi-perspective architecture for semantic code search
+    container-title: ACL 2020 Main
+    author:
+    - family: Haldar
+      given: Rajarshi
+    - family: Wu
+      given: Lingfei
+    - family: Xiong
+      given: Jinjun
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2005.06980
+    issued:
+      date-parts:
+      - - 2020
+- year: 2019
+  pub_list:
+  - title: Phrase Grounding by Soft-Label Chain Conditional Random Field
+    container-title: EMNLP 2019
+    author:
+    - family: Liu
+      given: Jiacheng
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/1909.00301
+    issued:
+      date-parts:
+      - - 2019
+  - title: Collaborative dialogue in Minecraft
+    container-title: ACL 2019
+    author:
+    - family: Narayan-Chen
+      given: Anjali
+    - family: Jayannavar
+      given: Prashant
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/P19-1537/
+    issued:
+      date-parts:
+      - - 2019
+  - title: Virtual world context encoding for grounded dialogue in minecraft
+    container-title: ''
+    author:
+    - family: Lambert
+      given: Charlotte
+    - family: Cordes
+      given: Ariel
+    - family: Kaplan
+      given: Elli
+    - family: Jayannavar
+      given: Prashant
+    - family: Hockenmaier
+      given: Julia
+    link: https://drive.google.com/file/d/1Cbc0rmz7vN92TFOEC6q5Y4Gc1VVu3Pck/view
+    issued:
+      date-parts:
+      - - 2019
+- year: 2017
+  pub_list:
+  - title: Natural language inference from multiple premises
+    container-title: IJCNLP 2017
+    author:
+    - family: Lai
+      given: Alice
+    - family: Bisk
+      given: Yonatan
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/1710.02925
+    issued:
+      date-parts:
+      - - 2017
+  - title: Towards problem solving agents that communicate and learn
+    container-title: RoboNLP @ ACL 2017
+    author:
+    - family: Narayan-Chen
+      given: Anjali
+    - family: Graber
+      given: Colin
+    - family: Das
+      given: Mayukh
+    - family: Islam
+      given: Md Rakibul
+    - family: Dan
+      given: Soham
+    - family: Natarajan
+      given: Sriraam
+    - family: Doppa
+      given: Janardhan Rao
+    - family: Hockenmaier
+      given: Julia
+    - family: Palmer
+      given: Martha
+    - family: Roth
+      given: Dan
+    link: https://aclanthology.org/W17-2812/
+    issued:
+      date-parts:
+      - - 2017
+  - title: Learning to predict denotational probabilities for modeling entailment
+    container-title: EACL 2017
+    author:
+    - family: Lai
+      given: Alice
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/E17-1068/
+    issued:
+      date-parts:
+      - - 2017
+  - title: Phrase localization and visual relationship detection with comprehensive
+      image-language cues
+    container-title: 'ICCV 2017'
+    author:
+    - family: Plummer
+      given: Bryan A
+    - family: Mallya
+      given: Arun
+    - family: Cervantes
+      given: Christopher M
+    - family: Hockenmaier
+      given: Julia
+    - family: Lazebnik
+      given: Svetlana
+    link: http://openaccess.thecvf.com/content_iccv_2017/html/Plummer_Phrase_Localization_and_ICCV_2017_paper.html
+    issued:
+      date-parts:
+      - - 2017
+- year: 2016
+  pub_list:
+  - title: Evaluating induced CCG parsers on grounded semantic parsing
+    container-title: EMNLP 2016
+    author:
+    - family: Bisk
+      given: Yonatan
+    - family: Reddy
+      given: Siva
+    - family: Blitzer
+      given: John
+    - family: Hockenmaier
+      given: Julia
+    - family: Steedman
+      given: Mark
+    link: https://arxiv.org/abs/1609.09405
+    issued:
+      date-parts:
+      - - 2016
+  - title: Focused evaluation for image description with binary forced-choice tasks
+    container-title: Proceedings of the 5th Workshop on Vision and Language
+    author:
+    - family: Hodosh
+      given: Micah
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/W16-3203.pdf
+    issued:
+      date-parts:
+      - - 2016
+- year: 2015
+  pub_list:
+  - title: Probing the linguistic strengths and limitations of unsupervised grammar
+      induction
+    container-title: ACL 2015
+    author:
+    - family: Bisk
+      given: Yonatan
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/P15-1135.pdf
+    issued:
+      date-parts:
+      - - 2015
+  - title: Labeled grammar induction with minimal supervision
+    container-title: ACL 2015
+    author:
+    - family: Bisk
+      given: Yonatan
+    - family: Christodoulopoulos
+      given: Christos
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/P15-2143.pdf
+    issued:
+      date-parts:
+      - - 2015
+  - title: 'Flickr30k entities: Collecting region-to-phrase correspondences for richer
+      image-to-sentence models'
+    container-title: ICCV 2015
+    author:
+    - family: Plummer
+      given: Bryan A
+    - family: Wang
+      given: Liwei
+    - family: Cervantes
+      given: Chris M
+    - family: Caicedo
+      given: Juan C
+    - family: Hockenmaier
+      given: Julia
+    - family: Lazebnik
+      given: Svetlana
+    link: http://openaccess.thecvf.com/content_iccv_2015/html/Plummer_Flickr30k_Entities_Collecting_ICCV_2015_paper.html
+    issued:
+      date-parts:
+      - - 2015
+- year: 2014
+  pub_list:
+  - title: Improving image-sentence embeddings using large weakly annotated photo
+      collections
+    container-title: ECCV 2014
+    author:
+    - family: Gong
+      given: Yunchao
+    - family: Wang
+      given: Liwei
+    - family: Hodosh
+      given: Micah
+    - family: Hockenmaier
+      given: Julia
+    - family: Lazebnik
+      given: Svetlana
+    link: https://link.springer.com/chapter/10.1007/978-3-319-10593-2_35
+    issued:
+      date-parts:
+      - - 2014
+  - title: 'Illinois-lh: A denotational and distributional approach to semantics'
+    container-title: SemEval 2014
+    author:
+    - family: Lai
+      given: Alice
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/S14-2055.pdf
+    issued:
+      date-parts:
+      - - 2014
+  - title: 'From image descriptions to visual denotations: New similarity metrics
+      for semantic inference over event descriptions'
+    container-title: TACL
+    author:
+    - family: Young
+      given: Peter
+    - family: Lai
+      given: Alice
+    - family: Hodosh
+      given: Micah
+    - family: Hockenmaier
+      given: Julia
+    link: https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00166/43313
+    issued:
+      date-parts:
+      - - 2014
+- year: 2013
+  pub_list:
+  - title: Structural parse tree features for text representation
+    container-title: 'ICSC 2013'
+    author:
+    - family: Massung
+      given: Sean
+    - family: Zhai
+      given: ChengXiang
+    - family: Hockenmaier
+      given: Julia
+    link: https://ieeexplore.ieee.org/abstract/document/6693488/
+    issued:
+      date-parts:
+      - - 2013
+  - title: 'Framing image description as a ranking task: Data, models and evaluation
+      metrics'
+    container-title: Journal of Artificial Intelligence Research / IJCAI 2015
+    author:
+    - family: Hodosh
+      given: Micah
+    - family: Young
+      given: Peter
+    - family: Hockenmaier
+      given: Julia
+    link: https://www.jair.org/index.php/jair/article/view/10833
+    issued:
+      date-parts:
+      - - 2013
+  - title: An HDP Model for Inducing Combinatory Categorial Grammars
+    container-title: TACL
+    author:
+    - family: Bisk
+      given: Yonatan
+    - family: Hockenmaier
+      given: Julia
+    link: https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00211/43196
+    issued:
+      date-parts:
+      - - 2013
+  - title: Sentence-based image description with scalable, explicit models
+    container-title: CVPR 2013
+    author:
+    - family: Hodosh
+      given: Micah
+    - family: Hockenmaier
+      given: Julia
+    link: https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2013/W06/html/Hodosh_Sentence-Based_Image_Description_2013_CVPR_paper.html
+    issued:
+      date-parts:
+      - - 2013
+- year: 2012
+  pub_list:
+  - title: 'Etm: Entity topic models for mining documents associated with entities'
+    container-title: ICDM 2012
+    author:
+    - family: Kim
+      given: Hyungsul
+    - family: Sun
+      given: Yizhou
+    - family: Hockenmaier
+      given: Julia
+    - family: Han
+      given: Jiawei
+    link: https://ieeexplore.ieee.org/abstract/document/6413746/
+    issued:
+      date-parts:
+      - - 2012
+  - title: 'CI-P: Collaborative Research: Visual entailment data set and challenge
+      for the Language and Vision Community'
+    container-title: NSF Award Number 1205627. Directorate for Computer and Information
+      Science and Engineering
+    author:
+    - family: Hockenmaier
+      given: Julia C
+    link: https://ui.adsabs.harvard.edu/abs/2012nsf....1205627H/abstract
+    issued:
+      date-parts:
+      - - 2012
+  - title: 'Beefmoves: dissemination, diversity, and dynamics of English borrowings
+      in a German hip hop forum'
+    container-title: ACL 2012 Short
+    author:
+    - family: Garley
+      given: Matt
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/P12-2027.pdf
+    issued:
+      date-parts:
+      - - 2012
+  - title: Combinatory Categorial Grammars for Robust Natural Language Processing
+    container-title: NASSLLI 2012
+    author:
+    - family: Steedman
+      given: Mark
+    - family: Curran
+      given: James
+    - family: Hockenmaier
+      given: Julia
+    - family: Kwiatkowski
+      given: Tom
+    - family: Lewis
+      given: Mike
+    - family: Park
+      given: Jong
+    - family: Thomforde
+      given: Emily
+    - family: Boonkwan
+      given: Prachya
+    - family: Copolla
+      given: Greg
+    - family: Goldwater
+      given: Sharon
+    link: https://homepages.inf.ed.ac.uk/steedman/papers/ccg/nasslli12.pdf
+    issued:
+      date-parts:
+      - - 2012
+  - title: Induction of linguistic structure with combinatory categorial grammars
+    container-title: Induction of Linguistic Structure @ NAACL 2012
+    author:
+    - family: Bisk
+      given: Yonatan
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/W12-1912.pdf
+    issued:
+      date-parts:
+      - - 2012
+  - title: Simple robust grammar induction with combinatory categorial grammars
+    container-title: AAAI 2012
+    author:
+    - family: Bisk
+      given: Yonatan
+    - family: Hockenmaier
+      given: Julia
+    link: https://ojs.aaai.org/index.php/AAAI/article/view/8355
+    issued:
+      date-parts:
+      - - 2012
+- year: 2011
+  pub_list:
+  - title: 'CAREER: Bayesian Models for Lexicalized Grammars'
+    container-title: NSF Award Number 1053856. Directorate for Computer and Information
+      Science and Engineering
+    author:
+    - family: Hockenmaier
+      given: Julia C
+    link: https://ui.adsabs.harvard.edu/abs/2011nsf....1053856H/abstract
+    issued:
+      date-parts:
+      - - 2011
+  - title: Reasoning about robocup soccer narratives
+    container-title: arXiv preprint arXiv:1202.3728
+    author:
+    - family: Hajishirzi
+      given: Hannaneh
+    - family: Hockenmaier
+      given: Julia
+    - family: Mueller
+      given: Erik T
+    - family: Amir
+      given: Eyal
+    link: https://arxiv.org/abs/1202.3728
+    issued:
+      date-parts:
+      - - 2011
+- year: 2010
+  pub_list:
+  - title: 'Every picture tells a story: Generating sentences from images'
+    container-title: ECCV 2010
+    author:
+    - family: Farhadi
+      given: Ali
+    - family: Hejrati
+      given: Mohsen
+    - family: Sadeghi
+      given: Mohammad Amin
+    - family: Young
+      given: Peter
+    - family: Rashtchian
+      given: Cyrus
+    - family: Hockenmaier
+      given: Julia
+    - family: Forsyth
+      given: David
+    link: https://link.springer.com/chapter/10.1007/978-3-642-15561-1_2
+    issued:
+      date-parts:
+      - - 2010
+  - title: Normal-form parsing for Combinatory Categorial Grammars with generalized
+      composition and type-raising
+    container-title: COLING 2010
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Bisk
+      given: Yonatan
+    link: https://aclanthology.org/C10-1053.pdf
+    issued:
+      date-parts:
+      - - 2010
+  - title: Shallow information extraction from medical forum data
+    container-title: COLING 2010
+    author:
+    - family: Sondhi
+      given: Parikshit
+    - family: Gupta
+      given: Manish
+    - family: Zhai
+      given: ChengXiang
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/C10-2133.pdf
+    issued:
+      date-parts:
+      - - 2010
+  - title: Citation author topic model in expert search
+    container-title: COLING 2010
+    author:
+    - family: Tu
+      given: Yuancheng
+    - family: Johri
+      given: Nikhil
+    - family: Roth
+      given: Dan
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/C10-2145.pdf
+    issued:
+      date-parts:
+      - - 2010
+  - title: Cross-caption coreference resolution for automatic image understanding
+    container-title: CoNLL 2010
+    author:
+    - family: Rashtchian
+      given: Micah Hodosh Peter Young Cyrus
+    - family: Hockenmaier
+      given: Julia
+    link: https://www.academia.edu/download/39837878/Syntactic_and_semantic_structure_for_opi20151109-30183-1yw7r0u.pdf#page=178
+    issued:
+      date-parts:
+      - - 2010
+  - title: Wide-coverage NLP with Linguistically Expressive Grammars
+    container-title: ACL 2010 Tutorial
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Miyao
+      given: Yusuke
+    - family: Genabith
+      given: Josef van
+    link: https://aclanthology.org/P10-5001.pdf
+    issued:
+      date-parts:
+      - - 2010
+  - title: Cross-caption coreference resolution for automatic image understanding
+    container-title: CoNLL 2010
+    author:
+    - family: Hodosh
+      given: Micah
+    - family: Young
+      given: Peter
+    - family: Rashtchian
+      given: Cyrus
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/W10-2920.pdf
+    issued:
+      date-parts:
+      - - 2010
+  - title: Collecting image annotations using amazon’s mechanical turk
+    container-title: Workshop on Creating Speech and Language Data with Amazon’s Mechanical
+      Turk @ NAACL 2010
+    author:
+    - family: Rashtchian
+      given: Cyrus
+    - family: Young
+      given: Peter
+    - family: Hodosh
+      given: Micah
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/W10-0721.pdf
+    issued:
+      date-parts:
+      - - 2010
+  - title: The future role of language resources for natural language parsing (We
+      won't be able to rely on Pierre Vinken forever... or will we have to?)
+    container-title: PACLIC 2010
+    author:
+    - family: Hockenmaier
+      given: Julia
+    link: https://waseda.repo.nii.ac.jp/record/29246/files/PACLIC_24_Hockenmaier.pdf
+    issued:
+      date-parts:
+      - - 2010
+- year: 2009
+  pub_list:
+  - title: 'Words and pictures: Categories, modifiers, depiction, and iconography'
+    container-title: 'Object Categorization'
+    author:
+    - family: Forsyth
+      given: David A
+    - family: Berg
+      given: Tamana
+    - family: Alm
+      given: Cecilia Ovesdotter
+    - family: Farhadi
+      given: Ali
+    - family: Hockenmaier
+      given: Julia
+    - family: Loeff
+      given: Nicolas
+    - family: Wang
+      given: Gang
+    link: https://books.google.com/books?hl=en&lr=&id=CN9n2ZvyzlMC&oi=fnd&pg=PA167&dq=info:d2EOjJIQMy8J:scholar.google.com&ots=3L-GNrhCUJ&sig=N8vYVxP9QW79CcJipAeRRdN6fk8
+    issued:
+      date-parts:
+      - - 2009
+- year: 2008
+  pub_list:
+  - title: 'COLING 2008: Proceedings of the workshop on cross-framework and cross-domain
+      parser evaluation'
+    container-title: ''
+    author:
+    - family: Bos
+      given: Johan
+    - family: Briscoe
+      given: Ted
+    - family: Cahill
+      given: Aoife
+    - family: Carroll
+      given: John A
+    - family: Clark
+      given: Stephen
+    - family: Copestake
+      given: Ann
+    - family: Flickinger
+      given: Dan
+    - family: Genabith
+      given: Josef van
+    - family: Hockenmaier
+      given: Julia
+    - family: Joshi
+      given: Aravind
+    - family: Kaplan
+      given: Ronald M
+    - family: King
+      given: Tracy Holloway
+    - family: Kuebler
+      given: Sandra
+    - family: Lin
+      given: Dekang
+    - family: Loenning
+      given: Jan Tore
+    - family: Manning
+      given: Christopher D
+    - family: Miyao
+      given: Yusuke
+    - family: Nivre
+      given: Joakim
+    - family: Oepen
+      given: Stephan
+    - family: Sagae
+      given: Kenji
+    - family: Xue
+      given: Nianwen
+    - family: Zhang
+      given: Yi
+    link: https://aclanthology.org/W08-1300/
+    issued:
+      date-parts:
+      - - 2008
+  - title: 'Non-local scrambling: The equivalence of TAG and CCG revisited'
+    container-title: Proceedings of the 9th International Workshop on Tree Adjoining
+      Grammars and Related Frameworks
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Young
+      given: Peter
+    link: https://aclanthology.org/W08-2306.pdf
+    issued:
+      date-parts:
+      - - 2008
+- year: 2007
+  pub_list:
+  - title: 'CCGbank: a corpus of CCG derivations and dependency structures extracted
+      from the Penn Treebank'
+    container-title: Computational Linguistics
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Steedman
+      given: Mark
+    link: https://direct.mit.edu/coli/article-abstract/33/3/355/1953
+    issued:
+      date-parts:
+      - - 2007
+  - title: 'Computational linguistics: a new tool for exploring biopolymer structures
+      and statistical mechanics'
+    container-title: ''
+    author:
+    - family: Dill
+      given: Ken A
+    - family: Lucas
+      given: Adam
+    - family: Hockenmaier
+      given: Julia
+    - family: Huang
+      given: Liang
+    - family: Chiang
+      given: David
+    - family: Joshi
+      given: Aravind K
+    link: https://www.sciencedirect.com/science/article/pii/S0032386107004648
+    issued:
+      date-parts:
+      - - 2007
+  - title: ACL 2007 Workshop on Deep Linguistic Processing
+    container-title: ''
+    author:
+    - family: Baldwin
+      given: Timothy
+    - family: Dras
+      given: Mark
+    - family: Hockenmaier
+      given: Julia
+    - family: King
+      given: Tracy Holloway
+    - family: Noord
+      given: Gertjan van
+    link: https://aclanthology.org/W07-1200.pdf
+    issued:
+      date-parts:
+      - - 2007
+  - title: The impact of deep linguistic processing on parsing technology
+    container-title: ''
+    author:
+    - family: Baldwin
+      given: Timothy
+    - family: Dras
+      given: Mark
+    - family: Hockenmaier
+      given: Julia
+    - family: King
+      given: Tracy Holloway
+    - family: Noord
+      given: Gertjan van
+    link: https://aclanthology.org/W07-2205.pdf
+    issued:
+      date-parts:
+      - - 2007
+  - title: Corpus-based evidence against sequence priming
+    container-title: Poster at 20th Annual CUNY Conference on Human Sentence Processing
+    author:
+    - family: Reitter
+      given: David
+    - family: Keller
+      given: Frank
+    - family: Hockenmaier
+      given: Julia
+    link: https://scholar.google.com/scholar?cluster=2732105879302403709&hl=en&oi=scholarr
+    issued:
+      date-parts:
+      - - 2007
+  - title: 'Routes are trees: the parsing perspective on protein folding'
+    container-title: 'Proteins: Structure, Function, and Bioinformatics'
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Joshi
+      given: Aravind K
+    - family: Dill
+      given: Ken A
+    link: https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.21195
+    issued:
+      date-parts:
+      - - 2007
+- year: 2006
+  pub_list:
+  - title: Protein folding and chart parsing
+    container-title: ''
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Joshi
+      given: Aravind
+    - family: Dill
+      given: Ken A
+    link: https://aclanthology.org/W06-1635.pdf
+    issued:
+      date-parts:
+      - - 2006
+  - title: Priming effects in combinatory categorial grammar
+    container-title: ''
+    author:
+    - family: Reitter
+      given: David
+    - family: Hockenmaier
+      given: Julia
+    - family: Keller
+      given: Frank
+    link: https://aclanthology.org/W06-1637.pdf
+    issued:
+      date-parts:
+      - - 2006
+  - title: Creating a CCGbank and a wide-coverage CCG lexicon for German
+    container-title: ''
+    author:
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/P06-1064.pdf
+    issued:
+      date-parts:
+      - - 2006
+- year: 2005
+  pub_list:
+  - title: 'Routes are trees: The parsing view on protein folding'
+    container-title: 13th Annual Conference on Intelligent Systems for Molecular Biology
+      (ISMB 2005) Poster A-36
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Joshi
+      given: Aravind
+    - family: Dill
+      given: Ken
+    link: https://hockenmaier.cs.illinois.edu/Papers/ISMB2005/HockenmaierJoshiDill_ISMB05_final.pdf
+    issued:
+      date-parts:
+      - - 2005
+  - title: 'Ccgbank: User’s manual'
+    container-title: University of Pennsylvania, Philadelphia
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Steedman
+      given: Mark
+    link: https://shannon.cs.illinois.edu/Papers/CCGbank/CCGbankManual.pdf
+    issued:
+      date-parts:
+      - - 2005
+  - title: CCGbank
+    container-title: Linguistic Data Consortium, Philadelphia. LDC2005T13
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Steedman
+      given: Mark
+    link: http://www.cs.cmu.edu/~./awb/11-722/ccgbank.pdf
+    issued:
+      date-parts:
+      - - 2005
+  - title: Grammar acquisition by child and machine
+    container-title: Invited Talk at the 17th European Summer School of Language,
+      Logic and Information, Edinburgh
+    author:
+    - family: Steedman
+      given: Mark
+    - family: Baldridge
+      given: Jason
+    - family: Bozsahin
+      given: Cem
+    - family: Clark
+      given: Stephen
+    - family: Curran
+      given: James
+    - family: Hockenmaier
+      given: Julia
+    link: http://www.colag.cs.hunter.cuny.edu/psychocomp/2005/Steedman.pdf
+    issued:
+      date-parts:
+      - - 2005
+- year: 2004
+  pub_list:
+  - title: Extending the coverage of a CCG system
+    container-title: Research on Language and Computation
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Bierner
+      given: Gann
+    - family: Baldridger
+      given: Jason
+    link: https://link.springer.com/article/10.1023/B:ROLC.0000016736.80096.76
+    issued:
+      date-parts:
+      - - 2004
+  - title: Wide-coverage semantic representations from a CCG parser
+    container-title: ''
+    author:
+    - family: Bos
+      given: Johan
+    - family: Clark
+      given: Stephen
+    - family: Steedman
+      given: Mark
+    - family: Curran
+      given: James R
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/C04-1180.pdf
+    issued:
+      date-parts:
+      - - 2004
+- year: 2003
+  pub_list:
+  - title: Parsing with generative models of predicate-argument structure
+    container-title: ''
+    author:
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/P03-1046.pdf
+    issued:
+      date-parts:
+      - - 2003
+  - title: 'CLSP WS-02 final report: Semi-supervised training for statistical parsing'
+    container-title: ''
+    author:
+    - family: Steedman
+      given: Mark
+    - family: Baker
+      given: Steven
+    - family: Crim
+      given: Jeremiah
+    - family: Clark
+      given: Stephen
+    - family: Hockenmaier
+      given: Julia
+    - family: Hwa
+      given: Rebecca
+    - family: Osborne
+      given: Miles
+    - family: Ruhlen
+      given: Paul
+    - family: Sarkar
+      given: Anoop
+    link: https://www.cs.sfu.ca/~anoop/papers/pdf/jhu-ws02-report.pdf
+    issued:
+      date-parts:
+      - - 2003
+  - title: Semi-supervised training for statistical parsing
+    container-title: ''
+    author:
+    - family: Steedman
+      given: Mark
+    - family: Baker
+      given: Steven
+    - family: Crim
+      given: Jeremiah
+    - family: Clark
+      given: Stephen
+    - family: Hockenmaier
+      given: Julia
+    - family: Hwa
+      given: Rebecca
+    - family: Osborne
+      given: Miles
+    - family: Ruhlen
+      given: Paul
+    - family: Sarkar
+      given: Anoop
+    link: https://homepages.inf.ed.ac.uk/steedman/papers/cotraining/allfinal.pdf
+    issued:
+      date-parts:
+      - - 2003
+  - title: Example selection for bootstrapping statistical parsers
+    container-title: ''
+    author:
+    - family: Steedman
+      given: Mark
+    - family: Hwa
+      given: Rebecca
+    - family: Clark
+      given: Stephen
+    - family: Osborne
+      given: Miles
+    - family: Sarkar
+      given: Anoop
+    - family: Hockenmaier
+      given: Julia
+    - family: Ruhlen
+      given: Paul
+    - family: Baker
+      given: Steven
+    - family: Crim
+      given: Jeremiah
+    link: https://aclanthology.org/N03-1031.pdf
+    issued:
+      date-parts:
+      - - 2003
+  - title: Bootstrapping statistical parsers from small datasets
+    container-title: ''
+    author:
+    - family: Steedman
+      given: Mark
+    - family: Osborne
+      given: Miles
+    - family: Sarkar
+      given: Anoop
+    - family: Clark
+      given: Stephen
+    - family: Hwa
+      given: Rebecca
+    - family: Hockenmaier
+      given: Julia
+    - family: Ruhlen
+      given: Paul
+    - family: Baker
+      given: Steven
+    - family: Crim
+      given: Jeremiah
+    link: https://www.research.ed.ac.uk/en/publications/bootstrapping-statistical-parsers-from-small-datasets
+    issued:
+      date-parts:
+      - - 2003
+  - title: Identifying semantic roles using combinatory categorial grammar
+    container-title: ''
+    author:
+    - family: Gildea
+      given: Daniel
+    - family: Hockenmaier
+      given: Julia
+    link: https://apps.dtic.mil/sti/html/tr/ADA459462/
+    issued:
+      date-parts:
+      - - 2003
+  - title: Data and models for statistical parsing with Combinatory Categorial Grammar
+    container-title: ''
+    author:
+    - family: Hockenmaier
+      given: Julia
+    link: https://era.ed.ac.uk/handle/1842/320
+    issued:
+      date-parts:
+      - - 2003
+- year: 2002
+  pub_list:
+  - title: Building deep dependency structures using a wide-coverage CCG parser
+    container-title: ''
+    author:
+    - family: Clark
+      given: Stephen
+    - family: Hockenmaier
+      given: Julia
+    - family: Steedman
+      given: Mark
+    link: https://aclanthology.org/P02-1042.pdf
+    issued:
+      date-parts:
+      - - 2002
+  - title: Generative models for statistical parsing with Combinatory Categorial Grammar
+    container-title: ''
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Steedman
+      given: Mark
+    link: https://aclanthology.org/P02-1043.pdf
+    issued:
+      date-parts:
+      - - 2002
+  - title: Acquiring Compact Lexicalized Grammars from a Cleaner Treebank.
+    container-title: LREC
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Steedman
+      given: Mark
+    link: http://lrec.elra.info/proceedings/lrec2002/pdf/263.pdf
+    issued:
+      date-parts:
+      - - 2002
+  - title: Generative Models for Statistical Parsing with Combinatory Categorial
+    container-title: '40th Annual Meeting of the Association for Computational Linguistics:
+      7-12 July 2002, University of Pennsylvania, Philadelphia, Pennsylvania, USA.'
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Steedman
+      given: Mark
+    link: https://scholar.google.com/scholar?cluster=13927796087451342990&hl=en&oi=scholarr
+    issued:
+      date-parts:
+      - - 2002
+  - title: Parsing with CCG
+    container-title: ''
+    author:
+    - family: Steedman
+      given: Mark
+    - family: Clark
+      given: Stephen
+    - family: Hockenmaier
+      given: Julia
+    link: https://homepages.inf.ed.ac.uk/steedman/papers/ccg/lecture2.pdf
+    issued:
+      date-parts:
+      - - 2002
+  - title: Evaluating a wide-coverage CCG parser
+    container-title: Proceedings of the LREC 2002 beyond PARSEVAL workshop
+    author:
+    - family: Clark
+      given: Stephen
+    - family: Hockenmaier
+      given: Julia
+    link: http://lrec-conf.org/proceedings/lrec2002/pdf/ws20.pdf#page=64
+    issued:
+      date-parts:
+      - - 2002
+- year: 2001
+  pub_list:
+  - title: Statistical parsing for CCG with simple generative models
+    container-title: ''
+    author:
+    - family: Hockenmaier
+      given: Julia
+    link: https://www.researchgate.net/profile/Julia-Hockenmaier/publication/2524183_Statistical_Parsing_for_CCG_with_Simple_Generative_Models/links/0a85e53c6c44be618d000000/Statistical-Parsing-for-CCG-with-Simple-Generative-Models.pdf
+    issued:
+      date-parts:
+      - - 2001
+- year: 2000
+  pub_list:
+  - title: Providing robustness for a CCG system
+    container-title: Proceedings of ESSLLI’2000 Workshop on Linguistic Theory and
+      Grammar Implementation
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Bierner
+      given: Gann
+    - family: Baldridge
+      given: Jason
+    link: https://www.researchgate.net/profile/Jason-Baldridge/publication/2885719_Providing_Robustness_for_a_CCG_System/links/0fcfd5136d5d460d00000000/Providing-Robustness-for-a-CCG-System.pdf
+    issued:
+      date-parts:
+      - - 2000
+- year: 1998
+  pub_list:
+  - title: Error-driven learning of Chinese word segmentation
+    container-title: ''
+    author:
+    - family: Hockenmaier
+      given: Julia
+    - family: Brew
+      given: Chris
+    link: https://waseda.repo.nii.ac.jp/record/28592/files/PACLIC12-218-229.pdf
+    issued:
+      date-parts:
+      - - 1998
