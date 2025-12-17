@@ -1,5 +1,111 @@
+  # - title: ''
+  #   container-title: EMNLP 2025 Findings
+  #   author:
+  #   - family: Hockenmaier
+  #     given: Julia
+  #   link: 
+  #   issued:
+  #     date-parts:
+  #     - - 2025
+- year: 2026
+  pub_list:
+  - title: 'BAP v2: An Enhanced Task Framework for Instruction Following in Minecraft
+      Dialogues'
+    container-title: Computational Linguistics
+    author:
+    - family: Jayannavar
+      given: Prashant
+    - family: Ren
+      given: Liliang
+    - family: Hudspeth
+      given: Marisa
+    - family: Sidhu
+      given: Risham
+    - family: Lambert
+      given: Charlotte
+    - family: Cordes
+      given: Ariel
+    - family: Kaplan
+      given: Elizabeth
+    - family: Narayan-Chen
+      given: Anjali
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2501.10836
+    issued:
+      date-parts:
+      - - 2026
 - year: 2025
   pub_list:
+  - title: 'Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics'
+    container-title: arXiv preprint
+    author:
+    - family: Lee
+      given: Jinu
+    - family: On
+      given: Kyoung-Woon
+    - family: Han
+      given: Simeng
+    - family: Cohan
+      given: Arman
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2512.01020
+    issued:
+      date-parts:
+      - - 2025
+  - title: 'Contextual Relevance and Adaptive Sampling for LLM-Based Document Reranking'
+    container-title: arXiv preprint
+    author:
+    - family: Huang
+      given: Jerry
+    - family: Madala
+      given: Siddarth
+    - family: Niu
+      given: Cheng
+    - family: Hockenmaier
+      given: Julia
+    - family: Zhang
+      given: Tong
+    link: https://arxiv.org/abs/2511.01208
+    issued:
+      date-parts:
+      - - 2025
+  - title: 'Toward Efficient Sparse Autoencoder-Guided Steering for Improved In-Context Learning in Large Language Models'
+    container-title: EMNLP 2025 Main Conference
+    author:
+    - family: Cho
+      given: Ikhyun
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/2025.emnlp-main.1474/
+    issued:
+      date-parts:
+      - - 2025
+  - title: 'On the Versatility of Sparse Autoencoders for In-Context Learning'
+    container-title: EMNLP 2025 Findings
+    author:
+    - family: Cho
+      given: Ikhyun
+    - family: Kwon
+      given: Gaeul
+    - family: Hockenmaier
+      given: Julia
+    link: 
+    issued:
+      date-parts:
+      - - 2025
+  - title: 'Rating Roulette: Self-Inconsistency in LLM-As-A-Judge Frameworks'
+    container-title: EMNLP 2025 Findings
+    author:
+    - family: Haldar
+      given: Rajarshi
+    - family: Hockenmaier
+      given: Julia
+    link: https://aclanthology.org/2025.findings-emnlp.1361/
+    issued:
+      date-parts:
+      - - 2025
   - title: 'Evaluating step-by-step reasoning traces: A survey'
     container-title: EMNLP 2025 Findings
     author:
@@ -7,7 +113,7 @@
       given: Jinu
     - family: Hockenmaier
       given: Julia
-    link: https://arxiv.org/abs/2502.12289
+    link: https://aclanthology.org/2025.findings-emnlp.94/
     issued:
       date-parts:
       - - 2025
@@ -136,30 +242,6 @@
     - family: Zhang
       given: Tong
     link: https://arxiv.org/abs/2503.12759
-    issued:
-      date-parts:
-      - - 2025
-  - title: 'BAP v2: An Enhanced Task Framework for Instruction Following in Minecraft
-      Dialogues'
-    container-title: arXiv preprint arXiv:2501.10836
-    author:
-    - family: Jayannavar
-      given: Prashant
-    - family: Ren
-      given: Liliang
-    - family: Hudspeth
-      given: Marisa
-    - family: Lambert
-      given: Charlotte
-    - family: Cordes
-      given: Ariel
-    - family: Kaplan
-      given: Elizabeth
-    - family: Narayan-Chen
-      given: Anjali
-    - family: Hockenmaier
-      given: Julia
-    link: https://arxiv.org/abs/2501.10836
     issued:
       date-parts:
       - - 2025
