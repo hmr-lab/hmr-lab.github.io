@@ -38,7 +38,7 @@
 - year: 2025
   pub_list:
   - title: 'Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics'
-    container-title: arXiv preprint
+    container-title: arXiv preprint arXiv:2512.01020
     author:
     - family: Lee
       given: Jinu
@@ -55,7 +55,7 @@
       date-parts:
       - - 2025
   - title: 'Contextual Relevance and Adaptive Sampling for LLM-Based Document Reranking'
-    container-title: arXiv preprint
+    container-title: arXiv preprint arXiv:2511.01208
     author:
     - family: Huang
       given: Jerry
