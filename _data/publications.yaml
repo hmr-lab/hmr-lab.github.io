@@ -9,6 +9,27 @@
   #     - - 2025
 - year: 2026
   pub_list:
+  - title: 'Tackling Distractor Documents in Multi-Hop QA with Reinforcement Learning and Curriculum Learning'
+    container-title: EACL 2026 Findings
+    author:
+    - family: Huang
+      given: Jerry
+    - family: Madala
+      given: Siddarth
+    - family: Sidhu
+      given: Risham
+    - family: Niu
+      given: Cheng
+    - family: Peng
+      given: Hao
+    - family: Hockenmaier
+      given: Julia
+    - family: Zhang
+      given: Tong
+    link: https://arxiv.org/abs/2503.12759
+    issued:
+      date-parts:
+      - - 2026
   - title: 'BAP v2: An Enhanced Task Framework for Instruction Following in Minecraft
       Dialogues'
     container-title: Computational Linguistics
