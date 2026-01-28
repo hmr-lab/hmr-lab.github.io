@@ -104,58 +104,45 @@ permalink: /team/
 </div>
 
 {% endfor %}
-<h2><a id="staff"></a>Alumni</h2>
-<h3><a id="staff"></a>Ph.D.</h3>
-{% assign members = site.posts | where: 'category', 'alumni-phd' | sort: 'date' %}
-{% for member in members %}
-<div class="card team-member-card">
-    <div class="row align-items-center mt-3">
-        <div class="col-md-12">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <!-- <p class="card-text">{{ member.role }}</p> -->
-            <!-- Personal Website -->
-            <!-- {% if member.social.website %}
-                <a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a>
-            {% endif %} -->
-            </div>
-        </div>
-    </div>
-</div>
-{% endfor %}
-<h3><a id="staff"></a>M.S.</h3>
-{% assign members = site.posts | where: 'category', 'alumni-ms' | sort: 'date' %}
-{% for member in members %}
-<div class="card team-member-card">
-    <div class="row align-items-center mt-3">
-        <div class="col-md-12">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <!-- <p class="card-text">{{ member.role }}</p> -->
-            <!-- Personal Website -->
-            <!-- {% if member.social.website %}
-                <a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a>
-            {% endif %} -->
-            </div>
-        </div>
-    </div>
-</div>
-{% endfor %}
-<h3><a id="staff"></a>B.S.</h3>
-{% assign members = site.posts | where: 'category', 'alumni-bs' | sort: 'date' %}
-{% for member in members %}
-<div class="card team-member-card">
-    <div class="row align-items-center mt-3">
-        <div class="col-md-12">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <!-- <p class="card-text">{{ member.role }}</p> -->
-            <!-- Personal Website -->
-            <!-- {% if member.social.website %}
-                <a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a>
-            {% endif %} -->
-            </div>
-        </div>
-    </div>
-</div>
-{% endfor %}
+<h2><a id="alumni"></a>Alumni</h2>
+
+<!--
+  To add an alumni: Add a new <li> with format:
+    <li>Name</li>
+    <li><a href="URL">Name</a> (Current Position)</li>
+-->
+
+<h3>Ph.D.</h3>
+<ul class="alumni-list">
+    <li><a href="https://www.linkedin.com/in/prashantjayannavar/">Prashant Jayannavar</a> (2026)</li>
+    <li><a href="https://www.linkedin.com/in/anjaliync/">Anjali Narayan-Chen</a> (2020) - Now at Amazon</li>
+    <li><a href="https://aliceylai.com/">Alice Lai</a> (2018) - Now at CMU</li>
+    <li><a href="https://talkingtorobots.com/yonatanbisk.html">Yonatan Bisk</a> (2015) - CMU CS/LTI Assistant Professor</li>
+    <li><a href="https://www.linkedin.com/in/micah-hodosh-5292b2ab/">Micah Hodosh</a> (2015) - Now at A9</li>
+    <li><a href="#">Peter Young</a> (2013) - Now at Google</li>
+</ul>
+
+<h3>M.S.</h3>
+<ul class="alumni-list">
+    <li><a href="linkedin.com/in/amit-athani">Amit Athani</a> (2023) - Now at Palantir</li>
+    <li><a href="https://www.linkedin.com/in/dhruv100691/">Dhruv Agarwal</a> (2019) - Now at Amazon</li>
+    <li><a href="https://www.linkedin.com/in/sidhartha4/">Sidartha Satapathy</a> (2019) - Now at Google</li>
+    <li><a href="https://www.linkedin.com/in/sarah-schieferstein-679752a7/">Sara Schieferstein</a> (2018) - Now at Working Families Party</li>
+    <li><a href="https://www.linkedin.com/in/mihika-dave-02272962/">Mihika Dave</a> (2018) - Now at Meta</li>
+    <li><a href="https://cmcervantes.github.io/">Chris Cervantes</a> (2017) - Now at Johns Hopkins Applied Physics Laboratory</li>
+    <li><a href="linkedin.com/in/ryan-musa">Ryan Musa</a> (2016) - Now at Google</li>
+</ul>
+
+<h3>B.S.</h3>
+(Senior thesis students)
+<ul class="alumni-list">
+    <li><a href="#">Zijian Yao</a> (Fall 2017)</li>
+    <li><a href="#">Yongjin Kim</a> (Fall 2017)</li>
+    <li><a href="#">Xiaoyan Wang</a> (Fall 2017)</li>
+    <li><a href="#">Zeno Barcutean</a> (Spring 2015)</li>
+    <li><a href="#">Sohan Rao</a> (Spring 2014)</li>
+    <li><a href="#">Hannah Rashkin</a> (Fall 2013)</li>
+    <li><a href="#">Paul Lambert</a> (Spring 2012)</li>
+    <li><a href="#">Yanchuan Sim</a> (Spring 2010)</li>
+    <li><a href="#">Cyrus Rashtchian</a> (Spring/Summer 2010)</li>
+</ul>
