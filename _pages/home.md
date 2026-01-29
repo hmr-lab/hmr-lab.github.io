@@ -1,13 +1,13 @@
 ---
-title: "hmr-lab"
+title: "Hockenmaier Lab"
 layout: homelay
-excerpt: "hmr-lab at UIUC, led by Dr. Julia Hockenmaier"
+excerpt: "Hockenmaier Lab at UIUC, led by Dr. Julia Hockenmaier"
 sitemap: true
 permalink: /
 ---
-### Welcome to hmr-lab!
+### Welcome to Hockenmaier Lab!
 
-Welcome to `hmr-lab`, a research group within the Siebel School of Computation and Data Science at the University of Illinois Urbana-Champaign. Our group, led by Prof. [Julia Hockenmaier](https://juliahmr.cs.illinois.edu/), focuses on fundamental topics in natural language processing (NLP).
+Welcome to `Hokenmaier Lab`, a research group within the Siebel School of Computation and Data Science at the University of Illinois Urbana-Champaign. Our group, led by Prof. [Julia Hockenmaier](https://juliahmr.cs.illinois.edu/), focuses on fundamental topics in natural language processing (NLP).
 
 Our research explores several key areas:
 

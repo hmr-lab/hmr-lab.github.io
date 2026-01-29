@@ -1,7 +1,7 @@
 ---
 title: "Research"
 layout: default
-excerpt: "hmr-lab -- Research"
+excerpt: "Hockenmaier Lab -- Research"
 sitemap: false
 permalink: /research/
 ---
