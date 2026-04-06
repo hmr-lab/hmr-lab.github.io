@@ -3,7 +3,7 @@ layout: member
 category: student
 title: Sewoong Lee
 image: sewoong_lee.png
-role: Ph.D. Student
+role: Ph.D. Candidate
 interest: "Mechanistic Interpretability"
 netid: samuel27
 social:
