@@ -9,6 +9,69 @@
   #     - - 2025
 - year: 2026
   pub_list:
+  - title: 'Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics'
+    container-title: ACL 2026 Main Conference
+    author:
+    - family: Lee
+      given: Jinu
+    - family: On
+      given: Kyoung-Woon
+    - family: Han
+      given: Simeng
+    - family: Cohan
+      given: Arman
+    - family: Hockenmaier
+      given: Julia
+    link: https://arxiv.org/abs/2512.01020
+    issued:
+      date-parts:
+      - - 2026
+  - title: 'Contextual Relevance and Adaptive Sampling for LLM-Based Document Reranking'
+    container-title: ACL 2026 Main Conference
+    author:
+    - family: Huang
+      given: Jerry
+    - family: Madala
+      given: Siddarth
+    - family: Niu
+      given: Cheng
+    - family: Hockenmaier
+      given: Julia
+    - family: Zhang
+      given: Tong
+    link: https://arxiv.org/abs/2511.01208
+    issued:
+      date-parts:
+      - - 2026
+  - title: Scaling evaluation-time compute with reasoning models as process evaluators
+    container-title: ACL 2026 Findings
+    author:
+    - family: Kim
+      given: Seungone
+    - family: Wu
+      given: Ian
+    - family: Lee
+      given: Jinu
+    - family: Yue
+      given: Xiang
+    - family: Lee
+      given: Seongyun
+    - family: Moon
+      given: Mingyeong
+    - family: Gashteovski
+      given: Kiril
+    - family: Lawrence
+      given: Carolin
+    - family: Hockenmaier
+      given: Julia
+    - family: Neubig
+      given: Graham
+    - family: Welleck
+      given: Sean
+    link: https://arxiv.org/abs/2503.19877
+    issued:
+      date-parts:
+      - - 2026
   - title: 'Tackling Distractor Documents in Multi-Hop QA with Reinforcement Learning and Curriculum Learning'
     container-title: EACL 2026 Findings
     author:
@@ -58,40 +121,6 @@
       - - 2026
 - year: 2025
   pub_list:
-  - title: 'Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics'
-    container-title: arXiv preprint arXiv:2512.01020
-    author:
-    - family: Lee
-      given: Jinu
-    - family: On
-      given: Kyoung-Woon
-    - family: Han
-      given: Simeng
-    - family: Cohan
-      given: Arman
-    - family: Hockenmaier
-      given: Julia
-    link: https://arxiv.org/abs/2512.01020
-    issued:
-      date-parts:
-      - - 2025
-  - title: 'Contextual Relevance and Adaptive Sampling for LLM-Based Document Reranking'
-    container-title: arXiv preprint arXiv:2511.01208
-    author:
-    - family: Huang
-      given: Jerry
-    - family: Madala
-      given: Siddarth
-    - family: Niu
-      given: Cheng
-    - family: Hockenmaier
-      given: Julia
-    - family: Zhang
-      given: Tong
-    link: https://arxiv.org/abs/2511.01208
-    issued:
-      date-parts:
-      - - 2025
   - title: 'Toward Efficient Sparse Autoencoder-Guided Steering for Improved In-Context Learning in Large Language Models'
     container-title: EMNLP 2025 Main Conference
     author:
@@ -212,35 +241,6 @@
     - family: Hockenmaier
       given: Julia
     link: https://aclanthology.org/2025.findings-naacl.166/
-    issued:
-      date-parts:
-      - - 2025
-  - title: Scaling evaluation-time compute with reasoning models as process evaluators
-    container-title: arXiv preprint arXiv:2503.19877
-    author:
-    - family: Kim
-      given: Seungone
-    - family: Wu
-      given: Ian
-    - family: Lee
-      given: Jinu
-    - family: Yue
-      given: Xiang
-    - family: Lee
-      given: Seongyun
-    - family: Moon
-      given: Mingyeong
-    - family: Gashteovski
-      given: Kiril
-    - family: Lawrence
-      given: Carolin
-    - family: Hockenmaier
-      given: Julia
-    - family: Neubig
-      given: Graham
-    - family: Welleck
-      given: Sean
-    link: https://arxiv.org/abs/2503.19877
     issued:
       date-parts:
       - - 2025
