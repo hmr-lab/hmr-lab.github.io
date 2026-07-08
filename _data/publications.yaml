@@ -9,12 +9,38 @@
   #     - - 2025
 - year: 2026
   pub_list:
+  - title: 'Understanding Primacy Effects in Large Language Models with Sparse Autoencoders'
+    container-title: COLM 2026
+    author:
+    - family: Cho
+      given: Ikhyun
+    - family: Hockenmaier
+      given: Julia
+    link: 
+    issued:
+      date-parts:
+      - - 2026
+  - title: 'Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics'
+    container-title: COLM 2026
+    author:
+    - family: Zeng*
+      given: Siqi
+    - family: Lee*
+      given: Sewoong
+    - family: Han
+      given: Zhao
+    - family: Hockenmaier
+      given: Julia
+    link: 
+    issued:
+      date-parts:
+      - - 2026
   - title: 'Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics'
     container-title: ACL 2026 Main Conference (Oral)
     author:
     - family: Lee
       given: Jinu
-    - family: On
+    - family: "On"
       given: Kyoung-Woon
     - family: Han
       given: Simeng
