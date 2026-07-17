@@ -9,6 +9,15 @@
   #     - - 2025
 - year: 2026
   pub_list:
+  - title: 'Natural Language Processing'
+    container-title: "Open Encyclopedia of Cognitive Science (Editors: M. C. Frank and A. Majid)"
+    author:
+    - family: Hockenmaier
+      given: Julia
+    link: https://oecs.mit.edu/pub/vfg47thc/release/1
+    issued:
+      date-parts:
+      - - 2026
   - title: 'Understanding Primacy Effects in Large Language Models with Sparse Autoencoders'
     container-title: COLM 2026
     author:
