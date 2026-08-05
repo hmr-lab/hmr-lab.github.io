@@ -11,5 +11,5 @@ social:
     linkedin: https://www.linkedin.com/in/rhaldar/
     google-scholar: https://scholar.google.com/citations?user=iWTaAygAAAAJ&hl=en
     github: https://github.com/rajarshihaldar
-    # website: 
+    website: https://rajarshihaldar.com/
 ---
