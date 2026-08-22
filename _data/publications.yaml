@@ -9,6 +9,38 @@
   #     - - 2025
 - year: 2026
   pub_list:
+  - title: 'Features in Motion: Periodicity, Homeostasis, and Redistribution in LLM Few-Shot Prompting'
+    container-title: EMNLP 2026 Main Conference
+    author:
+    - family: Cho
+      given: Ikhyun
+    - family: Lee
+      given: Sewoong
+    - family: Hockenmaier
+      given: Julia
+    link: 
+    issued:
+      date-parts:
+      - - 2026
+  - title: 'ReasoningFlow: Discourse Structures for Understanding LLM Reasoning Traces'
+    container-title: EMNLP 2026 Main Conference
+    author:
+    - family: Lee
+      given: Jinu
+    - family: Agarwal
+      given: Shivam
+    - family: Parulekar
+      given: Amruta
+    - family: Madala
+      given: Siddarth
+    - family: Hakkani-Tur
+      given: Dilek
+    - family: Hockenmaier
+      given: Julia
+    link: 
+    issued:
+      date-parts:
+      - - 2026
   - title: 'Natural Language Processing'
     container-title: "Open Encyclopedia of Cognitive Science (Editors: M. C. Frank and A. Majid)"
     author:
