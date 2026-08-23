@@ -13,6 +13,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: ""
 
+# Allow posts dated in the future (used to sort MS students below PhD students on /team/)
+future: true
+
 include:
   - .htaccess
   - _pages

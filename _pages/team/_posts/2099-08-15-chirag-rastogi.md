@@ -4,8 +4,8 @@ category: student
 title: Chirag Rastogi
 image: chirag_rastogi.png
 role: M.S. Student
-interest: ""
-netid: 
+interest: "Geometric interpretability of language models"
+netid: chirag2
 social:
     # twitter: 
     linkedin: https://www.linkedin.com/in/chiragrastogi01/
