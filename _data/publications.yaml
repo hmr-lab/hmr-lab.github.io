@@ -41,7 +41,7 @@
     issued:
       date-parts:
       - - 2026
-  - title: 'ReasoningFlow: Discourse Structures for Understanding LLM Reasoning Traces'
+  - title: 'MineCEraft: Evaluating Language Models as Construction Engineers in the World of Minecraft'
     container-title: EMNLP 2026 Findings
     author:
     - family: Lee
