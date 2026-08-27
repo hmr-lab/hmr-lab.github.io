@@ -41,6 +41,21 @@
     issued:
       date-parts:
       - - 2026
+  - title: 'ReasoningFlow: Discourse Structures for Understanding LLM Reasoning Traces'
+    container-title: EMNLP 2026 Findings
+    author:
+    - family: Lee
+      given: Sewoong
+    - family: Sidhu
+      given: Risham
+    - family: Hockenmaier
+      given: Julia
+    - family: Jung
+      given: Yoonhwa
+    link: 
+    issued:
+      date-parts:
+      - - 2026
   - title: 'Natural Language Processing'
     container-title: "Open Encyclopedia of Cognitive Science (Editors: M. C. Frank and A. Majid)"
     author:
