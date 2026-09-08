@@ -9,6 +9,19 @@
   #     - - 2025
 - year: 2026
   pub_list:
+  - title: 'Analyzing Multilingual Parametric Knowledge Retrieval with Sparse Autoencoders'
+    container-title: AACL 2026 Findings
+    author:
+    - family: Canby
+      given: Marc
+    - family: Cho
+      given: Ikhyun
+    - family: Hockenmaier
+      given: Julia
+    link: 
+    issued:
+      date-parts:
+      - - 2026
   - title: 'Features in Motion: Periodicity, Homeostasis, and Redistribution in LLM Few-Shot Prompting'
     container-title: EMNLP 2026 Main Conference
     author:
